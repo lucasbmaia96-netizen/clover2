@@ -50,7 +50,6 @@ local function selectSlot(index)
     return true
 end
 RegisterCommand('grimorio',toggle,false)
-RegisterCommand('grimorio_leitura',function() SendNUIMessage({action='reading'}) end,false)
 RegisterCommand('grimorio_slot',function(_,args) selectSlot(tonumber(args[1])) end,false)
 RegisterNetEvent('grimorio_oficial:selectBook',function(id)
     if not GrimorioPower.Books[id] or id==selectedBook then return end

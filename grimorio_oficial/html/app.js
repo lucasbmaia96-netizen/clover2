@@ -120,7 +120,6 @@ function renderSource(p=0){
 // Keep the approved renderer at native artwork resolution. Present at real screen pixels.
 function present(){
  const rect=display.getBoundingClientRect(),ratio=Math.min(lore?.presentationScale===2?Math.max(globalThis.devicePixelRatio||1,2):(globalThis.devicePixelRatio||1),2);
- root.style.setProperty("--book-width",rect.width+"px");
  const w=Math.max(1,Math.round(rect.width*ratio)),h=Math.round(w*2/3);
  if(display.width!==w||display.height!==h){display.width=w;display.height=h}
  screen.setTransform(1,0,0,1,0,0);screen.clearRect(0,0,w,h);screen.imageSmoothingEnabled=true;screen.imageSmoothingQuality='high';screen.drawImage(canvas,0,0,w,h);
@@ -136,7 +135,7 @@ function present(){
   screen.putImageData(data,0,0);
  }catch(_){/* File previews may disallow pixel reads; high-quality presentation still works. */}
 }
-function render(p=0){if(inGame&&root.hidden)return;renderSource(p);present();if(ready)window.GrimorioEdition?.update(selectedBook,state,canvas,!!animation)}
+function render(p=0){if(inGame&&root.hidden)return;renderSource(p);present()}
 addEventListener('resize',()=>{if(ready&&!root.hidden)render()});
 function controls(){const busy=!!animation;prev.disabled=!ready||busy||state===0;next.disabled=!ready||busy||state===lastPage;coverButton.disabled=!ready||busy||state===0;next.textContent=state===0?'Abrir capa':'Próxima';if(ready)status.textContent=`${state+1}/${files.length} · ${names[state]}`;root.dataset.page=String(state);root.dataset.busy=String(busy);numberButtons.forEach(button=>{button.disabled=!ready||busy;button.setAttribute('aria-current',Number(button.dataset.pageNumber)===state?'page':'false')})}
 function move(to){
@@ -144,7 +143,7 @@ function move(to){
  animation={from:state,to};controls();const start=performance.now(),duration=matchMedia('(prefers-reduced-motion: reduce)').matches?120:1350;
  const tick=(now)=>{const t=Math.min(1,(now-start)/duration);render(t*t*(3-2*t));if(t<1){frame=requestAnimationFrame(tick)}else{const animationFrom=animation.from;state=to;animation=null;render();controls();if(closing){if(state>0)move(state-1);else closing=false}else if(target!==null){if(state!==target){if(animationFrom===0&&state===1){openingTimer=setTimeout(()=>{openingTimer=0;if(!root.hidden&&target!==null&&state!==target)move(state+(target>state?1:-1));else if(target===state)target=null},250)}else move(state+(target>state?1:-1))}else target=null}}};frame=requestAnimationFrame(tick);
 }
-function hide(){window.GrimorioEdition?.hide();clearTimeout(openingTimer);openingTimer=0;cancelAnimationFrame(frame);loadRevision++;animation=null;closing=false;target=null;state=0;root.hidden=true;controls();screen.clearRect(0,0,display.width,display.height)}
+function hide(){clearTimeout(openingTimer);openingTimer=0;cancelAnimationFrame(frame);loadRevision++;animation=null;closing=false;target=null;state=0;root.hidden=true;controls();screen.clearRect(0,0,display.width,display.height)}
 async function exit(){if(!inGame){hide();root.hidden=false;return}try{const r=await fetch(`https://${GetParentResourceName()}/close`,{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});if(!r.ok)throw Error('close');hide()}catch(e){status.textContent='Não foi possível sair. Tente novamente.'}}
 prev.onclick=()=>move(state-1);next.onclick=()=>move(state+1);coverButton.onclick=()=>{if(!animation&&state>0){target=null;closing=true;move(state-1)}};document.querySelector('#exit').onclick=exit;
 display.onclick=(e)=>{const r=display.getBoundingClientRect();move(state===0?1:state+(e.clientX-r.left>r.width/2?1:-1))};
@@ -161,7 +160,7 @@ addEventListener('message',e=>{
   selectBook(data.book);
  }else if(data.action==='selectBook'){variantsByBook[data.book]={};selectBook(data.book)}
  else if(data.action==='open'){root.hidden=false;selectBook(data.book||desiredBook||catalog.defaultBook);render();controls()}
- else if(data.action==='reading')document.body.classList.toggle('reading');else if(data.action==='hide')hide();else control(data.action,data.page);
+ else if(data.action==='hide')hide();else control(data.action,data.page);
 });
 
 if(!inGame){document.body.classList.add('preview');root.hidden=false}
@@ -173,7 +172,7 @@ async function loadBook(id,key,revision){
  const book={...original,pages:original.pages.map(page=>({...page,art:page.variants?.[variants[page.id]]||page.art}))};
  notifyReady(id,false);
 
- window.GrimorioEdition?.hide();clearTimeout(openingTimer);openingTimer=0;cancelAnimationFrame(frame);animation=null;closing=false;target=null;ready=false;controls();
+ clearTimeout(openingTimer);openingTimer=0;cancelAnimationFrame(frame);animation=null;closing=false;target=null;ready=false;controls();
  const nextFiles=[book.cover,...book.pages.map(page=>page.art)];
  try{
   const loaded=await Promise.all(nextFiles.map((file,i)=>new Promise((resolve,reject)=>{
@@ -191,7 +190,7 @@ async function loadBook(id,key,revision){
    for(const [side,tex] of [[-1,nextPapers[i][0]],[1,nextPapers[i][1]]]){cc.save();paperContour(cc,side);cc.clip();cc.drawImage(tex,0,0);cc.restore()}nextImages[i]=c;
   }}
   lore=nextLore;images=nextImages;papers=nextPapers;files=nextFiles;names=['Capa',...book.pages.map(page=>page.title)];lastPage=book.pages.length;leather=book.leather;
-  coverFace=nextLore?null:makeCoverFace();selectedBook=id;selectedKey=key;state=0;ready=true;root.dataset.book=id;const picker=document.querySelector('#preview-tools select');if(picker)picker.value=id;display.setAttribute('aria-label',book.title);render();controls();notifyReady(id,true);
+  coverFace=nextLore?null:makeCoverFace();selectedBook=id;selectedKey=key;state=0;ready=true;root.dataset.book=id;display.setAttribute('aria-label',book.title);render();controls();notifyReady(id,true);
  }catch(e){
   if(revision!==loadRevision)return;
   ready=false;selectedKey=null;selectedBook=null;images=[];papers=[];lore=null;coverFace=null;ctx.clearRect(0,0,1536,1024);screen.clearRect(0,0,display.width,display.height);controls();status.textContent='Falha ao carregar: '+e.message;
@@ -214,23 +213,5 @@ function selectBook(id){
  })().finally(()=>{loadJob=null});
  return loadJob;
 }
-if(!inGame){
- window.GrimorioPreview={async show(id,page=1){
-  if(!validBook(id))throw Error('Livro inválido');root.hidden=false;await selectBook(id);
-  if(!ready||selectedBook!==id)throw Error('Arte indisponível');
-  clearTimeout(openingTimer);openingTimer=0;cancelAnimationFrame(frame);animation=null;target=null;closing=false;
-  state=Math.max(0,Math.min(lastPage,Number(page)||0));render();controls();return true;
- }};
- if(!new URLSearchParams(location.search).has('editor')){
-  const tools=document.createElement('div');tools.id='preview-tools';
-  const choose=document.createElement('select');choose.setAttribute('aria-label','Grimório');
-  Object.entries(catalog.books).forEach(([id,b])=>{const op=document.createElement('option');op.value=id;op.textContent=b.title;choose.append(op)});
-  choose.value=new URLSearchParams(location.search).get('magia')||catalog.defaultBook;choose.onchange=()=>window.GrimorioPreview.show(choose.value,1);
-  const zoom=document.createElement('button');zoom.textContent='Ampliar leitura';zoom.onclick=()=>document.body.classList.toggle('reading');
-  const edit=document.createElement('a');edit.href='editor.html';edit.textContent='Editar todos';
-  const back=document.createElement('button');back.textContent='←';back.setAttribute('aria-label','Página anterior');back.onclick=()=>control('prev');
-  const forward=document.createElement('button');forward.textContent='→';forward.setAttribute('aria-label','Próxima página');forward.onclick=()=>control('next');
-  tools.append(choose,back,forward,zoom,edit);document.body.append(tools);
- }
- const requested=new URLSearchParams(location.search).get('magia');selectBook(catalog.books[requested]?requested:catalog.defaultBook)}
+if(!inGame){const requested=new URLSearchParams(location.search).get('magia');selectBook(catalog.books[requested]?requested:catalog.defaultBook)}
 })();

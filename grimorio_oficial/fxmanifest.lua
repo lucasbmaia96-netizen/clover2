@@ -3,7 +3,7 @@ game 'rdr3'
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
 author 'Grimório Oficial'
 description 'Grimório Oficial — seis grimórios elementais e nove grimórios de Lore'
-version '2.7.0'
+version '2.6.9'
 lua54 'yes'
 shared_scripts {'power_config.lua', 'power_rules.lua'}
 client_scripts {'client.lua', 'power_client.lua', 'shield_test.lua'}
@@ -11,11 +11,6 @@ server_scripts {'server.lua', 'power_server.lua'}
 ui_page 'html/index.html'
 files {
     'html/aim.js',
-    'html/edicao.js',
-    'html/edicao-view.js',
-    'html/edicao.css',
-    'html/editor.html',
-    'html/editor.js',
     'html/antimagia.js',
     'html/app.js',
     'html/arvore_mundo.js',

@@ -1,19 +1,17 @@
-# Grimórios padronizados
+# Grimórios — receita original restaurada
 
-15 grimórios, 99 aberturas, texto editável e 198 indicadores visuais de selamento.
+A alteração anterior de tamanho e diagramação foi revertida. O recurso volta à receita original recebida: tamanho, posição, recortes, folheamento e carregamento originais. As artes PNG permanecem intactas.
 
-## Baixar
+## Baixar a correção
 
-- **[Baixar tudo em ZIP](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/main.zip)** — inclui a pasta completa do recurso, suas artes e o editor.
-- [Baixar somente a atualização leve](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/main/downloads/ATUALIZACAO_SOBRE_O_ORIGINAL.zip) — aplicar sobre o pacote original, sem apagar as imagens existentes.
-- [Ver a prévia dos 15 grimórios em PDF](downloads/PREVIA_15_GRIMORIOS.pdf).
+**[Baixar correção da receita original](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/main/downloads/CORRECAO_RECEITA_ORIGINAL.zip)**
 
-O ZIP do repositório substitui o ZIP completo de 344 MB: contém os mesmos arquivos de instalação, sem precisar guardar outro ZIP grande dentro do Git.
+Pare o recurso, extraia a correção sobre a instalação e reinicie `grimorio_oficial`. A correção substitui os arquivos alterados pelos originais. Não é necessário baixar todas as imagens novamente.
 
-## Usar
+**[Baixar o recurso completo restaurado](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/main.zip)**
 
-Extraia o ZIP. Para editar no Windows, execute `ABRIR_EDITOR.bat` (requer Python 3). Para instalar no RedM, use a pasta `grimorio_oficial`.
+## Artes
 
-[Instruções completas](LEIA_PRIMEIRO.md).
+As artes novas dos grimórios posteriores a Cura serão apresentadas separadamente como propostas para aprovação. Nenhuma proposta deve substituir as imagens do recurso sem aprovação. Esta correção não contém artes novas.
 
-Validado localmente no Chromium em quatro resoluções. RedM real não executado neste ambiente. Os selamentos são visuais e não alteram a autorização dos poderes no servidor.
+As prévias e o editor da entrega anterior foram retirados para evitar instalar a versão de apresentação rejeitada.

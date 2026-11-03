@@ -1,0 +1,13 @@
+GRIMÓRIO OFICIAL 2.5.0 — LUZ SOLAR E ESPADAS
+15 livros; os 13 anteriores e suas artes foram preservados.
+Substitua a pasta instalada grimorio_oficial pela pasta deste ZIP, com o recurso parado. Não mantenha duas cópias do recurso.
+Console do servidor, um comando por vez:
+stop grimorio_oficial
+refresh
+ensure grimorio_oficial
+setmagia 1 luz_solar
+setmagia 1 espadas
+Troque 1 pelo ID conectado. F6 abre/oculta. No F8: grimorio. Movimento livre; seta esquerda avança, direita volta, 1–5 selecionam as duplas.
+No server.cfg: ensure grimorio_oficial
+Prévia: PREVIA_LUZ_SOLAR.html e PREVIA_ESPADAS.html. Receitas próprias e registros das páginas inclusos; 07_Exterior_Blender é apenas referência, não uma página interna.
+Verificação local em Canvas/VM: imagens, catálogo, abertura/fechamento, navegação e igualdade dos extremos da animação. Não executado no RedM; teste no servidor.
