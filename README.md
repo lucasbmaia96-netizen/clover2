@@ -14,6 +14,8 @@ Pare o recurso, extraia a correção sobre a instalação e reinicie `grimorio_o
 
 **63 páginas internas de poderes, sete para cada livro, em PNG de 1536 × 1024.**
 
+Revisão atual: as 42 páginas de Trevas, Árvore do Mundo, Tempo (Rei Mago), Noelle, Fogo do Leão e Luz Solar foram refeitas para retirar o excedente direito e nivelar o acabamento. As demais 21 páginas permanecem iguais. [Ver as 42 páginas corrigidas em PDF](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/artes-completas/CORRECAO_42_PAGINAS_ACABAMENTO.pdf).
+
 Trevas, Árvore do Mundo, Tempo, Antimagia, Vento, Águas (Noelle), Fogo do Leão, Espadas e Luz Solar. Cada conjunto também inclui a capa, a abertura e o encerramento originais, copiados sem alteração.
 
 - **[Baixar todas as artes em ZIP](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/artes-completas.zip)**
