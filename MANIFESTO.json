@@ -16,14 +16,15 @@
           "Envolva a lâmina.",
           "Conduza o corte."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/trevas/03_Poder_1.png",
         "previa_jpg": "artes/trevas/03_Poder_1.jpg",
-        "sha256": "37125379f13d454ba0bb7c86d8e2a19b1768d0f2b1aa0b41000b13d33062db71"
+        "sha256": "e7a57a90f5433246fbb7014170a7f8b31794c47648a425d4dc712f70a5bbeaad",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "trevas",
@@ -36,14 +37,15 @@
           "Trace o círculo.",
           "Mantenha o domínio."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/trevas/04_Poder_2.png",
         "previa_jpg": "artes/trevas/04_Poder_2.jpg",
-        "sha256": "778b3030afa02c019b880725f4b100911bc3944dbf47e44baccdde0760e6cbe3"
+        "sha256": "e9398f55ff14a074e747e5af2474bca6acf0a1735e2545e96bef13f2524c8df6",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "trevas",
@@ -56,14 +58,15 @@
           "Impulsione os passos.",
           "Avance com controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/trevas/07_Avanco.png",
         "previa_jpg": "artes/trevas/07_Avanco.jpg",
-        "sha256": "de10621fdc7f3bf9599b002e498c34a72ae6f5e70ea90ca211b42abf296637ce"
+        "sha256": "9cee1458632369179d2265a2543293acd1009f928a3b07c149bdd5e5317484bd",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "trevas",
@@ -76,14 +79,15 @@
           "Concentre a onda.",
           "Libere a ruptura."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/trevas/08_Ataque_Elite.png",
         "previa_jpg": "artes/trevas/08_Ataque_Elite.jpg",
-        "sha256": "1af71ef55dbc767646b19b9d20e50ce40df3902b1d3273525d92c63fe4fbf683"
+        "sha256": "e932b25b9a2988c57c7c27e07dbcd5fbdf925a2b0888c0398b9fef07506b5fcc",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "trevas",
@@ -96,14 +100,15 @@
           "Erga a proteção.",
           "Sustente a fortaleza."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/trevas/09_Defesa_Elite.png",
         "previa_jpg": "artes/trevas/09_Defesa_Elite.jpg",
-        "sha256": "43d213acd9ce3da35b19e557724f829bab0c6fe74c2c120e618be583110404e3"
+        "sha256": "faeb9719ae9ad756def141d0abb35bf9efa444bd9790fb999e6c72960346c15d",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "trevas",
@@ -116,14 +121,15 @@
           "Expanda o domínio.",
           "Mantenha o controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/trevas/10_Zona_Mana.png",
         "previa_jpg": "artes/trevas/10_Zona_Mana.jpg",
-        "sha256": "c66bf09409661a50681587a469295d264883aebd3f30fbd5f21c15cd6785dc1e"
+        "sha256": "d324036c11c0272b51a9a8c750efd744a5c6c752b304a3dae853080c041bdb14",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "trevas",
@@ -136,14 +142,15 @@
           "Eleve o corpo.",
           "Direcione o voo."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/trevas/11_Modulo_Voo.png",
         "previa_jpg": "artes/trevas/11_Modulo_Voo.jpg",
-        "sha256": "fd49864d438adddda3095b2a39c2cbc71734636c9a3e5ddc5594311cec5dafc0"
+        "sha256": "2c356695c5cb9a53d0def6346372a0c6506941d9e5ce46abc6e68c40588668bc",
+        "revisao": "acabamento_v3"
       }
     ],
     "arvore_mundo": [
@@ -158,14 +165,15 @@
           "Escolha o alvo.",
           "Conduza o enlace."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/arvore_mundo/03_Poder_1.png",
         "previa_jpg": "artes/arvore_mundo/03_Poder_1.jpg",
-        "sha256": "56f3b08b8a20fdda7f2fd09029d59f9cd8c0ea8f05df447a774f0def29625791"
+        "sha256": "72d8a586fb955bb0b9a4cc8e6e45172b75f0865d0d7d99b4f331aa149a1ecae4",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "arvore_mundo",
@@ -178,14 +186,15 @@
           "Faça o broto nascer.",
           "Ampare o aliado."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/arvore_mundo/04_Poder_2.png",
         "previa_jpg": "artes/arvore_mundo/04_Poder_2.jpg",
-        "sha256": "4445208ea13395e7bfb2a99c77f19c1516d9264f4e29f69f1469c1699ef30758"
+        "sha256": "ce4ef4037fd58e00b14cc470110ae04bdc4058908c55c81de71b7ba086552c24",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "arvore_mundo",
@@ -198,14 +207,15 @@
           "Impulsione os passos.",
           "Avance com controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/arvore_mundo/07_Avanco.png",
         "previa_jpg": "artes/arvore_mundo/07_Avanco.jpg",
-        "sha256": "cf3b539761886f4b05e68d3c73adb02273a3b6ed35b9165f9fb0845ed613e750"
+        "sha256": "7d821d1c2b408d94303df403ce42a8047487016d24e62c1a6a7875244ef3b3a2",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "arvore_mundo",
@@ -218,14 +228,15 @@
           "Concentre a onda.",
           "Libere o impacto."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/arvore_mundo/08_Ataque_Elite.png",
         "previa_jpg": "artes/arvore_mundo/08_Ataque_Elite.jpg",
-        "sha256": "d300d4196e2c448708094f49656f08ac047bef7bb110db8e4ad490468a355cd5"
+        "sha256": "129cc9dd8177770e6bbb7dcc5c09396af0fdd1c9d16e2d6afa408c79b571bd42",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "arvore_mundo",
@@ -238,14 +249,15 @@
           "Erga a proteção.",
           "Sustente a fortaleza."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/arvore_mundo/09_Defesa_Elite.png",
         "previa_jpg": "artes/arvore_mundo/09_Defesa_Elite.jpg",
-        "sha256": "b9080e2682ec04ae5676ce56c90091a42997326acd7d27e9553bfde282a55358"
+        "sha256": "1518cbc1e41e0afddf726c7cae08e6dc38d988fae406dca872e8fa879208d5f4",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "arvore_mundo",
@@ -258,14 +270,15 @@
           "Expanda o domínio.",
           "Mantenha o controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/arvore_mundo/10_Zona_Mana.png",
         "previa_jpg": "artes/arvore_mundo/10_Zona_Mana.jpg",
-        "sha256": "261f3fc2a42385e1280a455a3cf603283975f5dadcc077bf05890132f70b3daa"
+        "sha256": "ff8c777531bc5d769826a8d642ce5836a53c5a60259cddb8e1b1aa3473ea4421",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "arvore_mundo",
@@ -278,14 +291,15 @@
           "Eleve o corpo.",
           "Direcione o voo."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/arvore_mundo/11_Modulo_Voo.png",
         "previa_jpg": "artes/arvore_mundo/11_Modulo_Voo.jpg",
-        "sha256": "ef5c47e4714b1a0fcdc10bab5771d760dd04aaa65c5ce87fbc8b30448425cb19"
+        "sha256": "9142ddd4e99f1ace7407a06a1767496fe6debb5c59e0dcc777439622769864b4",
+        "revisao": "acabamento_v3"
       }
     ],
     "tempo": [
@@ -300,14 +314,15 @@
           "Fixe o alvo.",
           "Sustente o instante."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/tempo/03_Poder_1.png",
         "previa_jpg": "artes/tempo/03_Poder_1.jpg",
-        "sha256": "9c4d8e5589bf67104a5d4f2d7717549c177663f8a097d306d8822d6a5af217eb"
+        "sha256": "57f8a5cf57c041e099f19b9872339148f60be477899f2129057f1089755c59fd",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "tempo",
@@ -320,14 +335,15 @@
           "Envolva o aliado.",
           "Sustente o manto."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/tempo/04_Poder_2.png",
         "previa_jpg": "artes/tempo/04_Poder_2.jpg",
-        "sha256": "3367455627ca393ea4b5f76c0fee1084e50c684eeac573ac4b3f038c81161ab4"
+        "sha256": "5c686f5421ad675b301ac7b37cdb7cf685798379949f944d54b2acf7c25504ba",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "tempo",
@@ -340,14 +356,15 @@
           "Concentre o tempo.",
           "Avance."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/tempo/07_Avanco.png",
         "previa_jpg": "artes/tempo/07_Avanco.jpg",
-        "sha256": "1cb7ce2abc9390269a894cfda1541d732c88a38b6aa10d7232f5baa35e44d67b"
+        "sha256": "b4f6b29775989bfaa8531e275f31358a1aabeeca48f87f1d26c7b3c48916604f",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "tempo",
@@ -360,14 +377,15 @@
           "Alcance o alvo.",
           "Feche o selo."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/tempo/08_Ataque_Elite.png",
         "previa_jpg": "artes/tempo/08_Ataque_Elite.jpg",
-        "sha256": "61c0fec0087daefb54fef2d3d0d906639457870d0a06005dc8ec7e6fecf31171"
+        "sha256": "3eeb5ea63fa7c7fbcd00f311530ae3f6f41b35336b111dbf4dcdc9c6748bf71c",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "tempo",
@@ -380,14 +398,15 @@
           "Toque o aliado.",
           "Libere o fluxo."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/tempo/09_Defesa_Elite.png",
         "previa_jpg": "artes/tempo/09_Defesa_Elite.jpg",
-        "sha256": "dafa0854435def3e744d7672f9409afee45265add7c52b3b6653f64fd8c1255f"
+        "sha256": "3402128195f2e375fa4871f3842f203da95dab84d53455f7e6264a63408188c6",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "tempo",
@@ -400,14 +419,15 @@
           "Expanda os anéis.",
           "Sustente o domínio."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/tempo/10_Zona_Mana.png",
         "previa_jpg": "artes/tempo/10_Zona_Mana.jpg",
-        "sha256": "cc89f12f378f7a56df1b5cb10e9deac021a329420992406d2db48920eb8965d3"
+        "sha256": "2f2cb9d270d07f242fcc0b97724ccba11eb62ee149f044afad81c860a4d554ed",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "tempo",
@@ -420,14 +440,15 @@
           "Eleve o corpo.",
           "Conduza o voo."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/tempo/11_Modulo_Voo.png",
         "previa_jpg": "artes/tempo/11_Modulo_Voo.jpg",
-        "sha256": "0aae5583b5b760487e4c30cf5416405dc8f92257e705357c96bd8a6142f40efc"
+        "sha256": "fc7c5fee8814f96a8480053c892866dc8cd7846d9f6513fa7a9b875508363c59",
+        "revisao": "acabamento_v3"
       }
     ],
     "antimagia": [
@@ -726,14 +747,15 @@
           "Modele a lança.",
           "Conduza a maré."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/noelle/03_Poder_1.png",
         "previa_jpg": "artes/noelle/03_Poder_1.jpg",
-        "sha256": "7bd8332fe7ad7c98c94cd45e964cb99abd3640a590cb1b445dc1bf2dc895755c"
+        "sha256": "788d4609d3eb2194aec01ddb05365d893e2d3d814b731bf776ea372e4f7de05f",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "noelle",
@@ -746,14 +768,15 @@
           "Forme o arco.",
           "Ampare o aliado."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/noelle/04_Poder_2.png",
         "previa_jpg": "artes/noelle/04_Poder_2.jpg",
-        "sha256": "513825d9433379875b1345213044f4b39ed3354f8ba8dcf797ea5f7f16581fd7"
+        "sha256": "e4ad5fdac6afd4f777d7b48974490a452fdab674a615a3a5054b118e2616decd",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "noelle",
@@ -766,14 +789,15 @@
           "Impulsione os passos.",
           "Avance com controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/noelle/07_Avanco.png",
         "previa_jpg": "artes/noelle/07_Avanco.jpg",
-        "sha256": "4404b1baa72bd8acec58fbde9546b3ececdefa04ec56cb1b74a82a8318e826c5"
+        "sha256": "5a412fdde2f75b710dec8660383e502d774f1af5a9e521ce04ba329a9ab48829",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "noelle",
@@ -786,14 +810,15 @@
           "Concentre a onda.",
           "Libere o impacto."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/noelle/08_Ataque_Elite.png",
         "previa_jpg": "artes/noelle/08_Ataque_Elite.jpg",
-        "sha256": "7d3bb09e04c8b03f5ddfbf593b0b4a206cfc63d5fa2a04e4ebf5777377514c32"
+        "sha256": "64738a088ededcd5de4a31ca0e851130ba6f2603f0902610a7a27c98ed32c122",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "noelle",
@@ -806,14 +831,15 @@
           "Erga a proteção.",
           "Sustente a fortaleza."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/noelle/09_Defesa_Elite.png",
         "previa_jpg": "artes/noelle/09_Defesa_Elite.jpg",
-        "sha256": "4603aea7e5c796cf3b5085a6c23490dca8262e0f3b5895e63d0ca6218f10750b"
+        "sha256": "652bde76447841c42e595bdba159602ba8647b09d0b3fdd2acd56a8b50b867a7",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "noelle",
@@ -826,14 +852,15 @@
           "Expanda o domínio.",
           "Mantenha o controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/noelle/10_Zona_Mana.png",
         "previa_jpg": "artes/noelle/10_Zona_Mana.jpg",
-        "sha256": "77c976aeeb911009ee47d2b0a0f198f4028f37708e01542d229f6d71d06eb36d"
+        "sha256": "a54d2a7b8f8f029f78605f7336b13b5addb76f7caaa601c7bf18c972b6136c5f",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "noelle",
@@ -846,14 +873,15 @@
           "Eleve o corpo.",
           "Direcione o voo."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/noelle/11_Modulo_Voo.png",
         "previa_jpg": "artes/noelle/11_Modulo_Voo.jpg",
-        "sha256": "f709847b3b81b5e6571cd2d8f613eebd5fb2ece7b3aa6bed8e1388d5cfa23210"
+        "sha256": "bb29dd14f3f5bb970601a74df43f31ae660caf2e06a8d773d776a9e9752717f4",
+        "revisao": "acabamento_v3"
       }
     ],
     "fogo_leao": [
@@ -868,14 +896,15 @@
           "Dê forma à garra.",
           "Lance o golpe."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/fogo_leao/03_Poder_1.png",
         "previa_jpg": "artes/fogo_leao/03_Poder_1.jpg",
-        "sha256": "e4c0c53b1bb99409a0ca55c16e13b620846bc07f096bb478935d91035e73ed34"
+        "sha256": "7a22a74ddd54abf2eaa4a8a6f1c43232a5f1f7bbc91baa2f62bbd34d2c37ac07",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "fogo_leao",
@@ -888,14 +917,15 @@
           "Trace o círculo.",
           "Mantenha a chama."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/fogo_leao/04_Poder_2.png",
         "previa_jpg": "artes/fogo_leao/04_Poder_2.jpg",
-        "sha256": "cf53931e4c009baaeb451149200e2fcd2c55b088754970fed46c883eaf29e617"
+        "sha256": "380a995f1b45ab600f70c8c7f3be8b2d51c097c22a217a5d7d5e305830a92345",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "fogo_leao",
@@ -908,14 +938,15 @@
           "Impulsione os passos.",
           "Avance com controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/fogo_leao/07_Avanco.png",
         "previa_jpg": "artes/fogo_leao/07_Avanco.jpg",
-        "sha256": "d6fc52919326a948eae379c28dfff7ef50bdce3f469460ce266c55c4b114d78c"
+        "sha256": "79a68412de2931d16fee6c94665e267e4b89ca816c8844cd4eebd877facb10c7",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "fogo_leao",
@@ -928,14 +959,15 @@
           "Concentre a onda.",
           "Libere o impacto."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/fogo_leao/08_Ataque_Elite.png",
         "previa_jpg": "artes/fogo_leao/08_Ataque_Elite.jpg",
-        "sha256": "a0ebebf13a2cb0aa244ae1ab83599c6641354d04da5a277633e82231f99ef4b2"
+        "sha256": "12ba958abc941781c81d031050554b74e50cc6a956ec6c1671ac6122e47725f0",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "fogo_leao",
@@ -948,14 +980,15 @@
           "Erga a proteção.",
           "Sustente a fortaleza."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/fogo_leao/09_Defesa_Elite.png",
         "previa_jpg": "artes/fogo_leao/09_Defesa_Elite.jpg",
-        "sha256": "3cbe959d03d834c3befc7bf0dc86487de5093ae00abdd977e2f6b85b9055d3e8"
+        "sha256": "f24990378a700c2c0e67f82911adf40061a10f74a87e3568fe89e29e6dd575a9",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "fogo_leao",
@@ -968,14 +1001,15 @@
           "Expanda o domínio.",
           "Mantenha o controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/fogo_leao/10_Zona_Mana.png",
         "previa_jpg": "artes/fogo_leao/10_Zona_Mana.jpg",
-        "sha256": "1e56f8a4c0e913f26f67678d6c7a67364842c1de845b7b755ba429a08531c62e"
+        "sha256": "b38e6d4f881041a0184596a812f012a2cfe9a7773ecb766e24dbfde91564dbb2",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "fogo_leao",
@@ -988,14 +1022,15 @@
           "Eleve o corpo.",
           "Direcione o voo."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/fogo_leao/11_Modulo_Voo.png",
         "previa_jpg": "artes/fogo_leao/11_Modulo_Voo.jpg",
-        "sha256": "613301b3acbee5fabf6cee33f9e1e9dc85606475e161732abac4f86df9fde97c"
+        "sha256": "33de63b70849bdcc6c071287d2e8a99bd9c6111fa85ac06a339b96a5570548cf",
+        "revisao": "acabamento_v3"
       }
     ],
     "espadas": [
@@ -1152,14 +1187,15 @@
           "Modele as lâminas.",
           "Dispare com precisão."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/luz_solar/03_Poder_1.png",
         "previa_jpg": "artes/luz_solar/03_Poder_1.jpg",
-        "sha256": "235583f1783251271f4e9a356d6fd373167b3b0edb46f5076749ee2bf97a2ce0"
+        "sha256": "6f58b123c264f7086468d1192131d20caabef0bf755d004a0e67319eaf9280ab",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "luz_solar",
@@ -1172,14 +1208,15 @@
           "Forme o arco.",
           "Ampare o aliado."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/luz_solar/04_Poder_2.png",
         "previa_jpg": "artes/luz_solar/04_Poder_2.jpg",
-        "sha256": "0145c2b4df093ecfe7774a2e95b443224541dee5df2708ea00a61bc6ca4d8335"
+        "sha256": "af5f0c8248496ef70e02f2102273b726d9995133c5911ff9aa7dd27e83b4367f",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "luz_solar",
@@ -1192,14 +1229,15 @@
           "Impulsione os passos.",
           "Avance com controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/luz_solar/07_Avanco.png",
         "previa_jpg": "artes/luz_solar/07_Avanco.jpg",
-        "sha256": "6e3523c9187450c7986b0b6d81bc62c24d9106bdf99659c92d91d66bc8476e6c"
+        "sha256": "7669fb05a4929d9e9cf31a6d6ce8cea101e308f33b4f7d7af86a19ece11dc53a",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "luz_solar",
@@ -1212,14 +1250,15 @@
           "Concentre a onda.",
           "Libere o impacto."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/luz_solar/08_Ataque_Elite.png",
         "previa_jpg": "artes/luz_solar/08_Ataque_Elite.jpg",
-        "sha256": "b355ec929d1ee89dc0009927a088cf47581dd1b05d9ab3008867141142ecfd93"
+        "sha256": "f20c655dd6ea2fab30986ee739ed54f762a82bff95de7097a1c747d9aa3779fa",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "luz_solar",
@@ -1232,14 +1271,15 @@
           "Erga a proteção.",
           "Sustente a fortaleza."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/luz_solar/09_Defesa_Elite.png",
         "previa_jpg": "artes/luz_solar/09_Defesa_Elite.jpg",
-        "sha256": "2a201fdfcdfac7f90de6b5564c1cb29237beacea00945289ed12cd0ab2689738"
+        "sha256": "49b6cd9d6534d36a4912a1fb9cd3f2de468f50eb1a0aa93f2647d9b83afffddf",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "luz_solar",
@@ -1252,14 +1292,15 @@
           "Expanda o domínio.",
           "Mantenha o controle."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/luz_solar/10_Zona_Mana.png",
         "previa_jpg": "artes/luz_solar/10_Zona_Mana.jpg",
-        "sha256": "1ba07584d02c02446249eaaee2593e267c52bd6cd409f1a66b706862ab67fc9f"
+        "sha256": "7a31175f34b6be8d0511493bd5872a76351af3396671f3aadfda4a8c51e13f18",
+        "revisao": "acabamento_v3"
       },
       {
         "book": "luz_solar",
@@ -1272,14 +1313,15 @@
           "Eleve o corpo.",
           "Direcione o voo."
         ],
-        "status": "proposta_nao_aprovada",
+        "status": "correcao_para_revisao",
         "dimensions": [
           1536,
           1024
         ],
         "arquivo_png": "artes/luz_solar/11_Modulo_Voo.png",
         "previa_jpg": "artes/luz_solar/11_Modulo_Voo.jpg",
-        "sha256": "53d84ea3b37a12663fdc152eecb59dad4b7aebf7171b4cdc9a28dbbf76fee3e1"
+        "sha256": "5cec7ea2830e1239f73f21f85edf758d3d079787343b0ff2378907d38ffda25d",
+        "revisao": "acabamento_v3"
       }
     ]
   },
@@ -1464,5 +1506,15 @@
         "identico_ao_original": true
       }
     ]
-  }
+  },
+  "revisao": "acabamento_v3",
+  "paginas_corrigidas": 42,
+  "livros_corrigidos": [
+    "trevas",
+    "arvore_mundo",
+    "tempo",
+    "noelle",
+    "fogo_leao",
+    "luz_solar"
+  ]
 }

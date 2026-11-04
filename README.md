@@ -1,3 +1,5 @@
+> **Revisão atual: acabamento v3 — 42 páginas corrigidas nos seis conjuntos reprovados.** [Ver alterações](REVISAO_ACABAMENTO.md). [PDF das 42 páginas corrigidas](CORRECAO_42_PAGINAS_ACABAMENTO.pdf).
+
 # Artes completas dos nove grimórios restantes
 
 **63 páginas de poderes: sete para cada um dos nove livros.** Além dos poderes propostos, cada pasta contém a capa, a abertura e o encerramento originais, copiados sem alteração. Os seis livros até Cura não foram alterados.
