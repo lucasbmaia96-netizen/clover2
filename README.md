@@ -2,6 +2,16 @@
 
 A alteração anterior de tamanho e diagramação foi revertida. O recurso volta à receita original recebida: tamanho, posição, recortes, folheamento e carregamento originais. As artes PNG permanecem intactas.
 
+## Pacote para testar as novas páginas no grimório
+
+**[Baixar o recurso completo com as 63 páginas aplicadas à receita original](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/grimorio-para-teste.zip)**
+
+Sete poderes em cada um dos nove livros restantes, com as capas, a abertura, o encerramento, o tamanho e o movimento originais. Os seis grimórios até Cura continuam iguais. Extraia o ZIP e instale a pasta `grimorio_oficial` nele contida.
+
+[Ver as 63 páginas já montadas em PDF](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/grimorio-para-teste/PREVIA_63_PAGINAS_NO_GRIMORIO.pdf) · [Ver as prévias e a conferência do pacote](https://github.com/lucasbmaia96-netizen/clover2/tree/grimorio-para-teste)
+
+O pacote foi conferido no navegador e está separado na área `grimorio-para-teste` para avaliação no servidor RedM. Esta área `main` mantém o recurso original restaurado.
+
 ## Baixar a correção
 
 **[Baixar correção da receita original](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/main/downloads/CORRECAO_RECEITA_ORIGINAL.zip)**
