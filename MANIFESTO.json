@@ -1,0 +1,1468 @@
+{
+  "status": "propostas_para_aprovacao",
+  "livros": 9,
+  "paginas_de_poder": 63,
+  "receita_original_alterada": false,
+  "books": {
+    "trevas": [
+      {
+        "book": "trevas",
+        "book_label": "Trevas",
+        "number": 1,
+        "title": "Corte das Trevas",
+        "description": "A lâmina conduz um corte de sombra.",
+        "steps": [
+          "Reúna a sombra.",
+          "Envolva a lâmina.",
+          "Conduza o corte."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/trevas/03_Poder_1.png",
+        "previa_jpg": "artes/trevas/03_Poder_1.jpg",
+        "sha256": "37125379f13d454ba0bb7c86d8e2a19b1768d0f2b1aa0b41000b13d33062db71"
+      },
+      {
+        "book": "trevas",
+        "book_label": "Trevas",
+        "number": 2,
+        "title": "Lua Negra",
+        "description": "Uma sombra breve envolve o conjurador.",
+        "steps": [
+          "Concentre a sombra.",
+          "Trace o círculo.",
+          "Mantenha o domínio."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/trevas/04_Poder_2.png",
+        "previa_jpg": "artes/trevas/04_Poder_2.jpg",
+        "sha256": "778b3030afa02c019b880725f4b100911bc3944dbf47e44baccdde0760e6cbe3"
+      },
+      {
+        "book": "trevas",
+        "book_label": "Trevas",
+        "number": 3,
+        "title": "Passo Sombrio",
+        "description": "A mana impulsiona um avanço rápido pelo chão.",
+        "steps": [
+          "Concentre a mana.",
+          "Impulsione os passos.",
+          "Avance com controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/trevas/07_Avanco.png",
+        "previa_jpg": "artes/trevas/07_Avanco.jpg",
+        "sha256": "de10621fdc7f3bf9599b002e498c34a72ae6f5e70ea90ca211b42abf296637ce"
+      },
+      {
+        "book": "trevas",
+        "book_label": "Trevas",
+        "number": 4,
+        "title": "Ruptura Sombria",
+        "description": "A sombra avança e rompe o caminho.",
+        "steps": [
+          "Reúna a sombra.",
+          "Concentre a onda.",
+          "Libere a ruptura."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/trevas/08_Ataque_Elite.png",
+        "previa_jpg": "artes/trevas/08_Ataque_Elite.jpg",
+        "sha256": "1af71ef55dbc767646b19b9d20e50ce40df3902b1d3273525d92c63fe4fbf683"
+      },
+      {
+        "book": "trevas",
+        "book_label": "Trevas",
+        "number": 5,
+        "title": "Fortaleza da Noite",
+        "description": "Uma fortaleza de mana protege o conjurador.",
+        "steps": [
+          "Trace o limite.",
+          "Erga a proteção.",
+          "Sustente a fortaleza."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/trevas/09_Defesa_Elite.png",
+        "previa_jpg": "artes/trevas/09_Defesa_Elite.jpg",
+        "sha256": "43d213acd9ce3da35b19e557724f829bab0c6fe74c2c120e618be583110404e3"
+      },
+      {
+        "book": "trevas",
+        "book_label": "Trevas",
+        "number": 6,
+        "title": "Domínio das Trevas",
+        "description": "A mana se expande e envolve o campo ao redor.",
+        "steps": [
+          "Reúna a mana.",
+          "Expanda o domínio.",
+          "Mantenha o controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/trevas/10_Zona_Mana.png",
+        "previa_jpg": "artes/trevas/10_Zona_Mana.jpg",
+        "sha256": "c66bf09409661a50681587a469295d264883aebd3f30fbd5f21c15cd6785dc1e"
+      },
+      {
+        "book": "trevas",
+        "book_label": "Trevas",
+        "number": 7,
+        "title": "Módulo de Voo",
+        "description": "A mana sustenta o corpo e conduz o voo.",
+        "steps": [
+          "Concentre a mana.",
+          "Eleve o corpo.",
+          "Direcione o voo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/trevas/11_Modulo_Voo.png",
+        "previa_jpg": "artes/trevas/11_Modulo_Voo.jpg",
+        "sha256": "fd49864d438adddda3095b2a39c2cbc71734636c9a3e5ddc5594311cec5dafc0"
+      }
+    ],
+    "arvore_mundo": [
+      {
+        "book": "arvore_mundo",
+        "book_label": "Árvore do Mundo",
+        "number": 1,
+        "title": "Raízes Guardiãs",
+        "description": "Raízes breves prendem os passos do alvo.",
+        "steps": [
+          "Desperte as raízes.",
+          "Escolha o alvo.",
+          "Conduza o enlace."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/arvore_mundo/03_Poder_1.png",
+        "previa_jpg": "artes/arvore_mundo/03_Poder_1.jpg",
+        "sha256": "56f3b08b8a20fdda7f2fd09029d59f9cd8c0ea8f05df447a774f0def29625791"
+      },
+      {
+        "book": "arvore_mundo",
+        "book_label": "Árvore do Mundo",
+        "number": 2,
+        "title": "Broto da Vida",
+        "description": "Um ramo luminoso ampara um aliado.",
+        "steps": [
+          "Reúna a seiva.",
+          "Faça o broto nascer.",
+          "Ampare o aliado."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/arvore_mundo/04_Poder_2.png",
+        "previa_jpg": "artes/arvore_mundo/04_Poder_2.jpg",
+        "sha256": "4445208ea13395e7bfb2a99c77f19c1516d9264f4e29f69f1469c1699ef30758"
+      },
+      {
+        "book": "arvore_mundo",
+        "book_label": "Árvore do Mundo",
+        "number": 3,
+        "title": "Passo das Raízes",
+        "description": "A mana impulsiona um avanço rápido pelo chão.",
+        "steps": [
+          "Concentre a mana.",
+          "Impulsione os passos.",
+          "Avance com controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/arvore_mundo/07_Avanco.png",
+        "previa_jpg": "artes/arvore_mundo/07_Avanco.jpg",
+        "sha256": "cf3b539761886f4b05e68d3c73adb02273a3b6ed35b9165f9fb0845ed613e750"
+      },
+      {
+        "book": "arvore_mundo",
+        "book_label": "Árvore do Mundo",
+        "number": 4,
+        "title": "Ímpeto Ancestral",
+        "description": "O poder concentrado avança em uma onda intensa.",
+        "steps": [
+          "Reúna a mana.",
+          "Concentre a onda.",
+          "Libere o impacto."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/arvore_mundo/08_Ataque_Elite.png",
+        "previa_jpg": "artes/arvore_mundo/08_Ataque_Elite.jpg",
+        "sha256": "d300d4196e2c448708094f49656f08ac047bef7bb110db8e4ad490468a355cd5"
+      },
+      {
+        "book": "arvore_mundo",
+        "book_label": "Árvore do Mundo",
+        "number": 5,
+        "title": "Bastião Ancestral",
+        "description": "Uma fortaleza de mana protege o conjurador.",
+        "steps": [
+          "Trace o limite.",
+          "Erga a proteção.",
+          "Sustente a fortaleza."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/arvore_mundo/09_Defesa_Elite.png",
+        "previa_jpg": "artes/arvore_mundo/09_Defesa_Elite.jpg",
+        "sha256": "b9080e2682ec04ae5676ce56c90091a42997326acd7d27e9553bfde282a55358"
+      },
+      {
+        "book": "arvore_mundo",
+        "book_label": "Árvore do Mundo",
+        "number": 6,
+        "title": "Domínio da Floresta",
+        "description": "A mana se expande e envolve o campo ao redor.",
+        "steps": [
+          "Reúna a mana.",
+          "Expanda o domínio.",
+          "Mantenha o controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/arvore_mundo/10_Zona_Mana.png",
+        "previa_jpg": "artes/arvore_mundo/10_Zona_Mana.jpg",
+        "sha256": "261f3fc2a42385e1280a455a3cf603283975f5dadcc077bf05890132f70b3daa"
+      },
+      {
+        "book": "arvore_mundo",
+        "book_label": "Árvore do Mundo",
+        "number": 7,
+        "title": "Módulo de Voo",
+        "description": "A mana sustenta o corpo e conduz o voo.",
+        "steps": [
+          "Concentre a mana.",
+          "Eleve o corpo.",
+          "Direcione o voo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/arvore_mundo/11_Modulo_Voo.png",
+        "previa_jpg": "artes/arvore_mundo/11_Modulo_Voo.jpg",
+        "sha256": "ef5c47e4714b1a0fcdc10bab5771d760dd04aaa65c5ce87fbc8b30448425cb19"
+      }
+    ],
+    "tempo": [
+      {
+        "book": "tempo",
+        "book_label": "Tempo",
+        "number": 1,
+        "title": "Selo do Instante",
+        "description": "Desacelera um alvo por poucos segundos.",
+        "steps": [
+          "Trace o selo.",
+          "Fixe o alvo.",
+          "Sustente o instante."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/tempo/03_Poder_1.png",
+        "previa_jpg": "artes/tempo/03_Poder_1.jpg",
+        "sha256": "9c4d8e5589bf67104a5d4f2d7717549c177663f8a097d306d8822d6a5af217eb"
+      },
+      {
+        "book": "tempo",
+        "book_label": "Tempo",
+        "number": 2,
+        "title": "Manto das Horas",
+        "description": "O fluxo das horas oferece uma proteção breve.",
+        "steps": [
+          "Abra o círculo.",
+          "Envolva o aliado.",
+          "Sustente o manto."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/tempo/04_Poder_2.png",
+        "previa_jpg": "artes/tempo/04_Poder_2.jpg",
+        "sha256": "3367455627ca393ea4b5f76c0fee1084e50c684eeac573ac4b3f038c81161ab4"
+      },
+      {
+        "book": "tempo",
+        "book_label": "Tempo",
+        "number": 3,
+        "title": "Passo Acelerado",
+        "description": "O tempo impulsiona os passos do conjurador.",
+        "steps": [
+          "Marque o caminho.",
+          "Concentre o tempo.",
+          "Avance."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/tempo/07_Avanco.png",
+        "previa_jpg": "artes/tempo/07_Avanco.jpg",
+        "sha256": "1cb7ce2abc9390269a894cfda1541d732c88a38b6aa10d7232f5baa35e44d67b"
+      },
+      {
+        "book": "tempo",
+        "book_label": "Tempo",
+        "number": 4,
+        "title": "Laço Temporal",
+        "description": "Correntes de tempo envolvem os passos do alvo.",
+        "steps": [
+          "Desenhe o laço.",
+          "Alcance o alvo.",
+          "Feche o selo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/tempo/08_Ataque_Elite.png",
+        "previa_jpg": "artes/tempo/08_Ataque_Elite.jpg",
+        "sha256": "61c0fec0087daefb54fef2d3d0d906639457870d0a06005dc8ec7e6fecf31171"
+      },
+      {
+        "book": "tempo",
+        "book_label": "Tempo",
+        "number": 5,
+        "title": "Eco Restaurador",
+        "description": "Um eco das horas ampara a vitalidade de um aliado.",
+        "steps": [
+          "Reúna o eco.",
+          "Toque o aliado.",
+          "Libere o fluxo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/tempo/09_Defesa_Elite.png",
+        "previa_jpg": "artes/tempo/09_Defesa_Elite.jpg",
+        "sha256": "dafa0854435def3e744d7672f9409afee45265add7c52b3b6653f64fd8c1255f"
+      },
+      {
+        "book": "tempo",
+        "book_label": "Tempo",
+        "number": 6,
+        "title": "Domínio do Instante",
+        "description": "Anéis temporais se expandem ao redor do conjurador.",
+        "steps": [
+          "Marque o centro.",
+          "Expanda os anéis.",
+          "Sustente o domínio."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/tempo/10_Zona_Mana.png",
+        "previa_jpg": "artes/tempo/10_Zona_Mana.jpg",
+        "sha256": "cc89f12f378f7a56df1b5cb10e9deac021a329420992406d2db48920eb8965d3"
+      },
+      {
+        "book": "tempo",
+        "book_label": "Tempo",
+        "number": 7,
+        "title": "Módulo de Voo",
+        "description": "O fluxo do tempo sustenta e conduz o corpo no ar.",
+        "steps": [
+          "Concentre o fluxo.",
+          "Eleve o corpo.",
+          "Conduza o voo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/tempo/11_Modulo_Voo.png",
+        "previa_jpg": "artes/tempo/11_Modulo_Voo.jpg",
+        "sha256": "0aae5583b5b760487e4c30cf5416405dc8f92257e705357c96bd8a6142f40efc"
+      }
+    ],
+    "antimagia": [
+      {
+        "book": "antimagia",
+        "book_label": "Antimagia",
+        "number": 1,
+        "title": "Corte Dissipador",
+        "description": "Um corte curto enfraquece a magia do alvo.",
+        "steps": [
+          "Erga a lâmina.",
+          "Fixe o alvo.",
+          "Rompa o fluxo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/antimagia/03_Poder_1.png",
+        "previa_jpg": "artes/antimagia/03_Poder_1.jpg",
+        "sha256": "b80034e0e3b018c88e437a4865467b9f170c45391b6a67d62de0313001ae8480"
+      },
+      {
+        "book": "antimagia",
+        "book_label": "Antimagia",
+        "number": 2,
+        "title": "Manto Dissipador",
+        "description": "A antimagia envolve o corpo em uma proteção breve.",
+        "steps": [
+          "Reúna a antimagia.",
+          "Forme o manto.",
+          "Mantenha a proteção."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/antimagia/04_Poder_2.png",
+        "previa_jpg": "artes/antimagia/04_Poder_2.jpg",
+        "sha256": "230cb1a0817731a7f89739fe26e4ca9a32be5bde2697fdba0e10249d97f0701f"
+      },
+      {
+        "book": "antimagia",
+        "book_label": "Antimagia",
+        "number": 3,
+        "title": "Avanço Sombrio",
+        "description": "Uma investida curta aproxima o conjurador.",
+        "steps": [
+          "Firme os pés.",
+          "Concentre a força.",
+          "Avance."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/antimagia/07_Avanco.png",
+        "previa_jpg": "artes/antimagia/07_Avanco.jpg",
+        "sha256": "d242a9e2fa330ab72a5a53f644c53107e4c86dbbd65ca9a3a233166fc1adf4cd"
+      },
+      {
+        "book": "antimagia",
+        "book_label": "Antimagia",
+        "number": 4,
+        "title": "Ruptura de Antimagia",
+        "description": "O poder concentrado avança em uma onda intensa.",
+        "steps": [
+          "Reúna a mana.",
+          "Concentre a onda.",
+          "Libere o impacto."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/antimagia/08_Ataque_Elite.png",
+        "previa_jpg": "artes/antimagia/08_Ataque_Elite.jpg",
+        "sha256": "04f84b34bd2dfa6846d7bb6f24b877691f9856948a6978474983ddcd47f5f93f"
+      },
+      {
+        "book": "antimagia",
+        "book_label": "Antimagia",
+        "number": 5,
+        "title": "Fortaleza Nula",
+        "description": "Uma fortaleza de mana protege o conjurador.",
+        "steps": [
+          "Trace o limite.",
+          "Erga a proteção.",
+          "Sustente a fortaleza."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/antimagia/09_Defesa_Elite.png",
+        "previa_jpg": "artes/antimagia/09_Defesa_Elite.jpg",
+        "sha256": "a31faa8aae9210b4dea9292ee6161a1fce4f75a78b0853ff358e4973826189d7"
+      },
+      {
+        "book": "antimagia",
+        "book_label": "Antimagia",
+        "number": 6,
+        "title": "Domínio Nulo",
+        "description": "A mana se expande e envolve o campo ao redor.",
+        "steps": [
+          "Reúna a mana.",
+          "Expanda o domínio.",
+          "Mantenha o controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/antimagia/10_Zona_Mana.png",
+        "previa_jpg": "artes/antimagia/10_Zona_Mana.jpg",
+        "sha256": "9d697d8683bf9982b018046584d12b8cfb7381e15e7ac4afa503c40b402c000e"
+      },
+      {
+        "book": "antimagia",
+        "book_label": "Antimagia",
+        "number": 7,
+        "title": "Módulo de Voo",
+        "description": "A mana sustenta o corpo e conduz o voo.",
+        "steps": [
+          "Concentre a mana.",
+          "Eleve o corpo.",
+          "Direcione o voo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/antimagia/11_Modulo_Voo.png",
+        "previa_jpg": "artes/antimagia/11_Modulo_Voo.jpg",
+        "sha256": "88a7e0b909fa449ebcfae13c05368bba1533b162a7b2cbe7fe8dff6ef49970d4"
+      }
+    ],
+    "vento": [
+      {
+        "book": "vento",
+        "book_label": "Vento",
+        "number": 1,
+        "title": "Lâmina de Vento",
+        "description": "Um arco de vento atinge um alvo próximo.",
+        "steps": [
+          "Reúna o ar.",
+          "Trace o arco.",
+          "Libere a lâmina."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/vento/03_Poder_1.png",
+        "previa_jpg": "artes/vento/03_Poder_1.jpg",
+        "sha256": "b2d77aecbbeb5cda90069cf16fa57e831b199033b1870281e47639db61cb6614"
+      },
+      {
+        "book": "vento",
+        "book_label": "Vento",
+        "number": 2,
+        "title": "Manto da Brisa",
+        "description": "Uma corrente suave protege por um breve instante.",
+        "steps": [
+          "Abra o círculo.",
+          "Envolva o corpo.",
+          "Sustente a brisa."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/vento/04_Poder_2.png",
+        "previa_jpg": "artes/vento/04_Poder_2.jpg",
+        "sha256": "6a533971e1895a270340c1dbb2f7fac6386ca1e72cee054f995b7b1260cc2989"
+      },
+      {
+        "book": "vento",
+        "book_label": "Vento",
+        "number": 3,
+        "title": "Passo da Brisa",
+        "description": "A mana impulsiona um avanço rápido pelo chão.",
+        "steps": [
+          "Concentre a mana.",
+          "Impulsione os passos.",
+          "Avance com controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/vento/07_Avanco.png",
+        "previa_jpg": "artes/vento/07_Avanco.jpg",
+        "sha256": "3c7a1decda0980ab46fc57ad90098009bf2fa0a7e11beca2121de73d2b855e91"
+      },
+      {
+        "book": "vento",
+        "book_label": "Vento",
+        "number": 4,
+        "title": "Ruptura do Vendaval",
+        "description": "O poder concentrado avança em uma onda intensa.",
+        "steps": [
+          "Reúna a mana.",
+          "Concentre a onda.",
+          "Libere o impacto."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/vento/08_Ataque_Elite.png",
+        "previa_jpg": "artes/vento/08_Ataque_Elite.jpg",
+        "sha256": "3cb7969a137b9e20417ca239179f45273f662cf851fbb443cdfa2bd183981d68"
+      },
+      {
+        "book": "vento",
+        "book_label": "Vento",
+        "number": 5,
+        "title": "Fortaleza do Vento",
+        "description": "Uma fortaleza de mana protege o conjurador.",
+        "steps": [
+          "Trace o limite.",
+          "Erga a proteção.",
+          "Sustente a fortaleza."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/vento/09_Defesa_Elite.png",
+        "previa_jpg": "artes/vento/09_Defesa_Elite.jpg",
+        "sha256": "8ad4b2b3a1a8596e371dd7181c3dc49723df241c149a9f3bc84091f8117a4fc6"
+      },
+      {
+        "book": "vento",
+        "book_label": "Vento",
+        "number": 6,
+        "title": "Domínio dos Ventos",
+        "description": "A mana se expande e envolve o campo ao redor.",
+        "steps": [
+          "Reúna a mana.",
+          "Expanda o domínio.",
+          "Mantenha o controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/vento/10_Zona_Mana.png",
+        "previa_jpg": "artes/vento/10_Zona_Mana.jpg",
+        "sha256": "69d47e68f70842547d6186d2c82e130a2a146927ad206ea0c9e68ef93dee76e0"
+      },
+      {
+        "book": "vento",
+        "book_label": "Vento",
+        "number": 7,
+        "title": "Módulo de Voo",
+        "description": "A mana sustenta o corpo e conduz o voo.",
+        "steps": [
+          "Concentre a mana.",
+          "Eleve o corpo.",
+          "Direcione o voo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/vento/11_Modulo_Voo.png",
+        "previa_jpg": "artes/vento/11_Modulo_Voo.jpg",
+        "sha256": "c0d911c0e9edff6f07ab562c738622aa3cd8d43f2367ac64bb22295de566afc1"
+      }
+    ],
+    "noelle": [
+      {
+        "book": "noelle",
+        "book_label": "Águas — Noelle",
+        "number": 1,
+        "title": "Lança da Maré",
+        "description": "Uma lança de água segue até o alvo.",
+        "steps": [
+          "Reúna a água.",
+          "Modele a lança.",
+          "Conduza a maré."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/noelle/03_Poder_1.png",
+        "previa_jpg": "artes/noelle/03_Poder_1.jpg",
+        "sha256": "7bd8332fe7ad7c98c94cd45e964cb99abd3640a590cb1b445dc1bf2dc895755c"
+      },
+      {
+        "book": "noelle",
+        "book_label": "Águas — Noelle",
+        "number": 2,
+        "title": "Manto das Águas",
+        "description": "Um arco de água oferece proteção breve.",
+        "steps": [
+          "Reúna a corrente.",
+          "Forme o arco.",
+          "Ampare o aliado."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/noelle/04_Poder_2.png",
+        "previa_jpg": "artes/noelle/04_Poder_2.jpg",
+        "sha256": "513825d9433379875b1345213044f4b39ed3354f8ba8dcf797ea5f7f16581fd7"
+      },
+      {
+        "book": "noelle",
+        "book_label": "Águas — Noelle",
+        "number": 3,
+        "title": "Passo da Maré",
+        "description": "A mana impulsiona um avanço rápido pelo chão.",
+        "steps": [
+          "Concentre a mana.",
+          "Impulsione os passos.",
+          "Avance com controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/noelle/07_Avanco.png",
+        "previa_jpg": "artes/noelle/07_Avanco.jpg",
+        "sha256": "4404b1baa72bd8acec58fbde9546b3ececdefa04ec56cb1b74a82a8318e826c5"
+      },
+      {
+        "book": "noelle",
+        "book_label": "Águas — Noelle",
+        "number": 4,
+        "title": "Ruptura da Maré",
+        "description": "O poder concentrado avança em uma onda intensa.",
+        "steps": [
+          "Reúna a mana.",
+          "Concentre a onda.",
+          "Libere o impacto."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/noelle/08_Ataque_Elite.png",
+        "previa_jpg": "artes/noelle/08_Ataque_Elite.jpg",
+        "sha256": "7d3bb09e04c8b03f5ddfbf593b0b4a206cfc63d5fa2a04e4ebf5777377514c32"
+      },
+      {
+        "book": "noelle",
+        "book_label": "Águas — Noelle",
+        "number": 5,
+        "title": "Bastião das Marés",
+        "description": "Uma fortaleza de mana protege o conjurador.",
+        "steps": [
+          "Trace o limite.",
+          "Erga a proteção.",
+          "Sustente a fortaleza."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/noelle/09_Defesa_Elite.png",
+        "previa_jpg": "artes/noelle/09_Defesa_Elite.jpg",
+        "sha256": "4603aea7e5c796cf3b5085a6c23490dca8262e0f3b5895e63d0ca6218f10750b"
+      },
+      {
+        "book": "noelle",
+        "book_label": "Águas — Noelle",
+        "number": 6,
+        "title": "Domínio da Maré",
+        "description": "A mana se expande e envolve o campo ao redor.",
+        "steps": [
+          "Reúna a mana.",
+          "Expanda o domínio.",
+          "Mantenha o controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/noelle/10_Zona_Mana.png",
+        "previa_jpg": "artes/noelle/10_Zona_Mana.jpg",
+        "sha256": "77c976aeeb911009ee47d2b0a0f198f4028f37708e01542d229f6d71d06eb36d"
+      },
+      {
+        "book": "noelle",
+        "book_label": "Águas — Noelle",
+        "number": 7,
+        "title": "Módulo de Voo",
+        "description": "A mana sustenta o corpo e conduz o voo.",
+        "steps": [
+          "Concentre a mana.",
+          "Eleve o corpo.",
+          "Direcione o voo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/noelle/11_Modulo_Voo.png",
+        "previa_jpg": "artes/noelle/11_Modulo_Voo.jpg",
+        "sha256": "f709847b3b81b5e6571cd2d8f613eebd5fb2ece7b3aa6bed8e1388d5cfa23210"
+      }
+    ],
+    "fogo_leao": [
+      {
+        "book": "fogo_leao",
+        "book_label": "Fogo do Leão",
+        "number": 1,
+        "title": "Garra de Brasa",
+        "description": "Uma chama concentrada avança sobre o alvo.",
+        "steps": [
+          "Reúna a chama.",
+          "Dê forma à garra.",
+          "Lance o golpe."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/fogo_leao/03_Poder_1.png",
+        "previa_jpg": "artes/fogo_leao/03_Poder_1.jpg",
+        "sha256": "e4c0c53b1bb99409a0ca55c16e13b620846bc07f096bb478935d91035e73ed34"
+      },
+      {
+        "book": "fogo_leao",
+        "book_label": "Fogo do Leão",
+        "number": 2,
+        "title": "Manto de Brasas",
+        "description": "Um círculo de brasas acompanha o conjurador.",
+        "steps": [
+          "Reúna as brasas.",
+          "Trace o círculo.",
+          "Mantenha a chama."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/fogo_leao/04_Poder_2.png",
+        "previa_jpg": "artes/fogo_leao/04_Poder_2.jpg",
+        "sha256": "cf53931e4c009baaeb451149200e2fcd2c55b088754970fed46c883eaf29e617"
+      },
+      {
+        "book": "fogo_leao",
+        "book_label": "Fogo do Leão",
+        "number": 3,
+        "title": "Passo do Leão",
+        "description": "A mana impulsiona um avanço rápido pelo chão.",
+        "steps": [
+          "Concentre a mana.",
+          "Impulsione os passos.",
+          "Avance com controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/fogo_leao/07_Avanco.png",
+        "previa_jpg": "artes/fogo_leao/07_Avanco.jpg",
+        "sha256": "d6fc52919326a948eae379c28dfff7ef50bdce3f469460ce266c55c4b114d78c"
+      },
+      {
+        "book": "fogo_leao",
+        "book_label": "Fogo do Leão",
+        "number": 4,
+        "title": "Rugido Solar",
+        "description": "O poder concentrado avança em uma onda intensa.",
+        "steps": [
+          "Reúna a mana.",
+          "Concentre a onda.",
+          "Libere o impacto."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/fogo_leao/08_Ataque_Elite.png",
+        "previa_jpg": "artes/fogo_leao/08_Ataque_Elite.jpg",
+        "sha256": "a0ebebf13a2cb0aa244ae1ab83599c6641354d04da5a277633e82231f99ef4b2"
+      },
+      {
+        "book": "fogo_leao",
+        "book_label": "Fogo do Leão",
+        "number": 5,
+        "title": "Fortaleza do Leão",
+        "description": "Uma fortaleza de mana protege o conjurador.",
+        "steps": [
+          "Trace o limite.",
+          "Erga a proteção.",
+          "Sustente a fortaleza."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/fogo_leao/09_Defesa_Elite.png",
+        "previa_jpg": "artes/fogo_leao/09_Defesa_Elite.jpg",
+        "sha256": "3cbe959d03d834c3befc7bf0dc86487de5093ae00abdd977e2f6b85b9055d3e8"
+      },
+      {
+        "book": "fogo_leao",
+        "book_label": "Fogo do Leão",
+        "number": 6,
+        "title": "Domínio do Leão",
+        "description": "A mana se expande e envolve o campo ao redor.",
+        "steps": [
+          "Reúna a mana.",
+          "Expanda o domínio.",
+          "Mantenha o controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/fogo_leao/10_Zona_Mana.png",
+        "previa_jpg": "artes/fogo_leao/10_Zona_Mana.jpg",
+        "sha256": "1e56f8a4c0e913f26f67678d6c7a67364842c1de845b7b755ba429a08531c62e"
+      },
+      {
+        "book": "fogo_leao",
+        "book_label": "Fogo do Leão",
+        "number": 7,
+        "title": "Módulo de Voo",
+        "description": "A mana sustenta o corpo e conduz o voo.",
+        "steps": [
+          "Concentre a mana.",
+          "Eleve o corpo.",
+          "Direcione o voo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/fogo_leao/11_Modulo_Voo.png",
+        "previa_jpg": "artes/fogo_leao/11_Modulo_Voo.jpg",
+        "sha256": "613301b3acbee5fabf6cee33f9e1e9dc85606475e161732abac4f86df9fde97c"
+      }
+    ],
+    "espadas": [
+      {
+        "book": "espadas",
+        "book_label": "Espadas",
+        "number": 1,
+        "title": "Fio de Mana",
+        "description": "A mana envolve a lâmina por um breve intervalo.",
+        "steps": [
+          "Empunhe a espada.",
+          "Reúna a mana.",
+          "Firme o fio."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/espadas/03_Poder_1.png",
+        "previa_jpg": "artes/espadas/03_Poder_1.jpg",
+        "sha256": "74a584e2adad61474ec14f495d36c69c47dedd92569210e93dae9189980b8d7b"
+      },
+      {
+        "book": "espadas",
+        "book_label": "Espadas",
+        "number": 2,
+        "title": "Corte Vinculado",
+        "description": "Um golpe libera um arco curto de mana.",
+        "steps": [
+          "Marque o alvo.",
+          "Trace o corte.",
+          "Libere o arco."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/espadas/04_Poder_2.png",
+        "previa_jpg": "artes/espadas/04_Poder_2.jpg",
+        "sha256": "ddd54a55f280e44e5ab4664411d8aa61b3bc2b135a16a7e801b4dea61c4cfbf6"
+      },
+      {
+        "book": "espadas",
+        "book_label": "Espadas",
+        "number": 3,
+        "title": "Passo da Lâmina",
+        "description": "A mana impulsiona um avanço rápido pelo chão.",
+        "steps": [
+          "Concentre a mana.",
+          "Impulsione os passos.",
+          "Avance com controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/espadas/07_Avanco.png",
+        "previa_jpg": "artes/espadas/07_Avanco.jpg",
+        "sha256": "f9b9bf1258b7757b98f04dd6bde944fd8d55169574881ad4dfb23b4805edfa1a"
+      },
+      {
+        "book": "espadas",
+        "book_label": "Espadas",
+        "number": 4,
+        "title": "Ruptura Cortante",
+        "description": "O poder concentrado avança em uma onda intensa.",
+        "steps": [
+          "Reúna a mana.",
+          "Concentre a onda.",
+          "Libere o impacto."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/espadas/08_Ataque_Elite.png",
+        "previa_jpg": "artes/espadas/08_Ataque_Elite.jpg",
+        "sha256": "bf8dab0804578285b0cbe24c44bbef82607d47a84ae12eb47e757b0d207b5105"
+      },
+      {
+        "book": "espadas",
+        "book_label": "Espadas",
+        "number": 5,
+        "title": "Guarda das Lâminas",
+        "description": "Uma fortaleza de mana protege o conjurador.",
+        "steps": [
+          "Trace o limite.",
+          "Erga a proteção.",
+          "Sustente a fortaleza."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/espadas/09_Defesa_Elite.png",
+        "previa_jpg": "artes/espadas/09_Defesa_Elite.jpg",
+        "sha256": "151559409497b82943476a44ab09ea6584cc7cddffeb13cb22d4c39ac0b3733d"
+      },
+      {
+        "book": "espadas",
+        "book_label": "Espadas",
+        "number": 6,
+        "title": "Domínio das Espadas",
+        "description": "A mana se expande e envolve o campo ao redor.",
+        "steps": [
+          "Reúna a mana.",
+          "Expanda o domínio.",
+          "Mantenha o controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/espadas/10_Zona_Mana.png",
+        "previa_jpg": "artes/espadas/10_Zona_Mana.jpg",
+        "sha256": "ec120e92cce4fad474f78cb28e91ddea93fa17ed25a4e73c8a278bde4cde9fe2"
+      },
+      {
+        "book": "espadas",
+        "book_label": "Espadas",
+        "number": 7,
+        "title": "Módulo de Voo",
+        "description": "A mana sustenta o corpo e conduz o voo.",
+        "steps": [
+          "Concentre a mana.",
+          "Eleve o corpo.",
+          "Direcione o voo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/espadas/11_Modulo_Voo.png",
+        "previa_jpg": "artes/espadas/11_Modulo_Voo.jpg",
+        "sha256": "56dd4b2b0cb38e26a3168b31e2ec994820f04ec2821af5a0dd050d0ae8939ec6"
+      }
+    ],
+    "luz_solar": [
+      {
+        "book": "luz_solar",
+        "book_label": "Luz Solar",
+        "number": 1,
+        "title": "Lâminas de Luz",
+        "description": "Três lâminas seguem um caminho preciso.",
+        "steps": [
+          "Concentre a luz.",
+          "Modele as lâminas.",
+          "Dispare com precisão."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/luz_solar/03_Poder_1.png",
+        "previa_jpg": "artes/luz_solar/03_Poder_1.jpg",
+        "sha256": "235583f1783251271f4e9a356d6fd373167b3b0edb46f5076749ee2bf97a2ce0"
+      },
+      {
+        "book": "luz_solar",
+        "book_label": "Luz Solar",
+        "number": 2,
+        "title": "Clarão Protetor",
+        "description": "Um arco de luz oferece proteção breve.",
+        "steps": [
+          "Reúna a luz.",
+          "Forme o arco.",
+          "Ampare o aliado."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/luz_solar/04_Poder_2.png",
+        "previa_jpg": "artes/luz_solar/04_Poder_2.jpg",
+        "sha256": "0145c2b4df093ecfe7774a2e95b443224541dee5df2708ea00a61bc6ca4d8335"
+      },
+      {
+        "book": "luz_solar",
+        "book_label": "Luz Solar",
+        "number": 3,
+        "title": "Passo da Luz",
+        "description": "A mana impulsiona um avanço rápido pelo chão.",
+        "steps": [
+          "Concentre a mana.",
+          "Impulsione os passos.",
+          "Avance com controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/luz_solar/07_Avanco.png",
+        "previa_jpg": "artes/luz_solar/07_Avanco.jpg",
+        "sha256": "6e3523c9187450c7986b0b6d81bc62c24d9106bdf99659c92d91d66bc8476e6c"
+      },
+      {
+        "book": "luz_solar",
+        "book_label": "Luz Solar",
+        "number": 4,
+        "title": "Ruptura Solar",
+        "description": "O poder concentrado avança em uma onda intensa.",
+        "steps": [
+          "Reúna a mana.",
+          "Concentre a onda.",
+          "Libere o impacto."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/luz_solar/08_Ataque_Elite.png",
+        "previa_jpg": "artes/luz_solar/08_Ataque_Elite.jpg",
+        "sha256": "b355ec929d1ee89dc0009927a088cf47581dd1b05d9ab3008867141142ecfd93"
+      },
+      {
+        "book": "luz_solar",
+        "book_label": "Luz Solar",
+        "number": 5,
+        "title": "Fortaleza da Luz",
+        "description": "Uma fortaleza de mana protege o conjurador.",
+        "steps": [
+          "Trace o limite.",
+          "Erga a proteção.",
+          "Sustente a fortaleza."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/luz_solar/09_Defesa_Elite.png",
+        "previa_jpg": "artes/luz_solar/09_Defesa_Elite.jpg",
+        "sha256": "2a201fdfcdfac7f90de6b5564c1cb29237beacea00945289ed12cd0ab2689738"
+      },
+      {
+        "book": "luz_solar",
+        "book_label": "Luz Solar",
+        "number": 6,
+        "title": "Domínio Solar",
+        "description": "A mana se expande e envolve o campo ao redor.",
+        "steps": [
+          "Reúna a mana.",
+          "Expanda o domínio.",
+          "Mantenha o controle."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/luz_solar/10_Zona_Mana.png",
+        "previa_jpg": "artes/luz_solar/10_Zona_Mana.jpg",
+        "sha256": "1ba07584d02c02446249eaaee2593e267c52bd6cd409f1a66b706862ab67fc9f"
+      },
+      {
+        "book": "luz_solar",
+        "book_label": "Luz Solar",
+        "number": 7,
+        "title": "Módulo de Voo",
+        "description": "A mana sustenta o corpo e conduz o voo.",
+        "steps": [
+          "Concentre a mana.",
+          "Eleve o corpo.",
+          "Direcione o voo."
+        ],
+        "status": "proposta_nao_aprovada",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "arquivo_png": "artes/luz_solar/11_Modulo_Voo.png",
+        "previa_jpg": "artes/luz_solar/11_Modulo_Voo.jpg",
+        "sha256": "53d84ea3b37a12663fdc152eecb59dad4b7aebf7171b4cdc9a28dbbf76fee3e1"
+      }
+    ]
+  },
+  "originais": {
+    "trevas": [
+      {
+        "tipo": "cover",
+        "arquivo": "artes/trevas/01_Capa_Original.png",
+        "sha256": "cd108e50bff4fc1106ea483f18ba611fd6226b3dc0b5890b4ad0d82121bb1d0f",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "opening",
+        "arquivo": "artes/trevas/02_Abertura_Original.png",
+        "sha256": "40412477768359c288804e3963f141f54d8abbe08f4816edea036e14a56e2135",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "ending",
+        "arquivo": "artes/trevas/12_Encerramento_Original.png",
+        "sha256": "b7b26740a947086fd52dd836ff73a8193cbcc7b7e40f44918b5b0d4f674f609a",
+        "identico_ao_original": true
+      }
+    ],
+    "arvore_mundo": [
+      {
+        "tipo": "cover",
+        "arquivo": "artes/arvore_mundo/01_Capa_Original.png",
+        "sha256": "0477dafaf89a8546938143f7ceafb0d564b97e593a22cb119a87981ad59b270a",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "opening",
+        "arquivo": "artes/arvore_mundo/02_Abertura_Original.png",
+        "sha256": "5a7fc1a334a8030a7373c165abda0c6e59d5d6ca55610ba6f2618c09b3d42eb1",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "ending",
+        "arquivo": "artes/arvore_mundo/12_Encerramento_Original.png",
+        "sha256": "d5c0ca3b1b2c85dc35d7c3998b34c1ff1c9edcfc441c4fc01fd9c35c2d5a0299",
+        "identico_ao_original": true
+      }
+    ],
+    "tempo": [
+      {
+        "tipo": "cover",
+        "arquivo": "artes/tempo/01_Capa_Original.png",
+        "sha256": "f3af954dbce3d6e1cad975c94578a2959e7fc8aa020bd42d1a47c4f3905a87f1",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "opening",
+        "arquivo": "artes/tempo/02_Abertura_Original.png",
+        "sha256": "ea493f7406d3200753103eb6195e61801f0f52ce6387e3ebe4041cd1518c81b6",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "ending",
+        "arquivo": "artes/tempo/12_Encerramento_Original.png",
+        "sha256": "5fc5805dcb24d6d32e9341e1ce17837fbc1bd75b6f38b0bef07c06f08ba6ad74",
+        "identico_ao_original": true
+      }
+    ],
+    "antimagia": [
+      {
+        "tipo": "cover",
+        "arquivo": "artes/antimagia/01_Capa_Original.png",
+        "sha256": "bfd9e44c5b0492643d914e393e081d7fefff2818a78b62ba04e2f0d281ae5565",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "opening",
+        "arquivo": "artes/antimagia/02_Abertura_Original.png",
+        "sha256": "708dc2dfdb036a9f38f2ef57996e0f4b421339511aedfaffd2357b1ec66fe8b1",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "ending",
+        "arquivo": "artes/antimagia/12_Encerramento_Original.png",
+        "sha256": "0b8fcff16e247cd00d199b60f105ab26f22e0432100ec7fc2c60a023c9e44d5f",
+        "identico_ao_original": true
+      }
+    ],
+    "vento": [
+      {
+        "tipo": "cover",
+        "arquivo": "artes/vento/01_Capa_Original.png",
+        "sha256": "7fb06715d1dfc03ce479fa750e329fa338eb565f3f2c272a5c7faa5128df1847",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "opening",
+        "arquivo": "artes/vento/02_Abertura_Original.png",
+        "sha256": "547e476f92ae367a6ae5fa0df595e6ad6c179f4294dff76929fccf399adba8f9",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "ending",
+        "arquivo": "artes/vento/12_Encerramento_Original.png",
+        "sha256": "106c25d2abeaaa5c32c32387ced63f31683e147521a61763681d215a4210c56d",
+        "identico_ao_original": true
+      }
+    ],
+    "noelle": [
+      {
+        "tipo": "cover",
+        "arquivo": "artes/noelle/01_Capa_Original.png",
+        "sha256": "dfe76b2fbc384c9f447625c63f4c6ea465ca5a150c0ddd6b4638f52183409113",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "opening",
+        "arquivo": "artes/noelle/02_Abertura_Original.png",
+        "sha256": "b66c15f80b8f68bb48f3bc2304cf43908e435d592053867f4bcc7afea49a2172",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "ending",
+        "arquivo": "artes/noelle/12_Encerramento_Original.png",
+        "sha256": "a65bbf2a192f55521bc823a0210d976fea5537d37ed9501112c483237ee7c7ae",
+        "identico_ao_original": true
+      }
+    ],
+    "fogo_leao": [
+      {
+        "tipo": "cover",
+        "arquivo": "artes/fogo_leao/01_Capa_Original.png",
+        "sha256": "0fcaf64b427a6ed1fb63d0d1b9f976ef659fd3825c734f1f7bb9766855c13296",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "opening",
+        "arquivo": "artes/fogo_leao/02_Abertura_Original.png",
+        "sha256": "40164606cb69c70fd7e4940e8315a5d623c15dc6bc4ba7ac1b07b2e96c099f3b",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "ending",
+        "arquivo": "artes/fogo_leao/12_Encerramento_Original.png",
+        "sha256": "42ca17fc6db65d27a6f94a07f63fa845593dcf9b0240efdf0a2f9e8b7739b111",
+        "identico_ao_original": true
+      }
+    ],
+    "espadas": [
+      {
+        "tipo": "cover",
+        "arquivo": "artes/espadas/01_Capa_Original.png",
+        "sha256": "a544c8d377188f1fe7f3c92d8e1c07b632f9fd9beb845670bb63dd9a0ec5666c",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "opening",
+        "arquivo": "artes/espadas/02_Abertura_Original.png",
+        "sha256": "ce19d61454e00eb25461a73cec6fa8fd9eda739f3eec0be17f85e04f03573aac",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "ending",
+        "arquivo": "artes/espadas/12_Encerramento_Original.png",
+        "sha256": "7d1c741d0ecf4c0dea57f425b348520284a0f42a00db3f65ce6a3c0c1437ded4",
+        "identico_ao_original": true
+      }
+    ],
+    "luz_solar": [
+      {
+        "tipo": "cover",
+        "arquivo": "artes/luz_solar/01_Capa_Original.png",
+        "sha256": "5609017b349eabdf6972534f85ba9d6b099751b536bf06bd73a4c9565b17a179",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "opening",
+        "arquivo": "artes/luz_solar/02_Abertura_Original.png",
+        "sha256": "6066656e2a3967d6984298bc4b7e3d421cd4128544486f199ba1418930679a2a",
+        "identico_ao_original": true
+      },
+      {
+        "tipo": "ending",
+        "arquivo": "artes/luz_solar/12_Encerramento_Original.png",
+        "sha256": "341df2304f425ef319aa7ad535b3282d4b86fb747592d5d63173b0d5f74883c9",
+        "identico_ao_original": true
+      }
+    ]
+  }
+}

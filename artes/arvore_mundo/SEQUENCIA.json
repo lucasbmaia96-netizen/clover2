@@ -1,0 +1,59 @@
+[
+  {
+    "ordem": 0,
+    "tipo": "capa_original",
+    "arquivo": "01_Capa_Original.png"
+  },
+  {
+    "ordem": 1,
+    "tipo": "abertura_original",
+    "arquivo": "02_Abertura_Original.png"
+  },
+  {
+    "ordem": 2,
+    "tipo": "poder_proposto",
+    "arquivo": "03_Poder_1.png",
+    "titulo": "Raízes Guardiãs"
+  },
+  {
+    "ordem": 3,
+    "tipo": "poder_proposto",
+    "arquivo": "04_Poder_2.png",
+    "titulo": "Broto da Vida"
+  },
+  {
+    "ordem": 4,
+    "tipo": "poder_proposto",
+    "arquivo": "07_Avanco.png",
+    "titulo": "Passo das Raízes"
+  },
+  {
+    "ordem": 5,
+    "tipo": "poder_proposto",
+    "arquivo": "08_Ataque_Elite.png",
+    "titulo": "Ímpeto Ancestral"
+  },
+  {
+    "ordem": 6,
+    "tipo": "poder_proposto",
+    "arquivo": "09_Defesa_Elite.png",
+    "titulo": "Bastião Ancestral"
+  },
+  {
+    "ordem": 7,
+    "tipo": "poder_proposto",
+    "arquivo": "10_Zona_Mana.png",
+    "titulo": "Domínio da Floresta"
+  },
+  {
+    "ordem": 8,
+    "tipo": "poder_proposto",
+    "arquivo": "11_Modulo_Voo.png",
+    "titulo": "Módulo de Voo"
+  },
+  {
+    "ordem": 9,
+    "tipo": "encerramento_original",
+    "arquivo": "12_Encerramento_Original.png"
+  }
+]
