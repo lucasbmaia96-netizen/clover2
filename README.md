@@ -2,6 +2,14 @@
 
 A alteração anterior de tamanho e diagramação foi revertida. O recurso volta à receita original recebida: tamanho, posição, recortes, folheamento e carregamento originais. As artes PNG permanecem intactas.
 
+## Teste no RedM — HTML ilustrado enviado pelo usuário
+
+**[Baixar grimorio_trevas_teste v1.0.0 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_TESTE_REDM_v1.0.0.zip)**
+
+Recurso independente com o arquivo `GRIMORIO_TREVAS_ILUSTRADO.html` preservado integralmente. Copie a pasta `grimorio_trevas_teste` para os recursos, adicione `ensure grimorio_trevas_teste` ao `server.cfg` e use `/trevasteste` no jogo. Esc fecha a interface. O comando, o cursor, o tamanho e a posição têm configuração própria em `config.lua`.
+
+Não substitui o recurso `grimorio_oficial`. [Instruções e conferência](https://github.com/lucasbmaia96-netizen/clover2/tree/trevas-teste-redm). Testes feitos no navegador e com funções Cfx simuladas; avaliação no servidor RedM pendente.
+
 ## Teste atual — somente Trevas em HTML
 
 **[Baixar o HTML folheável do Trevas — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-html/TREVAS_HTML_PARA_TESTE.zip)**
