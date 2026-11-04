@@ -45,7 +45,7 @@ async function freeze(c){return new Promise((resolve,reject)=>{const im=new Imag
 function masked(im,path){const c=document.createElement('canvas');c.width=im.width;c.height=im.height;const cc=c.getContext('2d');cc.save();cc.clip(path);cc.drawImage(im,0,0);cc.restore();return c}
 function sourcePaper(quad,u,v,side,padX=.008,padTop=.01,padBottom=.01){return interpolate(quad,-padX+(side===1?u:1-u)*(1+2*padX),-padTop+v*(1+padTop+padBottom))}
 function parchment(cc,side){cc.save();contour(cc,side);cc.clip();const g=cc.createLinearGradient(SPINE,0,SPINE+side*630,0);g.addColorStop(0,'#d0ad79');g.addColorStop(.06,'#eed6ad');g.addColorStop(.35,'#f9e7c8');g.addColorStop(.9,'#f5dfb5');g.addColorStop(1,'#e2bd87');cc.fillStyle=g;cc.fillRect(0,0,W,H);cc.restore()}
-async function prepare(raw){
+async function prepare(raw,book={}){
  const finalIndex=raw.length-1;
  const end=await freeze(masked(raw[finalIndex],endingOutline));
  const frame=make(),fc=frame.getContext('2d');
@@ -100,9 +100,15 @@ async function prepare(raw){
     else{
      // Register the complete native leaf to its physical page plane.
      // Transparent padding is excluded; all four decorated borders stay on the leaf.
-     const bounds=i===2?[21,36,1752,853]:i===3?[22,34,1753,853]:[21,33,1753,853];
-     const [x,y,r,b]=bounds,mid=(x+r)/2;
-     mesh(pc,raw[i],(u,v)=>({x:mid+side*(r-x)*.5*u,y:y+(b-y)*v}),(u,v)=>paperPoint(u,v,side),36,12);
+     const registration=book.pages?.[i-1]?.registration;
+     if(registration){
+      const a=registration.map(([x,y])=>({x,y})),quad=side===-1?a.slice(0,4):[a[1],a[4],a[5],a[2]];
+      mesh(pc,raw[i],(u,v)=>interpolate(quad,side===1?u:1-u,v),(u,v)=>paperPoint(u,v,side),36,12);
+     }else{
+      const bounds=i===2?[21,36,1752,853]:i===3?[22,34,1753,853]:[21,33,1753,853];
+      const [x,y,r,b]=bounds,mid=(x+r)/2;
+      mesh(pc,raw[i],(u,v)=>({x:mid+side*(r-x)*.5*u,y:y+(b-y)*v}),(u,v)=>paperPoint(u,v,side),36,12);
+     }
     }
     pc.restore();
    }

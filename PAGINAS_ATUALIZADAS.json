@@ -1,0 +1,443 @@
+[
+  {
+    "book": "trevas",
+    "page": 2,
+    "title": "Corte das Trevas",
+    "file": "html/assets/trevas/03_Poder_1.png",
+    "sha256": "e7a57a90f5433246fbb7014170a7f8b31794c47648a425d4dc712f70a5bbeaad"
+  },
+  {
+    "book": "trevas",
+    "page": 3,
+    "title": "Lua Negra",
+    "file": "html/assets/trevas/04_Poder_2.png",
+    "sha256": "e9398f55ff14a074e747e5af2474bca6acf0a1735e2545e96bef13f2524c8df6"
+  },
+  {
+    "book": "trevas",
+    "page": 4,
+    "title": "Passo Sombrio",
+    "file": "html/assets/trevas/07_Avanco.png",
+    "sha256": "9cee1458632369179d2265a2543293acd1009f928a3b07c149bdd5e5317484bd"
+  },
+  {
+    "book": "trevas",
+    "page": 5,
+    "title": "Ruptura Sombria",
+    "file": "html/assets/trevas/08_Ataque_Elite.png",
+    "sha256": "e932b25b9a2988c57c7c27e07dbcd5fbdf925a2b0888c0398b9fef07506b5fcc"
+  },
+  {
+    "book": "trevas",
+    "page": 6,
+    "title": "Fortaleza da Noite",
+    "file": "html/assets/trevas/09_Defesa_Elite.png",
+    "sha256": "faeb9719ae9ad756def141d0abb35bf9efa444bd9790fb999e6c72960346c15d"
+  },
+  {
+    "book": "trevas",
+    "page": 7,
+    "title": "Domínio das Trevas",
+    "file": "html/assets/trevas/10_Zona_Mana.png",
+    "sha256": "d324036c11c0272b51a9a8c750efd744a5c6c752b304a3dae853080c041bdb14"
+  },
+  {
+    "book": "trevas",
+    "page": 8,
+    "title": "Módulo de Voo",
+    "file": "html/assets/trevas/11_Modulo_Voo.png",
+    "sha256": "2c356695c5cb9a53d0def6346372a0c6506941d9e5ce46abc6e68c40588668bc"
+  },
+  {
+    "book": "arvore_mundo",
+    "page": 2,
+    "title": "Raízes Guardiãs",
+    "file": "html/assets/arvore_mundo/03_Poder_1.png",
+    "sha256": "72d8a586fb955bb0b9a4cc8e6e45172b75f0865d0d7d99b4f331aa149a1ecae4"
+  },
+  {
+    "book": "arvore_mundo",
+    "page": 3,
+    "title": "Broto da Vida",
+    "file": "html/assets/arvore_mundo/04_Poder_2.png",
+    "sha256": "ce4ef4037fd58e00b14cc470110ae04bdc4058908c55c81de71b7ba086552c24"
+  },
+  {
+    "book": "arvore_mundo",
+    "page": 4,
+    "title": "Passo das Raízes",
+    "file": "html/assets/arvore_mundo/07_Avanco.png",
+    "sha256": "7d821d1c2b408d94303df403ce42a8047487016d24e62c1a6a7875244ef3b3a2"
+  },
+  {
+    "book": "arvore_mundo",
+    "page": 5,
+    "title": "Ímpeto Ancestral",
+    "file": "html/assets/arvore_mundo/08_Ataque_Elite.png",
+    "sha256": "129cc9dd8177770e6bbb7dcc5c09396af0fdd1c9d16e2d6afa408c79b571bd42"
+  },
+  {
+    "book": "arvore_mundo",
+    "page": 6,
+    "title": "Bastião Ancestral",
+    "file": "html/assets/arvore_mundo/09_Defesa_Elite.png",
+    "sha256": "1518cbc1e41e0afddf726c7cae08e6dc38d988fae406dca872e8fa879208d5f4"
+  },
+  {
+    "book": "arvore_mundo",
+    "page": 7,
+    "title": "Domínio da Floresta",
+    "file": "html/assets/arvore_mundo/10_Zona_Mana.png",
+    "sha256": "ff8c777531bc5d769826a8d642ce5836a53c5a60259cddb8e1b1aa3473ea4421"
+  },
+  {
+    "book": "arvore_mundo",
+    "page": 8,
+    "title": "Módulo de Voo",
+    "file": "html/assets/arvore_mundo/11_Modulo_Voo.png",
+    "sha256": "9142ddd4e99f1ace7407a06a1767496fe6debb5c59e0dcc777439622769864b4"
+  },
+  {
+    "book": "tempo",
+    "page": 2,
+    "title": "Selo do Instante",
+    "file": "html/assets/tempo/03_Poder_1.png",
+    "sha256": "57f8a5cf57c041e099f19b9872339148f60be477899f2129057f1089755c59fd"
+  },
+  {
+    "book": "tempo",
+    "page": 3,
+    "title": "Manto das Horas",
+    "file": "html/assets/tempo/04_Poder_2.png",
+    "sha256": "5c686f5421ad675b301ac7b37cdb7cf685798379949f944d54b2acf7c25504ba"
+  },
+  {
+    "book": "tempo",
+    "page": 4,
+    "title": "Passo Acelerado",
+    "file": "html/assets/tempo/07_Avanco.png",
+    "sha256": "b4f6b29775989bfaa8531e275f31358a1aabeeca48f87f1d26c7b3c48916604f"
+  },
+  {
+    "book": "tempo",
+    "page": 5,
+    "title": "Laço Temporal",
+    "file": "html/assets/tempo/08_Ataque_Elite.png",
+    "sha256": "3eeb5ea63fa7c7fbcd00f311530ae3f6f41b35336b111dbf4dcdc9c6748bf71c"
+  },
+  {
+    "book": "tempo",
+    "page": 6,
+    "title": "Eco Restaurador",
+    "file": "html/assets/tempo/09_Defesa_Elite.png",
+    "sha256": "3402128195f2e375fa4871f3842f203da95dab84d53455f7e6264a63408188c6"
+  },
+  {
+    "book": "tempo",
+    "page": 7,
+    "title": "Domínio do Instante",
+    "file": "html/assets/tempo/10_Zona_Mana.png",
+    "sha256": "2f2cb9d270d07f242fcc0b97724ccba11eb62ee149f044afad81c860a4d554ed"
+  },
+  {
+    "book": "tempo",
+    "page": 8,
+    "title": "Módulo de Voo",
+    "file": "html/assets/tempo/11_Modulo_Voo.png",
+    "sha256": "fc7c5fee8814f96a8480053c892866dc8cd7846d9f6513fa7a9b875508363c59"
+  },
+  {
+    "book": "antimagia",
+    "page": 2,
+    "title": "Corte Dissipador",
+    "file": "html/assets/antimagia/03_Poder_1.png",
+    "sha256": "b80034e0e3b018c88e437a4865467b9f170c45391b6a67d62de0313001ae8480"
+  },
+  {
+    "book": "antimagia",
+    "page": 3,
+    "title": "Manto Dissipador",
+    "file": "html/assets/antimagia/04_Poder_2.png",
+    "sha256": "230cb1a0817731a7f89739fe26e4ca9a32be5bde2697fdba0e10249d97f0701f"
+  },
+  {
+    "book": "antimagia",
+    "page": 4,
+    "title": "Avanço Sombrio",
+    "file": "html/assets/antimagia/07_Avanco.png",
+    "sha256": "d242a9e2fa330ab72a5a53f644c53107e4c86dbbd65ca9a3a233166fc1adf4cd"
+  },
+  {
+    "book": "antimagia",
+    "page": 5,
+    "title": "Ruptura de Antimagia",
+    "file": "html/assets/antimagia/08_Ataque_Elite.png",
+    "sha256": "04f84b34bd2dfa6846d7bb6f24b877691f9856948a6978474983ddcd47f5f93f"
+  },
+  {
+    "book": "antimagia",
+    "page": 6,
+    "title": "Fortaleza Nula",
+    "file": "html/assets/antimagia/09_Defesa_Elite.png",
+    "sha256": "a31faa8aae9210b4dea9292ee6161a1fce4f75a78b0853ff358e4973826189d7"
+  },
+  {
+    "book": "antimagia",
+    "page": 7,
+    "title": "Domínio Nulo",
+    "file": "html/assets/antimagia/10_Zona_Mana.png",
+    "sha256": "9d697d8683bf9982b018046584d12b8cfb7381e15e7ac4afa503c40b402c000e"
+  },
+  {
+    "book": "antimagia",
+    "page": 8,
+    "title": "Módulo de Voo",
+    "file": "html/assets/antimagia/11_Modulo_Voo.png",
+    "sha256": "88a7e0b909fa449ebcfae13c05368bba1533b162a7b2cbe7fe8dff6ef49970d4"
+  },
+  {
+    "book": "vento",
+    "page": 2,
+    "title": "Lâmina de Vento",
+    "file": "html/assets/vento/03_Poder_1.png",
+    "sha256": "b2d77aecbbeb5cda90069cf16fa57e831b199033b1870281e47639db61cb6614"
+  },
+  {
+    "book": "vento",
+    "page": 3,
+    "title": "Manto da Brisa",
+    "file": "html/assets/vento/04_Poder_2.png",
+    "sha256": "6a533971e1895a270340c1dbb2f7fac6386ca1e72cee054f995b7b1260cc2989"
+  },
+  {
+    "book": "vento",
+    "page": 4,
+    "title": "Passo da Brisa",
+    "file": "html/assets/vento/07_Avanco.png",
+    "sha256": "3c7a1decda0980ab46fc57ad90098009bf2fa0a7e11beca2121de73d2b855e91"
+  },
+  {
+    "book": "vento",
+    "page": 5,
+    "title": "Ruptura do Vendaval",
+    "file": "html/assets/vento/08_Ataque_Elite.png",
+    "sha256": "3cb7969a137b9e20417ca239179f45273f662cf851fbb443cdfa2bd183981d68"
+  },
+  {
+    "book": "vento",
+    "page": 6,
+    "title": "Fortaleza do Vento",
+    "file": "html/assets/vento/09_Defesa_Elite.png",
+    "sha256": "8ad4b2b3a1a8596e371dd7181c3dc49723df241c149a9f3bc84091f8117a4fc6"
+  },
+  {
+    "book": "vento",
+    "page": 7,
+    "title": "Domínio dos Ventos",
+    "file": "html/assets/vento/10_Zona_Mana.png",
+    "sha256": "69d47e68f70842547d6186d2c82e130a2a146927ad206ea0c9e68ef93dee76e0"
+  },
+  {
+    "book": "vento",
+    "page": 8,
+    "title": "Módulo de Voo",
+    "file": "html/assets/vento/11_Modulo_Voo.png",
+    "sha256": "c0d911c0e9edff6f07ab562c738622aa3cd8d43f2367ac64bb22295de566afc1"
+  },
+  {
+    "book": "noelle",
+    "page": 2,
+    "title": "Lança da Maré",
+    "file": "html/assets/noelle/03_Poder_1.png",
+    "sha256": "a646313f8ca1c1779dd56ab0a1b442060dad7378f3b26c0fd030a27b2ef21f38"
+  },
+  {
+    "book": "noelle",
+    "page": 3,
+    "title": "Manto das Águas",
+    "file": "html/assets/noelle/04_Poder_2.png",
+    "sha256": "2a0c5d39593f1afee35465b87222a0ee4aa375dcbbbc7bdade0f67e4d29cfc42"
+  },
+  {
+    "book": "noelle",
+    "page": 4,
+    "title": "Passo da Maré",
+    "file": "html/assets/noelle/07_Avanco.png",
+    "sha256": "62624c379b925bcbf17b1e6f4867f1a1a72bd12aa9a766d92b24feeb18398fc8"
+  },
+  {
+    "book": "noelle",
+    "page": 5,
+    "title": "Ruptura da Maré",
+    "file": "html/assets/noelle/08_Ataque_Elite.png",
+    "sha256": "dac7e14d521687a400268bcc3121d6335046cc414c8f375ddb2e1101c5f7f30d"
+  },
+  {
+    "book": "noelle",
+    "page": 6,
+    "title": "Bastião das Marés",
+    "file": "html/assets/noelle/09_Defesa_Elite.png",
+    "sha256": "531de8eb3e3bd1a9794cbaa2ea007a0d4f7e95d6eaf706c3f50913dd4b1c8357"
+  },
+  {
+    "book": "noelle",
+    "page": 7,
+    "title": "Domínio da Maré",
+    "file": "html/assets/noelle/10_Zona_Mana.png",
+    "sha256": "45d6faf75863d490512ea16030c76fe814184ee3f3c1b5c4d927e8be55415878"
+  },
+  {
+    "book": "noelle",
+    "page": 8,
+    "title": "Módulo de Voo",
+    "file": "html/assets/noelle/11_Modulo_Voo.png",
+    "sha256": "9ec3bac14d75e6e4f2fa13e8fc0d296b6ee7dd7ebab0f87b2325fcbaf1733010"
+  },
+  {
+    "book": "fogo_leao",
+    "page": 2,
+    "title": "Garra de Brasa",
+    "file": "html/assets/fogo_leao/03_Poder_1.png",
+    "sha256": "4631c022ca99e41834bcec748e0fe78e2b6bad6d554ffe66a78eb37f89eec592"
+  },
+  {
+    "book": "fogo_leao",
+    "page": 3,
+    "title": "Manto de Brasas",
+    "file": "html/assets/fogo_leao/04_Poder_2.png",
+    "sha256": "510681a32262fc2fc925d314a242a383f3c59ef40ebf6f32cef56645e1b18d8c"
+  },
+  {
+    "book": "fogo_leao",
+    "page": 4,
+    "title": "Passo do Leão",
+    "file": "html/assets/fogo_leao/07_Avanco.png",
+    "sha256": "0a691299e0444e4aa240456772b6e5f45eb48f123be5239fd2635646459c9cd0"
+  },
+  {
+    "book": "fogo_leao",
+    "page": 5,
+    "title": "Rugido Solar",
+    "file": "html/assets/fogo_leao/08_Ataque_Elite.png",
+    "sha256": "0feae0c228ed7eb96a8162e80b3bd1894e9047b2e021d11b88720aac3c85ba04"
+  },
+  {
+    "book": "fogo_leao",
+    "page": 6,
+    "title": "Fortaleza do Leão",
+    "file": "html/assets/fogo_leao/09_Defesa_Elite.png",
+    "sha256": "48d88d3f052ca3bba3a17cea7857404d3714ee82dc47a83e6cb4f8dd59661d41"
+  },
+  {
+    "book": "fogo_leao",
+    "page": 7,
+    "title": "Domínio do Leão",
+    "file": "html/assets/fogo_leao/10_Zona_Mana.png",
+    "sha256": "21a01b02acb6b92b6553f20824480b703ddc3f349cb41a0d5e0a74094090288d"
+  },
+  {
+    "book": "fogo_leao",
+    "page": 8,
+    "title": "Módulo de Voo",
+    "file": "html/assets/fogo_leao/11_Modulo_Voo.png",
+    "sha256": "7d4f25039ae85fef998fc48b4f119d32f113e1994228add8710d8110af759792"
+  },
+  {
+    "book": "espadas",
+    "page": 2,
+    "title": "Fio de Mana",
+    "file": "html/assets/espadas/03_Poder_1.png",
+    "sha256": "74a584e2adad61474ec14f495d36c69c47dedd92569210e93dae9189980b8d7b"
+  },
+  {
+    "book": "espadas",
+    "page": 3,
+    "title": "Corte Vinculado",
+    "file": "html/assets/espadas/04_Poder_2.png",
+    "sha256": "ddd54a55f280e44e5ab4664411d8aa61b3bc2b135a16a7e801b4dea61c4cfbf6"
+  },
+  {
+    "book": "espadas",
+    "page": 4,
+    "title": "Passo da Lâmina",
+    "file": "html/assets/espadas/07_Avanco.png",
+    "sha256": "f9b9bf1258b7757b98f04dd6bde944fd8d55169574881ad4dfb23b4805edfa1a"
+  },
+  {
+    "book": "espadas",
+    "page": 5,
+    "title": "Ruptura Cortante",
+    "file": "html/assets/espadas/08_Ataque_Elite.png",
+    "sha256": "bf8dab0804578285b0cbe24c44bbef82607d47a84ae12eb47e757b0d207b5105"
+  },
+  {
+    "book": "espadas",
+    "page": 6,
+    "title": "Guarda das Lâminas",
+    "file": "html/assets/espadas/09_Defesa_Elite.png",
+    "sha256": "151559409497b82943476a44ab09ea6584cc7cddffeb13cb22d4c39ac0b3733d"
+  },
+  {
+    "book": "espadas",
+    "page": 7,
+    "title": "Domínio das Espadas",
+    "file": "html/assets/espadas/10_Zona_Mana.png",
+    "sha256": "ec120e92cce4fad474f78cb28e91ddea93fa17ed25a4e73c8a278bde4cde9fe2"
+  },
+  {
+    "book": "espadas",
+    "page": 8,
+    "title": "Módulo de Voo",
+    "file": "html/assets/espadas/11_Modulo_Voo.png",
+    "sha256": "56dd4b2b0cb38e26a3168b31e2ec994820f04ec2821af5a0dd050d0ae8939ec6"
+  },
+  {
+    "book": "luz_solar",
+    "page": 2,
+    "title": "Lâminas de Luz",
+    "file": "html/assets/luz_solar/03_Poder_1.png",
+    "sha256": "6f58b123c264f7086468d1192131d20caabef0bf755d004a0e67319eaf9280ab"
+  },
+  {
+    "book": "luz_solar",
+    "page": 3,
+    "title": "Clarão Protetor",
+    "file": "html/assets/luz_solar/04_Poder_2.png",
+    "sha256": "af5f0c8248496ef70e02f2102273b726d9995133c5911ff9aa7dd27e83b4367f"
+  },
+  {
+    "book": "luz_solar",
+    "page": 4,
+    "title": "Passo da Luz",
+    "file": "html/assets/luz_solar/07_Avanco.png",
+    "sha256": "7669fb05a4929d9e9cf31a6d6ce8cea101e308f33b4f7d7af86a19ece11dc53a"
+  },
+  {
+    "book": "luz_solar",
+    "page": 5,
+    "title": "Ruptura Solar",
+    "file": "html/assets/luz_solar/08_Ataque_Elite.png",
+    "sha256": "f20c655dd6ea2fab30986ee739ed54f762a82bff95de7097a1c747d9aa3779fa"
+  },
+  {
+    "book": "luz_solar",
+    "page": 6,
+    "title": "Fortaleza da Luz",
+    "file": "html/assets/luz_solar/09_Defesa_Elite.png",
+    "sha256": "49b6cd9d6534d36a4912a1fb9cd3f2de468f50eb1a0aa93f2647d9b83afffddf"
+  },
+  {
+    "book": "luz_solar",
+    "page": 7,
+    "title": "Domínio Solar",
+    "file": "html/assets/luz_solar/10_Zona_Mana.png",
+    "sha256": "7a31175f34b6be8d0511493bd5872a76351af3396671f3aadfda4a8c51e13f18"
+  },
+  {
+    "book": "luz_solar",
+    "page": 8,
+    "title": "Módulo de Voo",
+    "file": "html/assets/luz_solar/11_Modulo_Voo.png",
+    "sha256": "5cec7ea2830e1239f73f21f85edf758d3d079787343b0ff2378907d38ffda25d"
+  }
+]

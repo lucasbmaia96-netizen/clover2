@@ -1,0 +1,614 @@
+[
+  {
+    "unchanged": [
+      {
+        "label": "capa",
+        "equal": true
+      },
+      {
+        "label": "abertura",
+        "equal": true
+      },
+      {
+        "label": "encerramento",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.25",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.5",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.75",
+        "equal": true
+      }
+    ],
+    "exterior": [
+      {
+        "state": 2,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 3,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 4,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 5,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 6,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 7,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 8,
+        "changed": 0,
+        "max": 0
+      }
+    ],
+    "animationFrames": 48,
+    "animationMs": 1799,
+    "book": "tempo"
+  },
+  {
+    "unchanged": [
+      {
+        "label": "capa",
+        "equal": true
+      },
+      {
+        "label": "abertura",
+        "equal": true
+      },
+      {
+        "label": "encerramento",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.25",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.5",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.75",
+        "equal": true
+      }
+    ],
+    "exterior": [
+      {
+        "state": 2,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 3,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 4,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 5,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 6,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 7,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 8,
+        "changed": 0,
+        "max": 0
+      }
+    ],
+    "animationFrames": 48,
+    "animationMs": 1819,
+    "book": "antimagia"
+  },
+  {
+    "unchanged": [
+      {
+        "label": "capa",
+        "equal": true
+      },
+      {
+        "label": "abertura",
+        "equal": true
+      },
+      {
+        "label": "encerramento",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.25",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.5",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.75",
+        "equal": true
+      }
+    ],
+    "exterior": [
+      {
+        "state": 2,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 3,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 4,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 5,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 6,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 7,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 8,
+        "changed": 0,
+        "max": 0
+      }
+    ],
+    "animationFrames": 48,
+    "animationMs": 1887,
+    "book": "vento"
+  },
+  {
+    "unchanged": [
+      {
+        "label": "capa",
+        "equal": true
+      },
+      {
+        "label": "abertura",
+        "equal": true
+      },
+      {
+        "label": "encerramento",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.25",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.5",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.75",
+        "equal": true
+      }
+    ],
+    "exterior": [
+      {
+        "state": 2,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 3,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 4,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 5,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 6,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 7,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 8,
+        "changed": 0,
+        "max": 0
+      }
+    ],
+    "animationFrames": 48,
+    "animationMs": 1958,
+    "book": "espadas"
+  },
+  {
+    "unchanged": [
+      {
+        "label": "capa",
+        "equal": true
+      },
+      {
+        "label": "abertura",
+        "equal": true
+      },
+      {
+        "label": "encerramento",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.25",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.5",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.75",
+        "equal": true
+      }
+    ],
+    "exterior": [
+      {
+        "state": 2,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 3,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 4,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 5,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 6,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 7,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 8,
+        "changed": 0,
+        "max": 0
+      }
+    ],
+    "animationFrames": 48,
+    "animationMs": 222,
+    "book": "trevas"
+  },
+  {
+    "unchanged": [
+      {
+        "label": "capa",
+        "equal": true
+      },
+      {
+        "label": "abertura",
+        "equal": true
+      },
+      {
+        "label": "encerramento",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.25",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.5",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.75",
+        "equal": true
+      }
+    ],
+    "exterior": [
+      {
+        "state": 2,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 3,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 4,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 5,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 6,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 7,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 8,
+        "changed": 0,
+        "max": 0
+      }
+    ],
+    "animationFrames": 48,
+    "animationMs": 119,
+    "book": "arvore_mundo"
+  },
+  {
+    "unchanged": [
+      {
+        "label": "capa",
+        "equal": true
+      },
+      {
+        "label": "abertura",
+        "equal": true
+      },
+      {
+        "label": "encerramento",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.25",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.5",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.75",
+        "equal": true
+      }
+    ],
+    "exterior": [
+      {
+        "state": 2,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 3,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 4,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 5,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 6,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 7,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 8,
+        "changed": 0,
+        "max": 0
+      }
+    ],
+    "animationFrames": 48,
+    "animationMs": 1889,
+    "book": "noelle"
+  },
+  {
+    "unchanged": [
+      {
+        "label": "capa",
+        "equal": true
+      },
+      {
+        "label": "abertura",
+        "equal": true
+      },
+      {
+        "label": "encerramento",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.25",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.5",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.75",
+        "equal": true
+      }
+    ],
+    "exterior": [
+      {
+        "state": 2,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 3,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 4,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 5,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 6,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 7,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 8,
+        "changed": 0,
+        "max": 0
+      }
+    ],
+    "animationFrames": 48,
+    "animationMs": 1909,
+    "book": "fogo_leao"
+  },
+  {
+    "unchanged": [
+      {
+        "label": "capa",
+        "equal": true
+      },
+      {
+        "label": "abertura",
+        "equal": true
+      },
+      {
+        "label": "encerramento",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.25",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.5",
+        "equal": true
+      },
+      {
+        "label": "abrindo_0.75",
+        "equal": true
+      }
+    ],
+    "exterior": [
+      {
+        "state": 2,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 3,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 4,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 5,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 6,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 7,
+        "changed": 0,
+        "max": 0
+      },
+      {
+        "state": 8,
+        "changed": 0,
+        "max": 0
+      }
+    ],
+    "animationFrames": 48,
+    "animationMs": 1664,
+    "book": "luz_solar"
+  }
+]

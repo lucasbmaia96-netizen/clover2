@@ -1,27 +1,28 @@
-# Grimórios — receita original e artes completas para aprovação
+# Grimório — novas páginas na receita original
 
-A alteração anterior de tamanho e diagramação foi revertida. O recurso volta à receita original recebida: tamanho, posição, recortes, folheamento e carregamento originais. As artes PNG permanecem intactas.
+Pacote completo para testar as 63 páginas novas no recurso `grimorio_oficial`: sete poderes em cada um dos nove livros restantes. Tamanho, posição, controles, abertura, capas, ferragens e movimento das folhas seguem a montagem original. Os seis grimórios até Cura permanecem como recebidos.
 
-## Baixar a correção
+**[Baixar o pacote completo em ZIP](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/grimorio-para-teste.zip)**
 
-**[Baixar correção da receita original](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/main/downloads/CORRECAO_RECEITA_ORIGINAL.zip)**
+Pare o recurso, extraia o ZIP e copie a pasta **`grimorio_oficial`** sobre o recurso do servidor. Reinicie `grimorio_oficial`. As pastas `previas` e `verificacao` e o PDF ficam fora do recurso; servem para revisão.
 
-Pare o recurso, extraia a correção sobre a instalação e reinicie `grimorio_oficial`. A correção substitui os arquivos alterados pelos originais. Não é necessário baixar todas as imagens novamente.
+**[Ver as 63 páginas já montadas em PDF](PREVIA_63_PAGINAS_NO_GRIMORIO.pdf)**
 
-**[Baixar o recurso completo restaurado](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/main.zip)**
+Trevas, Árvore do Mundo, Tempo (Rei Mago), Antimagia, Vento, Noelle, Fogo do Leão, Espadas e Luz Solar agora têm abertura, sete duplas de poderes e encerramento. Os marcadores SELADO pertencem às artes; as regras e os poderes existentes continuam os mesmos.
 
-## Artes completas dos nove grimórios restantes
+Os testes de carregamento, recorte, navegação e animação foram feitos no navegador. Esta versão é para conferir o resultado no seu servidor RedM.
 
-**63 páginas internas de poderes, sete para cada livro, em PNG de 1536 × 1024.**
+## Prévias do recurso
 
-Revisão atual: as 42 páginas de Trevas, Árvore do Mundo, Tempo (Rei Mago), Noelle, Fogo do Leão e Luz Solar foram refeitas para retirar o excedente direito e nivelar o acabamento. As demais 21 páginas permanecem iguais. [Ver as 42 páginas corrigidas em PDF](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/artes-completas/CORRECAO_42_PAGINAS_ACABAMENTO.pdf).
+- [Trevas](previas/trevas_sete_paginas.jpg)
+- [Árvore do Mundo](previas/arvore_mundo_sete_paginas.jpg)
+- [Rei Mago — Tempo](previas/tempo_sete_paginas.jpg)
+- [Antimagia](previas/antimagia_sete_paginas.jpg)
+- [Vento](previas/vento_sete_paginas.jpg)
+- [Noelle](previas/noelle_sete_paginas.jpg)
+- [Fogo do Leão](previas/fogo_leao_sete_paginas.jpg)
+- [Espadas](previas/espadas_sete_paginas.jpg)
+- [Luz Solar](previas/luz_solar_sete_paginas.jpg)
+- [Interface no tamanho original em 1920 × 1080](previas/interface_1920x1080.jpg)
 
-Trevas, Árvore do Mundo, Tempo, Antimagia, Vento, Águas (Noelle), Fogo do Leão, Espadas e Luz Solar. Cada conjunto também inclui a capa, a abertura e o encerramento originais, copiados sem alteração.
-
-- **[Baixar todas as artes em ZIP](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/artes-completas.zip)**
-- [Ver o atlas das 63 páginas em PDF](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/artes-completas/ATLAS_63_PAGINAS_DE_PODER.pdf)
-- [Ver os nove conjuntos e as imagens individuais](https://github.com/lucasbmaia96-netizen/clover2/tree/artes-completas)
-
-Para revisar offline, extraia o ZIP das artes e abra `index.html`. Os PNGs completos estão nas nove pastas de `artes/`; os JPGs são prévias das mesmas imagens. Cada página nova contém uma demonstração, três etapas ilustradas e a marca discreta SELADO. A capa e a abertura próprias de cada livro orientaram seus contornos e bordas.
-
-As artes ficam na área `artes-completas`, separadas do recurso nesta área `main`. São propostas para aprovação, incluindo os novos títulos e textos; ainda não foram instaladas no jogo. Os seis livros até Cura permanecem originais. A primeira proposta isolada de Trevas foi substituída por esta entrega completa.
+[Detalhes da integração e conferência](INTEGRACAO.md)

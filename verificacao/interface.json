@@ -1,0 +1,104 @@
+{
+  "originalPngsUnchanged": 126,
+  "jsSyntax": "pass",
+  "luaSyntax": "pass",
+  "books": [
+    {
+      "book": "trevas",
+      "forward": 9,
+      "backward": 9,
+      "boundaries": "pass"
+    },
+    {
+      "book": "arvore_mundo",
+      "forward": 9,
+      "backward": 9,
+      "boundaries": "pass"
+    },
+    {
+      "book": "tempo",
+      "forward": 9,
+      "backward": 9,
+      "boundaries": "pass"
+    },
+    {
+      "book": "antimagia",
+      "forward": 9,
+      "backward": 9,
+      "boundaries": "pass"
+    },
+    {
+      "book": "vento",
+      "forward": 9,
+      "backward": 9,
+      "boundaries": "pass"
+    },
+    {
+      "book": "noelle",
+      "forward": 9,
+      "backward": 9,
+      "boundaries": "pass"
+    },
+    {
+      "book": "fogo_leao",
+      "forward": 9,
+      "backward": 9,
+      "boundaries": "pass"
+    },
+    {
+      "book": "espadas",
+      "forward": 9,
+      "backward": 9,
+      "boundaries": "pass"
+    },
+    {
+      "book": "luz_solar",
+      "forward": 9,
+      "backward": 9,
+      "boundaries": "pass"
+    }
+  ],
+  "viewports": [
+    {
+      "resolution": [
+        1280,
+        720
+      ],
+      "metrics": {
+        "x": 891.203125,
+        "y": 457.046875,
+        "width": 388.796875,
+        "height": 259.359375
+      },
+      "originalEqual": true
+    },
+    {
+      "resolution": [
+        1920,
+        1080
+      ],
+      "metrics": {
+        "x": 1336.8125,
+        "y": 686,
+        "width": 583.1875,
+        "height": 388.609375
+      },
+      "originalEqual": true
+    },
+    {
+      "resolution": [
+        2560,
+        1440
+      ],
+      "metrics": {
+        "x": 1782.40625,
+        "y": 914.25,
+        "width": 777.59375,
+        "height": 518.5625
+      },
+      "originalEqual": true
+    }
+  ],
+  "pageErrors": [],
+  "missingAssets": []
+}

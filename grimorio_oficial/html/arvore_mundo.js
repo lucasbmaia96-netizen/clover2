@@ -13,14 +13,21 @@ const sourceProfiles=[null,
  {spine:779,left:180,right:1413,top:81,center:117,bottom:908},
  {spine:765,left:131,right:1425,top:84,center:119,bottom:907}
 ];
-function sourcePoint(profile,u,v,side){return {x:profile.spine+(side===1?profile.right-profile.spine:profile.spine-profile.left)*side*u,y:(profile.top+(profile.center-profile.top)*(1-u)**2)*(1-v)+(profile.bottom-6*(1-u)**2)*v}}
+function originalSourcePoint(profile,u,v,side){return {x:profile.spine+(side===1?profile.right-profile.spine:profile.spine-profile.left)*side*u,y:(profile.top+(profile.center-profile.top)*(1-u)**2)*(1-v)+(profile.bottom-6*(1-u)**2)*v}}
+function sourcePoint(profile,u,v,side){
+ if(Array.isArray(profile)){
+  const a=profile.map(([x,y])=>({x,y})),q=side===-1?a.slice(0,4):[a[1],a[4],a[5],a[2]],t=side===1?u:1-u;
+  return {x:(q[0].x*(1-t)+q[1].x*t)*(1-v)+(q[3].x*(1-t)+q[2].x*t)*v,y:(q[0].y*(1-t)+q[1].y*t)*(1-v)+(q[3].y*(1-t)+q[2].y*t)*v};
+ }
+ return originalSourcePoint(profile,u,v,side);
+}
 function paperPoint(u,v,side,p=0){const a=Math.PI*p;return {x:SPINE+side*((side===1?650:610)*u*Math.cos(a)+Math.sin(a)*22*Math.sin(Math.PI*u)),y:(87+29*(1-u)**2)*(1-v)+(924-5*(1-u)**2)*v+Math.sin(a)*12*Math.sin(Math.PI*u)*(1-2*v)}}
 function contour(cc,side){cc.beginPath();for(let j=0;j<=48;j++){const q=paperPoint(j/48,0,side);j?cc.lineTo(q.x,q.y):cc.moveTo(q.x,q.y)}for(let j=48;j>=0;j--){const q=paperPoint(j/48,1,side);cc.lineTo(q.x,q.y)}cc.closePath()}
-function triangle(cc,im,q,t){const [a,b,c]=q,[A,B,C]=t;const d=A.x*(B.y-C.y)+B.x*(C.y-A.y)+C.x*(A.y-B.y);if(Math.abs(d)<1e-6)return;const solve=(x,y,z)=>[(x*(B.y-C.y)+y*(C.y-A.y)+z*(A.y-B.y))/d,(x*(C.x-B.x)+y*(A.x-C.x)+z*(B.x-A.x))/d,(x*(B.x*C.y-C.x*B.y)+y*(C.x*A.y-A.x*C.y)+z*(A.x*B.y-B.x*A.y))/d];const m=solve(a.x,b.x,c.x),n=solve(a.y,b.y,c.y);cc.save();cc.beginPath();cc.moveTo(a.x,a.y);cc.lineTo(b.x,b.y);cc.lineTo(c.x,c.y);cc.closePath();cc.clip();cc.setTransform(m[0],n[0],m[1],n[1],m[2],n[2]);const x=Math.max(0,Math.floor(Math.min(A.x,B.x,C.x))-1),y=Math.max(0,Math.floor(Math.min(A.y,B.y,C.y))-1),w=Math.min(im.width-x,Math.ceil(Math.max(A.x,B.x,C.x))-x+2),h=Math.min(im.height-y,Math.ceil(Math.max(A.y,B.y,C.y))-y+2);if(w>0&&h>0)cc.drawImage(im,x,y,w,h,x,y,w,h);cc.restore()}
-function mesh(cc,im,src,dst,cols,rows){for(let j=0;j<cols;j++)for(let k=0;k<rows;k++){const uv=[[j/cols,k/rows],[(j+1)/cols,k/rows],[(j+1)/cols,(k+1)/rows],[j/cols,(k+1)/rows]],q=uv.map(([u,v])=>dst(u,v)),t=uv.map(([u,v])=>src(u,v));triangle(cc,im,[q[0],q[1],q[2]],[t[0],t[1],t[2]]);triangle(cc,im,[q[0],q[2],q[3]],[t[0],t[2],t[3]])}}
+function triangle(cc,im,q,t,overlap=false){const [a,b,c]=q,[A,B,C]=t;const d=A.x*(B.y-C.y)+B.x*(C.y-A.y)+C.x*(A.y-B.y);if(Math.abs(d)<1e-6)return;const solve=(x,y,z)=>[(x*(B.y-C.y)+y*(C.y-A.y)+z*(A.y-B.y))/d,(x*(C.x-B.x)+y*(A.x-C.x)+z*(B.x-A.x))/d,(x*(B.x*C.y-C.x*B.y)+y*(C.x*A.y-A.x*C.y)+z*(A.x*B.y-B.x*A.y))/d];const m=solve(a.x,b.x,c.x),n=solve(a.y,b.y,c.y);const center={x:(a.x+b.x+c.x)/3,y:(a.y+b.y+c.y)/3};const clip=overlap?[a,b,c].map(p=>{const dx=p.x-center.x,dy=p.y-center.y,n=Math.hypot(dx,dy)||1;return {x:p.x+.85*dx/n,y:p.y+.85*dy/n}}):[a,b,c];cc.save();cc.beginPath();cc.moveTo(clip[0].x,clip[0].y);cc.lineTo(clip[1].x,clip[1].y);cc.lineTo(clip[2].x,clip[2].y);cc.closePath();cc.clip();cc.setTransform(m[0],n[0],m[1],n[1],m[2],n[2]);const x=Math.max(0,Math.floor(Math.min(A.x,B.x,C.x))-1),y=Math.max(0,Math.floor(Math.min(A.y,B.y,C.y))-1),w=Math.min(im.width-x,Math.ceil(Math.max(A.x,B.x,C.x))-x+2),h=Math.min(im.height-y,Math.ceil(Math.max(A.y,B.y,C.y))-y+2);if(w>0&&h>0)cc.drawImage(im,x,y,w,h,x,y,w,h);cc.restore()}
+function mesh(cc,im,src,dst,cols,rows,overlap=false){for(let j=0;j<cols;j++)for(let k=0;k<rows;k++){const uv=[[j/cols,k/rows],[(j+1)/cols,k/rows],[(j+1)/cols,(k+1)/rows],[j/cols,(k+1)/rows]],q=uv.map(([u,v])=>dst(u,v)),t=uv.map(([u,v])=>src(u,v));triangle(cc,im,[q[0],q[1],q[2]],[t[0],t[1],t[2]],overlap);triangle(cc,im,[q[0],q[2],q[3]],[t[0],t[2],t[3]],overlap)}}
 // Decode once: the animated mesh samples images rather than live canvases.
 async function freeze(c){return new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src=c.toDataURL('image/png')})}
-async function prepare(raw){
+async function prepare(raw,book={}){
  const frame=make(),fc=frame.getContext('2d');fc.save();fc.clip(new Path2D(spreadPath));fc.drawImage(raw[1],0,0);fc.restore();
  const cover=make(),cc=cover.getContext('2d');
  const clean=document.createElement('canvas');clean.width=raw[0].width;clean.height=raw[0].height;const kc=clean.getContext('2d');kc.drawImage(raw[0],0,0);kc.drawImage(raw[0],965,900,75,275,968,530,95,275);
@@ -28,7 +35,7 @@ async function prepare(raw){
  const papers=[null],spreads=[null];
  for(let i=1;i<raw.length;i++){
   const spread=make(),sc=spread.getContext('2d');sc.drawImage(frame,0,0);const pair=[];
-  for(const side of [-1,1]){const c=make(),pc=c.getContext('2d');pc.save();contour(pc,side);pc.clip();pc.fillStyle='#ead09e';pc.fillRect(0,0,W,H);mesh(pc,raw[i],(u,v)=>sourcePoint(sourceProfiles[i]||sourceProfiles[1],u,v,side),(u,v)=>paperPoint(u,v,side),32,8);pc.restore();sc.drawImage(c,0,0);pair.push(await freeze(c))}
+  for(const side of [-1,1]){const c=make(),pc=c.getContext('2d');pc.save();contour(pc,side);pc.clip();pc.fillStyle='#ead09e';pc.fillRect(0,0,W,H);mesh(pc,raw[i],(u,v)=>sourcePoint(book.pages?.[i-1]?.registration||sourceProfiles[book.pages?.[i-1]?.sourceProfileIndex||i]||sourceProfiles[1],u,v,side),(u,v)=>paperPoint(u,v,side),32,8,!!book.pages?.[i-1]?.registration);pc.restore();sc.drawImage(c,0,0);pair.push(await freeze(c))}
   papers.push(pair);spreads.push(await freeze(spread));
  }
  const frozenFrame=await freeze(frame),frozenCover=await freeze(cover);
@@ -51,7 +58,7 @@ async function prepare(raw){
   const direction=animation.to>animation.from?1:-1;
   ctx.drawImage(frozenFrame,0,0);half(ctx,animation.from,-direction);half(ctx,animation.to,direction);
   const src=p<.5?animation.from:animation.to,side=p<.5?direction:-direction;
-  mesh(ctx,papers[src][side===1?1:0],(u,v)=>paperPoint(u,v,side),(u,v)=>paperPoint(u,v,direction,p),44,12);
+  mesh(ctx,papers[src][side===1?1:0],(u,v)=>paperPoint(u,v,side),(u,v)=>paperPoint(u,v,direction,p),44,12,!!book.pages?.[src-1]?.registration);
   // Hardware is permanent, and is never included in a moving paper texture.
   ctx.save();ctx.beginPath();ctx.rect(0,0,W,H);for(const side of [-1,1]){for(let j=0;j<=48;j++){const q=paperPoint(j/48,0,side);j?ctx.lineTo(q.x,q.y):ctx.moveTo(q.x,q.y)}for(let j=48;j>=0;j--){const q=paperPoint(j/48,1,side);ctx.lineTo(q.x,q.y)}ctx.closePath()}ctx.clip('evenodd');ctx.drawImage(frozenFrame,0,0);ctx.restore();
  },sourceProfiles};

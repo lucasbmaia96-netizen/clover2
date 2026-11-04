@@ -331,22 +331,225 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
         {
           "id": "trevas_2",
           "title": "Corte das Trevas",
-          "art": "trevas/03_Magia_1.png"
+          "art": "trevas/03_Poder_1.png",
+          "registration": [
+            [
+              132,
+              78
+            ],
+            [
+              769,
+              85
+            ],
+            [
+              769,
+              938
+            ],
+            [
+              132,
+              937
+            ],
+            [
+              1430,
+              78
+            ],
+            [
+              1430,
+              938
+            ]
+          ]
         },
         {
           "id": "trevas_3",
           "title": "Lua Negra",
-          "art": "trevas/04_Magia_2.png"
+          "art": "trevas/04_Poder_2.png",
+          "registration": [
+            [
+              132,
+              78
+            ],
+            [
+              769,
+              85
+            ],
+            [
+              769,
+              938
+            ],
+            [
+              132,
+              937
+            ],
+            [
+              1430,
+              78
+            ],
+            [
+              1430,
+              938
+            ]
+          ]
         },
         {
-          "id": "trevas_4",
-          "title": "Magias Seladas",
-          "art": "trevas/05_Magias_Seladas.png"
+          "id": "trevas_avanco",
+          "title": "Passo Sombrio",
+          "art": "trevas/07_Avanco.png",
+          "registration": [
+            [
+              132,
+              78
+            ],
+            [
+              769,
+              85
+            ],
+            [
+              769,
+              938
+            ],
+            [
+              132,
+              937
+            ],
+            [
+              1430,
+              78
+            ],
+            [
+              1430,
+              938
+            ]
+          ]
+        },
+        {
+          "id": "trevas_ataque_elite",
+          "title": "Ruptura Sombria",
+          "art": "trevas/08_Ataque_Elite.png",
+          "registration": [
+            [
+              132,
+              78
+            ],
+            [
+              769,
+              85
+            ],
+            [
+              769,
+              938
+            ],
+            [
+              132,
+              937
+            ],
+            [
+              1430,
+              78
+            ],
+            [
+              1430,
+              938
+            ]
+          ]
+        },
+        {
+          "id": "trevas_defesa_elite",
+          "title": "Fortaleza da Noite",
+          "art": "trevas/09_Defesa_Elite.png",
+          "registration": [
+            [
+              132,
+              78
+            ],
+            [
+              769,
+              85
+            ],
+            [
+              769,
+              938
+            ],
+            [
+              132,
+              937
+            ],
+            [
+              1430,
+              78
+            ],
+            [
+              1430,
+              938
+            ]
+          ]
+        },
+        {
+          "id": "trevas_zona_mana",
+          "title": "Domínio das Trevas",
+          "art": "trevas/10_Zona_Mana.png",
+          "registration": [
+            [
+              132,
+              78
+            ],
+            [
+              769,
+              85
+            ],
+            [
+              769,
+              938
+            ],
+            [
+              132,
+              937
+            ],
+            [
+              1430,
+              78
+            ],
+            [
+              1430,
+              938
+            ]
+          ]
+        },
+        {
+          "id": "trevas_voo",
+          "title": "Módulo de Voo",
+          "art": "trevas/11_Modulo_Voo.png",
+          "registration": [
+            [
+              132,
+              78
+            ],
+            [
+              769,
+              85
+            ],
+            [
+              769,
+              938
+            ],
+            [
+              132,
+              937
+            ],
+            [
+              1430,
+              78
+            ],
+            [
+              1430,
+              938
+            ]
+          ]
         },
         {
           "id": "trevas_5",
           "title": "Encerramento",
-          "art": "trevas/06_Encerramento.png"
+          "art": "trevas/06_Encerramento.png",
+          "sourceProfileIndex": 5
         }
       ]
     },
@@ -364,22 +567,225 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
         {
           "id": "arvore_mundo_2",
           "title": "Raízes Guardiãs",
-          "art": "arvore_mundo/03_Magia_1.png"
+          "art": "arvore_mundo/03_Poder_1.png",
+          "registration": [
+            [
+              126,
+              61
+            ],
+            [
+              772,
+              65
+            ],
+            [
+              772,
+              958
+            ],
+            [
+              126,
+              958
+            ],
+            [
+              1434,
+              61
+            ],
+            [
+              1434,
+              958
+            ]
+          ]
         },
         {
           "id": "arvore_mundo_3",
           "title": "Broto da Vida",
-          "art": "arvore_mundo/04_Magia_2.png"
+          "art": "arvore_mundo/04_Poder_2.png",
+          "registration": [
+            [
+              126,
+              61
+            ],
+            [
+              772,
+              65
+            ],
+            [
+              772,
+              958
+            ],
+            [
+              126,
+              958
+            ],
+            [
+              1434,
+              61
+            ],
+            [
+              1434,
+              958
+            ]
+          ]
         },
         {
-          "id": "arvore_mundo_4",
-          "title": "Magias Seladas",
-          "art": "arvore_mundo/05_Magias_Seladas.png"
+          "id": "arvore_mundo_avanco",
+          "title": "Passo das Raízes",
+          "art": "arvore_mundo/07_Avanco.png",
+          "registration": [
+            [
+              126,
+              61
+            ],
+            [
+              772,
+              65
+            ],
+            [
+              772,
+              958
+            ],
+            [
+              126,
+              958
+            ],
+            [
+              1434,
+              61
+            ],
+            [
+              1434,
+              958
+            ]
+          ]
+        },
+        {
+          "id": "arvore_mundo_ataque_elite",
+          "title": "Ímpeto Ancestral",
+          "art": "arvore_mundo/08_Ataque_Elite.png",
+          "registration": [
+            [
+              126,
+              61
+            ],
+            [
+              772,
+              65
+            ],
+            [
+              772,
+              958
+            ],
+            [
+              126,
+              958
+            ],
+            [
+              1434,
+              61
+            ],
+            [
+              1434,
+              958
+            ]
+          ]
+        },
+        {
+          "id": "arvore_mundo_defesa_elite",
+          "title": "Bastião Ancestral",
+          "art": "arvore_mundo/09_Defesa_Elite.png",
+          "registration": [
+            [
+              126,
+              61
+            ],
+            [
+              772,
+              65
+            ],
+            [
+              772,
+              958
+            ],
+            [
+              126,
+              958
+            ],
+            [
+              1434,
+              61
+            ],
+            [
+              1434,
+              958
+            ]
+          ]
+        },
+        {
+          "id": "arvore_mundo_zona_mana",
+          "title": "Domínio da Floresta",
+          "art": "arvore_mundo/10_Zona_Mana.png",
+          "registration": [
+            [
+              126,
+              61
+            ],
+            [
+              772,
+              65
+            ],
+            [
+              772,
+              958
+            ],
+            [
+              126,
+              958
+            ],
+            [
+              1434,
+              61
+            ],
+            [
+              1434,
+              958
+            ]
+          ]
+        },
+        {
+          "id": "arvore_mundo_voo",
+          "title": "Módulo de Voo",
+          "art": "arvore_mundo/11_Modulo_Voo.png",
+          "registration": [
+            [
+              126,
+              61
+            ],
+            [
+              772,
+              65
+            ],
+            [
+              772,
+              958
+            ],
+            [
+              126,
+              958
+            ],
+            [
+              1434,
+              61
+            ],
+            [
+              1434,
+              958
+            ]
+          ]
         },
         {
           "id": "arvore_mundo_5",
           "title": "Encerramento",
-          "art": "arvore_mundo/06_Encerramento.png"
+          "art": "arvore_mundo/06_Encerramento.png",
+          "sourceProfileIndex": 5
         }
       ]
     },
@@ -397,16 +803,32 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
           1024
         ],
         [
-          1774,
-          887
+          1536,
+          1024
         ],
         [
-          1774,
-          887
+          1536,
+          1024
         ],
         [
-          1774,
-          887
+          1536,
+          1024
+        ],
+        [
+          1536,
+          1024
+        ],
+        [
+          1536,
+          1024
+        ],
+        [
+          1536,
+          1024
+        ],
+        [
+          1536,
+          1024
         ],
         [
           1536,
@@ -422,18 +844,220 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
         },
         {
           "id": "tempo_2",
-          "title": "Selo do Instante e Passo Acelerado",
-          "art": "tempo/03_Magias_Selo_e_Passo.png"
+          "title": "Selo do Instante",
+          "art": "tempo/03_Poder_1.png",
+          "registration": [
+            [
+              88,
+              88
+            ],
+            [
+              769,
+              88
+            ],
+            [
+              769,
+              940
+            ],
+            [
+              88,
+              940
+            ],
+            [
+              1443,
+              88
+            ],
+            [
+              1443,
+              940
+            ]
+          ]
         },
         {
           "id": "tempo_3",
-          "title": "Eco Restaurador e Manto das Horas",
-          "art": "tempo/04_Magias_Eco_e_Manto.png"
+          "title": "Manto das Horas",
+          "art": "tempo/04_Poder_2.png",
+          "registration": [
+            [
+              88,
+              88
+            ],
+            [
+              769,
+              88
+            ],
+            [
+              769,
+              940
+            ],
+            [
+              88,
+              940
+            ],
+            [
+              1443,
+              88
+            ],
+            [
+              1443,
+              940
+            ]
+          ]
         },
         {
-          "id": "tempo_4",
-          "title": "Laço Temporal e Domínio do Instante",
-          "art": "tempo/05_Magias_Laco_e_Dominio.png"
+          "id": "tempo_avanco",
+          "title": "Passo Acelerado",
+          "art": "tempo/07_Avanco.png",
+          "registration": [
+            [
+              88,
+              88
+            ],
+            [
+              769,
+              88
+            ],
+            [
+              769,
+              940
+            ],
+            [
+              88,
+              940
+            ],
+            [
+              1443,
+              88
+            ],
+            [
+              1443,
+              940
+            ]
+          ]
+        },
+        {
+          "id": "tempo_ataque_elite",
+          "title": "Laço Temporal",
+          "art": "tempo/08_Ataque_Elite.png",
+          "registration": [
+            [
+              88,
+              88
+            ],
+            [
+              769,
+              88
+            ],
+            [
+              769,
+              940
+            ],
+            [
+              88,
+              940
+            ],
+            [
+              1443,
+              88
+            ],
+            [
+              1443,
+              940
+            ]
+          ]
+        },
+        {
+          "id": "tempo_defesa_elite",
+          "title": "Eco Restaurador",
+          "art": "tempo/09_Defesa_Elite.png",
+          "registration": [
+            [
+              88,
+              88
+            ],
+            [
+              769,
+              88
+            ],
+            [
+              769,
+              940
+            ],
+            [
+              88,
+              940
+            ],
+            [
+              1443,
+              88
+            ],
+            [
+              1443,
+              940
+            ]
+          ]
+        },
+        {
+          "id": "tempo_zona_mana",
+          "title": "Domínio do Instante",
+          "art": "tempo/10_Zona_Mana.png",
+          "registration": [
+            [
+              88,
+              88
+            ],
+            [
+              769,
+              88
+            ],
+            [
+              769,
+              940
+            ],
+            [
+              88,
+              940
+            ],
+            [
+              1443,
+              88
+            ],
+            [
+              1443,
+              940
+            ]
+          ]
+        },
+        {
+          "id": "tempo_voo",
+          "title": "Módulo de Voo",
+          "art": "tempo/11_Modulo_Voo.png",
+          "registration": [
+            [
+              88,
+              88
+            ],
+            [
+              769,
+              88
+            ],
+            [
+              769,
+              940
+            ],
+            [
+              88,
+              940
+            ],
+            [
+              1443,
+              88
+            ],
+            [
+              1443,
+              940
+            ]
+          ]
         },
         {
           "id": "tempo_5",
@@ -482,93 +1106,217 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
         {
           "id": "antimagia_2",
           "title": "Corte Dissipador",
-          "art": "antimagia/03_Magia_1.png",
+          "art": "antimagia/03_Poder_1.png",
           "registration": [
             [
-              113,
-              75
+              132,
+              92
             ],
             [
-              769,
-              100
+              772,
+              114
             ],
             [
-              769,
-              936
+              772,
+              912
             ],
             [
-              108,
-              917
+              132,
+              890
             ],
             [
-              1425,
-              75
+              1398,
+              89
             ],
             [
-              1427,
+              1398,
+              890
+            ]
+          ]
+        },
+        {
+          "id": "antimagia_manto",
+          "title": "Manto Dissipador",
+          "art": "antimagia/04_Poder_2.png",
+          "registration": [
+            [
+              135,
+              91
+            ],
+            [
+              771,
+              113
+            ],
+            [
+              771,
               915
+            ],
+            [
+              132,
+              891
+            ],
+            [
+              1401,
+              89
+            ],
+            [
+              1401,
+              892
             ]
           ]
         },
         {
           "id": "antimagia_3",
           "title": "Avanço Sombrio",
-          "art": "antimagia/04_Magia_2.png",
+          "art": "antimagia/07_Avanco.png",
           "registration": [
             [
-              140,
-              103
+              134,
+              88
             ],
             [
-              768,
-              120
+              771,
+              111
             ],
             [
-              768,
-              922
+              771,
+              915
             ],
             [
-              136,
-              902
+              132,
+              892
             ],
             [
-              1395,
-              100
+              1402,
+              89
             ],
             [
-              1410,
-              904
+              1402,
+              892
             ]
           ]
         },
         {
-          "id": "antimagia_4",
-          "title": "Magias Seladas",
-          "art": "antimagia/05_Magias_Seladas.png",
+          "id": "antimagia_ataque_elite",
+          "title": "Ruptura de Antimagia",
+          "art": "antimagia/08_Ataque_Elite.png",
           "registration": [
             [
-              151,
-              96
+              133,
+              91
             ],
             [
-              775,
-              117
+              771,
+              113
             ],
             [
-              775,
-              922
+              771,
+              916
             ],
             [
-              144,
+              132,
+              892
+            ],
+            [
+              1402,
+              89
+            ],
+            [
+              1402,
+              893
+            ]
+          ]
+        },
+        {
+          "id": "antimagia_defesa_elite",
+          "title": "Fortaleza Nula",
+          "art": "antimagia/09_Defesa_Elite.png",
+          "registration": [
+            [
+              122,
+              75
+            ],
+            [
+              770,
+              99
+            ],
+            [
+              770,
+              933
+            ],
+            [
+              122,
+              909
+            ],
+            [
+              1416,
+              75
+            ],
+            [
+              1416,
               908
+            ]
+          ]
+        },
+        {
+          "id": "antimagia_zona_mana",
+          "title": "Domínio Nulo",
+          "art": "antimagia/10_Zona_Mana.png",
+          "registration": [
+            [
+              127,
+              79
             ],
             [
-              1403,
-              100
+              772,
+              104
+            ],
+            [
+              772,
+              930
+            ],
+            [
+              124,
+              906
+            ],
+            [
+              1412,
+              79
+            ],
+            [
+              1412,
+              906
+            ]
+          ]
+        },
+        {
+          "id": "antimagia_voo",
+          "title": "Módulo de Voo",
+          "art": "antimagia/11_Modulo_Voo.png",
+          "registration": [
+            [
+              123,
+              81
+            ],
+            [
+              770,
+              106
+            ],
+            [
+              770,
+              933
+            ],
+            [
+              120,
+              909
             ],
             [
               1414,
-              908
+              81
+            ],
+            [
+              1414,
+              910
             ]
           ]
         },
@@ -645,42 +1393,11 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
         {
           "id": "vento_2",
           "title": "Lâmina de Vento",
-          "art": "vento/03_Magia_1.png",
+          "art": "vento/03_Poder_1.png",
           "registration": [
             [
-              117,
-              79
-            ],
-            [
-              768,
-              100
-            ],
-            [
-              768,
-              930
-            ],
-            [
-              117,
-              915
-            ],
-            [
-              1448,
-              81
-            ],
-            [
-              1448,
-              923
-            ]
-          ]
-        },
-        {
-          "id": "vento_3",
-          "title": "Manto da Brisa",
-          "art": "vento/04_Magia_2.png",
-          "registration": [
-            [
-              119,
-              98
+              126,
+              93
             ],
             [
               768,
@@ -688,50 +1405,205 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
             ],
             [
               768,
-              919
+              913
             ],
             [
-              119,
-              907
+              126,
+              891
             ],
             [
-              1415,
-              97
+              1403,
+              94
             ],
             [
-              1415,
-              907
+              1403,
+              891
             ]
           ]
         },
         {
-          "id": "vento_4",
-          "title": "Poderes Selados",
-          "art": "vento/05_Magias_Seladas.png",
+          "id": "vento_3",
+          "title": "Manto da Brisa",
+          "art": "vento/04_Poder_2.png",
+          "registration": [
+            [
+              127,
+              93
+            ],
+            [
+              768,
+              114
+            ],
+            [
+              768,
+              913
+            ],
+            [
+              126,
+              892
+            ],
+            [
+              1405,
+              93
+            ],
+            [
+              1405,
+              892
+            ]
+          ]
+        },
+        {
+          "id": "vento_avanco",
+          "title": "Passo da Brisa",
+          "art": "vento/07_Avanco.png",
           "registration": [
             [
               123,
-              95
+              78
             ],
             [
-              771,
-              117
+              767,
+              102
             ],
             [
-              771,
-              922
+              767,
+              925
+            ],
+            [
+              122,
+              904
+            ],
+            [
+              1418,
+              78
+            ],
+            [
+              1418,
+              904
+            ]
+          ]
+        },
+        {
+          "id": "vento_ataque_elite",
+          "title": "Ruptura do Vendaval",
+          "art": "vento/08_Ataque_Elite.png",
+          "registration": [
+            [
+              125,
+              87
+            ],
+            [
+              769,
+              111
+            ],
+            [
+              769,
+              924
             ],
             [
               123,
-              907
+              904
             ],
             [
-              1411,
-              94
+              1412,
+              86
             ],
             [
-              1411,
-              909
+              1412,
+              904
+            ]
+          ]
+        },
+        {
+          "id": "vento_defesa_elite",
+          "title": "Fortaleza do Vento",
+          "art": "vento/09_Defesa_Elite.png",
+          "registration": [
+            [
+              125,
+              86
+            ],
+            [
+              768,
+              111
+            ],
+            [
+              768,
+              924
+            ],
+            [
+              123,
+              905
+            ],
+            [
+              1413,
+              85
+            ],
+            [
+              1413,
+              905
+            ]
+          ]
+        },
+        {
+          "id": "vento_zona_mana",
+          "title": "Domínio dos Ventos",
+          "art": "vento/10_Zona_Mana.png",
+          "registration": [
+            [
+              126,
+              85
+            ],
+            [
+              768,
+              111
+            ],
+            [
+              768,
+              925
+            ],
+            [
+              124,
+              905
+            ],
+            [
+              1413,
+              85
+            ],
+            [
+              1413,
+              905
+            ]
+          ]
+        },
+        {
+          "id": "vento_voo",
+          "title": "Módulo de Voo",
+          "art": "vento/11_Modulo_Voo.png",
+          "registration": [
+            [
+              128,
+              87
+            ],
+            [
+              768,
+              111
+            ],
+            [
+              768,
+              924
+            ],
+            [
+              125,
+              905
+            ],
+            [
+              1413,
+              86
+            ],
+            [
+              1413,
+              905
             ]
           ]
         },
@@ -808,93 +1680,217 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
         {
           "id": "noelle_2",
           "title": "Lança da Maré",
-          "art": "noelle/03_Magia_1.png",
+          "art": "noelle/03_Poder_1.png",
           "registration": [
             [
-              168,
-              104
+              108,
+              82
             ],
             [
-              762,
-              122
+              773,
+              84
             ],
             [
-              762,
-              900
+              773,
+              939
             ],
             [
-              168,
-              900
+              108,
+              938
             ],
             [
-              1397,
-              110
+              1437,
+              82
             ],
             [
-              1397,
-              900
+              1437,
+              939
             ]
           ]
         },
         {
           "id": "noelle_3",
           "title": "Manto das Águas",
-          "art": "noelle/04_Magia_2.png",
+          "art": "noelle/04_Poder_2.png",
           "registration": [
             [
-              161,
-              102
+              108,
+              82
             ],
             [
-              764,
-              116
+              773,
+              84
             ],
             [
-              764,
-              905
+              773,
+              939
             ],
             [
-              161,
-              902
+              108,
+              938
             ],
             [
-              1397,
-              99
+              1437,
+              82
             ],
             [
-              1397,
-              901
+              1437,
+              939
             ]
           ]
         },
         {
-          "id": "noelle_4",
-          "title": "Magias Seladas",
-          "art": "noelle/05_Magias_Seladas.png",
+          "id": "noelle_avanco",
+          "title": "Passo da Maré",
+          "art": "noelle/07_Avanco.png",
           "registration": [
             [
-              163,
-              100
+              108,
+              82
             ],
             [
-              774,
-              120
+              773,
+              84
             ],
             [
-              774,
-              909
+              773,
+              939
             ],
             [
-              163,
-              904
+              108,
+              938
             ],
             [
-              1404,
-              98
+              1437,
+              82
             ],
             [
-              1404,
-              903
+              1437,
+              939
+            ]
+          ]
+        },
+        {
+          "id": "noelle_ataque_elite",
+          "title": "Ruptura da Maré",
+          "art": "noelle/08_Ataque_Elite.png",
+          "registration": [
+            [
+              108,
+              82
+            ],
+            [
+              773,
+              84
+            ],
+            [
+              773,
+              939
+            ],
+            [
+              108,
+              938
+            ],
+            [
+              1437,
+              82
+            ],
+            [
+              1437,
+              939
+            ]
+          ]
+        },
+        {
+          "id": "noelle_defesa_elite",
+          "title": "Bastião das Marés",
+          "art": "noelle/09_Defesa_Elite.png",
+          "registration": [
+            [
+              108,
+              82
+            ],
+            [
+              773,
+              84
+            ],
+            [
+              773,
+              939
+            ],
+            [
+              108,
+              938
+            ],
+            [
+              1437,
+              82
+            ],
+            [
+              1437,
+              939
+            ]
+          ]
+        },
+        {
+          "id": "noelle_zona_mana",
+          "title": "Domínio da Maré",
+          "art": "noelle/10_Zona_Mana.png",
+          "registration": [
+            [
+              108,
+              82
+            ],
+            [
+              773,
+              84
+            ],
+            [
+              773,
+              939
+            ],
+            [
+              108,
+              938
+            ],
+            [
+              1437,
+              82
+            ],
+            [
+              1437,
+              939
+            ]
+          ]
+        },
+        {
+          "id": "noelle_voo",
+          "title": "Módulo de Voo",
+          "art": "noelle/11_Modulo_Voo.png",
+          "registration": [
+            [
+              108,
+              82
+            ],
+            [
+              773,
+              84
+            ],
+            [
+              773,
+              939
+            ],
+            [
+              108,
+              938
+            ],
+            [
+              1437,
+              82
+            ],
+            [
+              1437,
+              939
             ]
           ]
         },
@@ -971,93 +1967,217 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
         {
           "id": "fogo_leao_2",
           "title": "Garra de Brasa",
-          "art": "fogo_leao/03_Magia_1.png",
+          "art": "fogo_leao/03_Poder_1.png",
           "registration": [
             [
-              129,
-              101
-            ],
-            [
-              768,
-              99
-            ],
-            [
-              768,
-              914
-            ],
-            [
-              129,
-              912
-            ],
-            [
-              1420,
+              100,
               96
             ],
             [
-              1420,
-              913
+              768,
+              97
+            ],
+            [
+              768,
+              934
+            ],
+            [
+              100,
+              933
+            ],
+            [
+              1412,
+              96
+            ],
+            [
+              1412,
+              933
             ]
           ]
         },
         {
           "id": "fogo_leao_3",
           "title": "Manto de Brasas",
-          "art": "fogo_leao/04_Magia_2.png",
+          "art": "fogo_leao/04_Poder_2.png",
           "registration": [
             [
-              160,
-              100
+              100,
+              96
             ],
             [
-              778,
-              116
+              768,
+              97
             ],
             [
-              778,
-              914
+              768,
+              934
             ],
             [
-              160,
-              908
+              100,
+              933
             ],
             [
-              1422,
-              102
+              1412,
+              96
             ],
             [
-              1422,
-              908
+              1412,
+              933
             ]
           ]
         },
         {
-          "id": "fogo_leao_4",
-          "title": "Magias Seladas",
-          "art": "fogo_leao/05_Magias_Seladas.png",
+          "id": "fogo_leao_avanco",
+          "title": "Passo do Leão",
+          "art": "fogo_leao/07_Avanco.png",
           "registration": [
             [
-              140,
+              100,
+              96
+            ],
+            [
+              768,
               97
             ],
             [
-              766,
-              115
+              768,
+              934
             ],
             [
-              766,
-              919
+              100,
+              933
             ],
             [
-              140,
-              913
+              1412,
+              96
             ],
             [
-              1409,
-              106
+              1412,
+              933
+            ]
+          ]
+        },
+        {
+          "id": "fogo_leao_ataque_elite",
+          "title": "Rugido Solar",
+          "art": "fogo_leao/08_Ataque_Elite.png",
+          "registration": [
+            [
+              100,
+              96
             ],
             [
-              1409,
-              914
+              768,
+              97
+            ],
+            [
+              768,
+              934
+            ],
+            [
+              100,
+              933
+            ],
+            [
+              1412,
+              96
+            ],
+            [
+              1412,
+              933
+            ]
+          ]
+        },
+        {
+          "id": "fogo_leao_defesa_elite",
+          "title": "Fortaleza do Leão",
+          "art": "fogo_leao/09_Defesa_Elite.png",
+          "registration": [
+            [
+              100,
+              96
+            ],
+            [
+              768,
+              97
+            ],
+            [
+              768,
+              934
+            ],
+            [
+              100,
+              933
+            ],
+            [
+              1412,
+              96
+            ],
+            [
+              1412,
+              933
+            ]
+          ]
+        },
+        {
+          "id": "fogo_leao_zona_mana",
+          "title": "Domínio do Leão",
+          "art": "fogo_leao/10_Zona_Mana.png",
+          "registration": [
+            [
+              100,
+              96
+            ],
+            [
+              768,
+              97
+            ],
+            [
+              768,
+              934
+            ],
+            [
+              100,
+              933
+            ],
+            [
+              1412,
+              96
+            ],
+            [
+              1412,
+              933
+            ]
+          ]
+        },
+        {
+          "id": "fogo_leao_voo",
+          "title": "Módulo de Voo",
+          "art": "fogo_leao/11_Modulo_Voo.png",
+          "registration": [
+            [
+              100,
+              96
+            ],
+            [
+              768,
+              97
+            ],
+            [
+              768,
+              934
+            ],
+            [
+              100,
+              933
+            ],
+            [
+              1412,
+              96
+            ],
+            [
+              1412,
+              933
             ]
           ]
         },
@@ -1134,93 +2254,217 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
         {
           "id": "espadas_2",
           "title": "Fio de Mana",
-          "art": "espadas/03_Magia_1.png",
+          "art": "espadas/03_Poder_1.png",
           "registration": [
             [
-              132,
+              128,
               90
             ],
             [
-              774,
-              111
+              773,
+              105
             ],
             [
-              774,
-              917
+              773,
+              919
             ],
             [
-              132,
-              900
+              125,
+              894
             ],
             [
-              1429,
+              1417,
               90
             ],
             [
-              1429,
-              900
+              1417,
+              894
             ]
           ]
         },
         {
           "id": "espadas_3",
           "title": "Corte Vinculado",
-          "art": "espadas/04_Magia_2.png",
+          "art": "espadas/04_Poder_2.png",
           "registration": [
             [
-              135,
-              95
+              127,
+              89
             ],
             [
-              774,
-              110
+              773,
+              106
             ],
             [
-              774,
-              917
+              773,
+              920
             ],
             [
-              135,
-              901
+              125,
+              895
             ],
             [
-              1428,
-              95
+              1417,
+              89
             ],
             [
-              1428,
-              901
+              1417,
+              895
             ]
           ]
         },
         {
-          "id": "espadas_4",
-          "title": "Poderes Selados",
-          "art": "espadas/05_Magias_Seladas.png",
+          "id": "espadas_avanco",
+          "title": "Passo da Lâmina",
+          "art": "espadas/07_Avanco.png",
           "registration": [
             [
-              133,
+              126,
+              87
+            ],
+            [
+              773,
+              105
+            ],
+            [
+              773,
+              920
+            ],
+            [
+              125,
+              895
+            ],
+            [
+              1418,
+              87
+            ],
+            [
+              1418,
+              895
+            ]
+          ]
+        },
+        {
+          "id": "espadas_ataque_elite",
+          "title": "Ruptura Cortante",
+          "art": "espadas/08_Ataque_Elite.png",
+          "registration": [
+            [
+              129,
               95
             ],
             [
-              774,
-              110
+              773,
+              112
             ],
             [
-              774,
-              917
+              773,
+              924
             ],
             [
-              133,
-              901
+              125,
+              904
             ],
             [
-              1429,
+              1417,
               95
             ],
             [
-              1429,
-              901
+              1417,
+              904
+            ]
+          ]
+        },
+        {
+          "id": "espadas_defesa_elite",
+          "title": "Guarda das Lâminas",
+          "art": "espadas/09_Defesa_Elite.png",
+          "registration": [
+            [
+              128,
+              94
+            ],
+            [
+              774,
+              112
+            ],
+            [
+              774,
+              923
+            ],
+            [
+              125,
+              904
+            ],
+            [
+              1418,
+              94
+            ],
+            [
+              1418,
+              904
+            ]
+          ]
+        },
+        {
+          "id": "espadas_zona_mana",
+          "title": "Domínio das Espadas",
+          "art": "espadas/10_Zona_Mana.png",
+          "registration": [
+            [
+              128,
+              94
+            ],
+            [
+              774,
+              112
+            ],
+            [
+              774,
+              923
+            ],
+            [
+              125,
+              904
+            ],
+            [
+              1418,
+              94
+            ],
+            [
+              1418,
+              904
+            ]
+          ]
+        },
+        {
+          "id": "espadas_voo",
+          "title": "Módulo de Voo",
+          "art": "espadas/11_Modulo_Voo.png",
+          "registration": [
+            [
+              127,
+              94
+            ],
+            [
+              774,
+              112
+            ],
+            [
+              774,
+              923
+            ],
+            [
+              124,
+              904
+            ],
+            [
+              1418,
+              94
+            ],
+            [
+              1418,
+              904
             ]
           ]
         },
@@ -1297,93 +2541,217 @@ window.GRIMORIO_CATALOG = /*CATALOGO_JSON_INICIO*/
         {
           "id": "luz_solar_2",
           "title": "Lâminas de Luz",
-          "art": "luz_solar/03_Magia_1.png",
+          "art": "luz_solar/03_Poder_1.png",
           "registration": [
             [
-              165,
-              77
+              78,
+              113
             ],
             [
-              774,
-              105
+              769,
+              113
             ],
             [
-              774,
-              919
+              769,
+              904
             ],
             [
-              165,
-              899
+              78,
+              904
             ],
             [
-              1431,
-              77
+              1457,
+              113
             ],
             [
-              1431,
-              899
+              1457,
+              904
             ]
           ]
         },
         {
           "id": "luz_solar_3",
           "title": "Clarão Protetor",
-          "art": "luz_solar/04_Magia_2.png",
+          "art": "luz_solar/04_Poder_2.png",
           "registration": [
             [
-              164,
-              87
+              78,
+              113
             ],
             [
-              773,
-              112
+              769,
+              113
             ],
             [
-              773,
-              920
+              769,
+              904
             ],
             [
-              164,
-              902
+              78,
+              904
             ],
             [
-              1430,
-              87
+              1457,
+              113
             ],
             [
-              1430,
-              902
+              1457,
+              904
             ]
           ]
         },
         {
-          "id": "luz_solar_4",
-          "title": "Magias Seladas",
-          "art": "luz_solar/05_Magias_Seladas.png",
+          "id": "luz_solar_avanco",
+          "title": "Passo da Luz",
+          "art": "luz_solar/07_Avanco.png",
           "registration": [
             [
-              166,
-              96
+              78,
+              113
             ],
             [
-              774,
-              116
+              769,
+              113
             ],
             [
-              774,
-              916
+              769,
+              904
             ],
             [
-              166,
-              905
+              78,
+              904
             ],
             [
-              1420,
-              96
+              1457,
+              113
             ],
             [
-              1420,
-              905
+              1457,
+              904
+            ]
+          ]
+        },
+        {
+          "id": "luz_solar_ataque_elite",
+          "title": "Ruptura Solar",
+          "art": "luz_solar/08_Ataque_Elite.png",
+          "registration": [
+            [
+              78,
+              113
+            ],
+            [
+              769,
+              113
+            ],
+            [
+              769,
+              904
+            ],
+            [
+              78,
+              904
+            ],
+            [
+              1457,
+              113
+            ],
+            [
+              1457,
+              904
+            ]
+          ]
+        },
+        {
+          "id": "luz_solar_defesa_elite",
+          "title": "Fortaleza da Luz",
+          "art": "luz_solar/09_Defesa_Elite.png",
+          "registration": [
+            [
+              78,
+              113
+            ],
+            [
+              769,
+              113
+            ],
+            [
+              769,
+              904
+            ],
+            [
+              78,
+              904
+            ],
+            [
+              1457,
+              113
+            ],
+            [
+              1457,
+              904
+            ]
+          ]
+        },
+        {
+          "id": "luz_solar_zona_mana",
+          "title": "Domínio Solar",
+          "art": "luz_solar/10_Zona_Mana.png",
+          "registration": [
+            [
+              78,
+              113
+            ],
+            [
+              769,
+              113
+            ],
+            [
+              769,
+              904
+            ],
+            [
+              78,
+              904
+            ],
+            [
+              1457,
+              113
+            ],
+            [
+              1457,
+              904
+            ]
+          ]
+        },
+        {
+          "id": "luz_solar_voo",
+          "title": "Módulo de Voo",
+          "art": "luz_solar/11_Modulo_Voo.png",
+          "registration": [
+            [
+              78,
+              113
+            ],
+            [
+              769,
+              113
+            ],
+            [
+              769,
+              904
+            ],
+            [
+              78,
+              904
+            ],
+            [
+              1457,
+              113
+            ],
+            [
+              1457,
+              904
             ]
           ]
         },

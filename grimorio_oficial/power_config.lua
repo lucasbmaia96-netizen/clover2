@@ -43,15 +43,15 @@ GrimorioPower = {
         }},
         tempo = {profile="gold", slots={
             [1] = {page=2,label="Selo do Instante",kind="field"},
-            [2] = {page=2,label="Passo Acelerado",kind="bolt"},
-            [3] = {page=3,label="Eco Restaurador",kind="field"},
+            [2] = {page=4,label="Passo Acelerado",kind="bolt"},
+            [3] = {page=6,label="Eco Restaurador",kind="field"},
             [4] = {page=3,label="Manto das Horas",kind="field"},
-            [5] = {page=4,label="Laço Temporal",kind="bolt"},
-            [6] = {page=4,label="Domínio do Instante",kind="field"},
+            [5] = {page=5,label="Laço Temporal",kind="bolt"},
+            [6] = {page=7,label="Domínio do Instante",kind="field"},
         }},
         antimagia = {profile="dark", slots={
             [1] = {page=2,label="Corte Dissipador",kind="bolt"},
-            [2] = {page=3,label="Avanço Sombrio",kind="field"},
+            [2] = {page=4,label="Avanço Sombrio",kind="field"},
         }},
         vento = {profile="mist", slots={
             [1] = {page=2,label="Lâmina de Vento",kind="bolt"},
