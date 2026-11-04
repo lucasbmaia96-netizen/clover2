@@ -2,6 +2,14 @@
 
 A alteração anterior de tamanho e diagramação foi revertida. O recurso volta à receita original recebida: tamanho, posição, recortes, folheamento e carregamento originais. As artes PNG permanecem intactas.
 
+## Teste atual — somente Trevas em HTML
+
+**[Baixar o HTML folheável do Trevas — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-html/TREVAS_HTML_PARA_TESTE.zip)**
+
+Extraia e abra `TREVAS_FOLHEAVEL.html` no navegador. O arquivo já inclui todas as imagens: abertura, sete poderes e encerramento. As folhas estão separadas da capa e as ferragens foram reduzidas para respeitar as margens. O botão Tamanho do jogo permite comparar a apresentação com a interface original.
+
+Este protótipo está separado na área [trevas-html](https://github.com/lucasbmaia96-netizen/clover2/tree/trevas-html), para acertar somente o Trevas antes dos demais grimórios. Ele não altera o recurso instalado.
+
 ## Pacote para testar as novas páginas no grimório
 
 **[Baixar o recurso completo com as 63 páginas aplicadas à receita original](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/grimorio-para-teste.zip)**
