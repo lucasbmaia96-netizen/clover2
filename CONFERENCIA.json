@@ -1,0 +1,63 @@
+{
+  "hardwareInsidePaperPixels": 0,
+  "pages": [
+    {
+      "page": 1,
+      "fixedExteriorChangedPixels": 0,
+      "paperOutsideWellPixels": 0
+    },
+    {
+      "page": 2,
+      "fixedExteriorChangedPixels": 0,
+      "paperOutsideWellPixels": 0
+    },
+    {
+      "page": 3,
+      "fixedExteriorChangedPixels": 0,
+      "paperOutsideWellPixels": 0
+    },
+    {
+      "page": 4,
+      "fixedExteriorChangedPixels": 0,
+      "paperOutsideWellPixels": 0
+    },
+    {
+      "page": 5,
+      "fixedExteriorChangedPixels": 0,
+      "paperOutsideWellPixels": 0
+    },
+    {
+      "page": 6,
+      "fixedExteriorChangedPixels": 0,
+      "paperOutsideWellPixels": 0
+    },
+    {
+      "page": 7,
+      "fixedExteriorChangedPixels": 0,
+      "paperOutsideWellPixels": 0
+    },
+    {
+      "page": 8,
+      "fixedExteriorChangedPixels": 0,
+      "paperOutsideWellPixels": 0
+    },
+    {
+      "page": 9,
+      "fixedExteriorChangedPixels": 0,
+      "paperOutsideWellPixels": 0
+    }
+  ],
+  "animationPoses": 80,
+  "animationExteriorChangedPixels": 0,
+  "selfContainedHtml": true,
+  "testTransport": "local intercepted route; managed browser blocks file://",
+  "remoteAssetRequests": [],
+  "pageErrors": [],
+  "allNinePagesNavigable": true,
+  "coverClosesAndReopens": true,
+  "gameSize1920x1080": {
+    "width": 583.1875,
+    "right": 1920,
+    "bottom": 1074.609375
+  }
+}
