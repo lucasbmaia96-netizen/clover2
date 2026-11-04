@@ -1,0 +1,65 @@
+{
+  "originalHtmlSha256": "7b23d2c2b56d1a33604dffd3654c8d167add027f1312d88a22c7f419dffabdd6",
+  "originalHtmlByteIdentical": true,
+  "visualComparisons": [
+    {
+      "page": 0,
+      "pixelIdentical": true
+    },
+    {
+      "page": 1,
+      "pixelIdentical": true
+    },
+    {
+      "page": 2,
+      "pixelIdentical": true
+    },
+    {
+      "page": 3,
+      "pixelIdentical": true
+    },
+    {
+      "page": 4,
+      "pixelIdentical": true
+    },
+    {
+      "page": 5,
+      "pixelIdentical": true
+    },
+    {
+      "page": 6,
+      "pixelIdentical": true
+    },
+    {
+      "page": 7,
+      "pixelIdentical": true
+    },
+    {
+      "page": 8,
+      "pixelIdentical": true
+    },
+    {
+      "page": 9,
+      "pixelIdentical": true
+    }
+  ],
+  "luaClientMocks": "pass",
+  "initiallyInvisible": true,
+  "forwardAndBackwardNavigation": true,
+  "escapeClosesNui": true,
+  "reopenStartsAtCover": true,
+  "customConfigApplied": true,
+  "learnIsOriginalVisualDemo": true,
+  "callbacks": [
+    {
+      "callback": "/trevasReady",
+      "data": {}
+    },
+    {
+      "callback": "/trevasClose",
+      "data": {}
+    }
+  ],
+  "externalRequests": [],
+  "pageErrors": []
+}

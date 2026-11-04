@@ -1,45 +1,49 @@
-# Grimórios — receita original e artes completas para aprovação
+**[Baixar o recurso separado para teste — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_TESTE_REDM_v1.0.0.zip)**
 
-A alteração anterior de tamanho e diagramação foi revertida. O recurso volta à receita original recebida: tamanho, posição, recortes, folheamento e carregamento originais. As artes PNG permanecem intactas.
+# Trevas ilustrado — recurso separado para teste
 
-## Teste atual — somente Trevas em HTML
+Nome do recurso: **`grimorio_trevas_teste`**  
+Comando padrão: **`/trevasteste`**
 
-**[Baixar o HTML folheável do Trevas — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-html/TREVAS_HTML_PARA_TESTE.zip)**
+## Instalação
 
-Extraia e abra `TREVAS_FOLHEAVEL.html` no navegador. O arquivo já inclui todas as imagens: abertura, sete poderes e encerramento. As folhas estão separadas da capa e as ferragens foram reduzidas para respeitar as margens. O botão Tamanho do jogo permite comparar a apresentação com a interface original.
+1. Copie a pasta `grimorio_trevas_teste` para a pasta de recursos do servidor.
+2. Acrescente ao `server.cfg`:
 
-Este protótipo está separado na área [trevas-html](https://github.com/lucasbmaia96-netizen/clover2/tree/trevas-html), para acertar somente o Trevas antes dos demais grimórios. Ele não altera o recurso instalado.
+```cfg
+ensure grimorio_trevas_teste
+```
 
-## Pacote para testar as novas páginas no grimório
+3. Entre no servidor e use `/trevasteste`.
 
-**[Baixar o recurso completo com as 63 páginas aplicadas à receita original](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/grimorio-para-teste.zip)**
+Não substitua a pasta `grimorio_oficial`. Este teste é um recurso independente, sem dependências de framework e sem alterações no grimório já instalado.
 
-Sete poderes em cada um dos nove livros restantes, com as capas, a abertura, o encerramento, o tamanho e o movimento originais. Os seis grimórios até Cura continuam iguais. Extraia o ZIP e instale a pasta `grimorio_oficial` nele contida.
+## Uso
 
-[Ver as 63 páginas já montadas em PDF](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/grimorio-para-teste/PREVIA_63_PAGINAS_NO_GRIMORIO.pdf) · [Ver as prévias e a conferência do pacote](https://github.com/lucasbmaia96-netizen/clover2/tree/grimorio-para-teste)
+- `/trevasteste` abre ou oculta a interface de teste.
+- Clique na capa para abrir o livro. Use o mouse nas folhas ou as setas do teclado para folhear.
+- **Esc** sai da interface e libera o cursor.
+- A ação Aprender mantém a demonstração visual do HTML recebido; não concede poderes do servidor.
 
-O pacote foi conferido no navegador e está separado na área `grimorio-para-teste` para avaliação no servidor RedM. Esta área `main` mantém o recurso original restaurado.
+## Configuração própria
 
-## Baixar a correção
+Edite `grimorio_trevas_teste/config.lua` e reinicie somente esse recurso.
 
-**[Baixar correção da receita original](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/main/downloads/CORRECAO_RECEITA_ORIGINAL.zip)**
+| Opção | Padrão | Efeito |
+| --- | --- | --- |
+| `Comando` | `trevasteste` | Comando exclusivo do teste. |
+| `Tecla` | `false` | Nenhuma tecla registrada; pode configurar `F7`, por exemplo. |
+| `Cursor` | `true` | Permite clicar na capa e nas páginas. |
+| `ReabrirNaCapa` | `true` | Começa na capa ao reabrir a interface. |
+| `TamanhoDoJogo` | `true` | Usa o modo Tamanho do jogo que já existe no HTML. |
+| `MostrarControles` | `false` | `true` exibe também o cabeçalho e os botões de conferência do HTML. |
+| `LarguraVw` | `35.0` | Limite de largura em porcentagem da tela. |
+| `LimiteVh` | `54.0` | Segundo limite de largura, calculado pela altura da tela, como no HTML original. |
+| `DireitaVw` | `0.0` | Distância da borda direita. |
+| `InferiorVh` | `0.5` | Distância da borda inferior. |
 
-Pare o recurso, extraia a correção sobre a instalação e reinicie `grimorio_oficial`. A correção substitui os arquivos alterados pelos originais. Não é necessário baixar todas as imagens novamente.
+## Referência preservada
 
-**[Baixar o recurso completo restaurado](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/main.zip)**
+`html/GRIMORIO_TREVAS_ILUSTRADO.html` é uma cópia byte a byte do arquivo enviado pelo usuário. Artes, máscaras, geometria e folheamento ficam no próprio arquivo original. A integração ao RedM usa um contêiner separado, fundo transparente e comunicação NUI para abrir/fechar e aplicar as opções de apresentação.
 
-## Artes completas dos nove grimórios restantes
-
-**63 páginas internas de poderes, sete para cada livro, em PNG de 1536 × 1024.**
-
-Revisão atual: as 42 páginas de Trevas, Árvore do Mundo, Tempo (Rei Mago), Noelle, Fogo do Leão e Luz Solar foram refeitas para retirar o excedente direito e nivelar o acabamento. As demais 21 páginas permanecem iguais. [Ver as 42 páginas corrigidas em PDF](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/artes-completas/CORRECAO_42_PAGINAS_ACABAMENTO.pdf).
-
-Trevas, Árvore do Mundo, Tempo, Antimagia, Vento, Águas (Noelle), Fogo do Leão, Espadas e Luz Solar. Cada conjunto também inclui a capa, a abertura e o encerramento originais, copiados sem alteração.
-
-- **[Baixar todas as artes em ZIP](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/artes-completas.zip)**
-- [Ver o atlas das 63 páginas em PDF](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/artes-completas/ATLAS_63_PAGINAS_DE_PODER.pdf)
-- [Ver os nove conjuntos e as imagens individuais](https://github.com/lucasbmaia96-netizen/clover2/tree/artes-completas)
-
-Para revisar offline, extraia o ZIP das artes e abra `index.html`. Os PNGs completos estão nas nove pastas de `artes/`; os JPGs são prévias das mesmas imagens. Cada página nova contém uma demonstração, três etapas ilustradas e a marca discreta SELADO. A capa e a abertura próprias de cada livro orientaram seus contornos e bordas.
-
-As artes ficam na área `artes-completas`, separadas do recurso nesta área `main`. São propostas para aprovação, incluindo os novos títulos e textos; ainda não foram instaladas no jogo. Os seis livros até Cura permanecem originais. A primeira proposta isolada de Trevas foi substituída por esta entrega completa.
+As verificações usam navegador e funções Cfx simuladas. A execução no servidor RedM deve ser conferida com esta instalação de teste.
