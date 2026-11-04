@@ -1,3 +1,15 @@
+## Atualização pequena: nitidez das legendas
+
+**[Baixar somente a atualização v1.0.1 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_NITIDEZ_v1.0.1.zip)**
+
+Para quem já instalou o teste: substitua somente `grimorio_trevas_teste/html/nui.js`, execute `restart grimorio_trevas_teste` no console do servidor e abra com `/trevasteste`.
+
+O ajuste reforça nitidez e contraste somente nas legendas pequenas. Mantém o tamanho das letras e do livro, a capa, as imagens originais e o folheamento. A melhoria é limitada pelos pixels disponíveis; não garante leitura integral em qualquer resolução. O ZIP original abaixo permanece disponível.
+
+Conferido no navegador em 1280×720 e 1920×1080; navegação, Aprender, Esc e reabertura passaram. [Detalhes da atualização](ATUALIZACAO_NITIDEZ.json).
+
+---
+
 **[Baixar o recurso separado para teste — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_TESTE_REDM_v1.0.0.zip)**
 
 # Trevas ilustrado — recurso separado para teste
