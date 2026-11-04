@@ -1,4 +1,4 @@
-# Grimórios — receita original restaurada
+# Grimórios — receita original e artes completas para aprovação
 
 A alteração anterior de tamanho e diagramação foi revertida. O recurso volta à receita original recebida: tamanho, posição, recortes, folheamento e carregamento originais. As artes PNG permanecem intactas.
 
@@ -10,18 +10,16 @@ Pare o recurso, extraia a correção sobre a instalação e reinicie `grimorio_o
 
 **[Baixar o recurso completo restaurado](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/main.zip)**
 
-## Artes
+## Artes completas dos nove grimórios restantes
 
-As artes novas dos grimórios posteriores a Cura serão apresentadas separadamente como propostas para aprovação. Nenhuma proposta deve substituir as imagens do recurso sem aprovação. Esta correção não contém artes novas.
+**63 páginas internas de poderes, sete para cada livro, em PNG de 1536 × 1024.**
 
-As prévias e o editor da entrega anterior foram retirados para evitar instalar a versão de apresentação rejeitada.
+Trevas, Árvore do Mundo, Tempo, Antimagia, Vento, Águas (Noelle), Fogo do Leão, Espadas e Luz Solar. Cada conjunto também inclui a capa, a abertura e o encerramento originais, copiados sem alteração.
 
-## Primeira sequência de artes para aprovação
+- **[Baixar todas as artes em ZIP](https://github.com/lucasbmaia96-netizen/clover2/archive/refs/heads/artes-completas.zip)**
+- [Ver o atlas das 63 páginas em PDF](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/artes-completas/ATLAS_63_PAGINAS_DE_PODER.pdf)
+- [Ver os nove conjuntos e as imagens individuais](https://github.com/lucasbmaia96-netizen/clover2/tree/artes-completas)
 
-**Trevas: sete propostas individuais em 1536 × 1024, separadas do recurso.**
+Para revisar offline, extraia o ZIP das artes e abra `index.html`. Os PNGs completos estão nas nove pastas de `artes/`; os JPGs são prévias das mesmas imagens. Cada página nova contém uma demonstração, três etapas ilustradas e a marca discreta SELADO. A capa e a abertura próprias de cada livro orientaram seus contornos e bordas.
 
-- [Ver as sete artes em PDF](downloads/TREVAS_7_ARTES_APROVACAO.pdf)
-- [Baixar as sete imagens em ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/main/downloads/TREVAS_7_ARTES_APROVACAO.zip)
-- [Ver as imagens individuais](propostas_artes/trevas)
-
-Estas propostas não foram aplicadas ao jogo. Os outros oito grimórios restantes ainda não têm a nova sequência pronta. O recurso continua com a receita original restaurada. As imagens e os nomes novos aguardam aprovação.
+As artes ficam na área `artes-completas`, separadas do recurso nesta área `main`. São propostas para aprovação, incluindo os novos títulos e textos; ainda não foram instaladas no jogo. Os seis livros até Cura permanecem originais. A primeira proposta isolada de Trevas foi substituída por esta entrega completa.
