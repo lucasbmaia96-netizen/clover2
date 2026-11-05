@@ -4,11 +4,11 @@ A alteração anterior de tamanho e diagramação foi revertida. O recurso volta
 
 ## Teste no RedM — HTML ilustrado enviado pelo usuário
 
-**Atualização v1.2.0 em revisão após bloqueio do antivírus.** Aguarde a identificação da detecção antes de instalar o pacote. [Conferência do conteúdo e limites da análise](https://github.com/lucasbmaia96-netizen/clover2/blob/trevas-teste-redm/REVISAO_BLOQUEIO_DOWNLOAD_v1.2.0.json).
+**[Comparação arquivo por arquivo dos pacotes Trevas](https://github.com/lucasbmaia96-netizen/clover2/blob/trevas-teste-redm/comparacao/COMPARACAO_ARQUIVO_POR_ARQUIVO.md)**
 
-Copie a atualização sobre `grimorio_trevas_teste`, mantendo os demais arquivos e seu `config.lua`, e execute `restart grimorio_trevas_teste`. Abra com `/trevasteste`. A lombada fica separada da capa que gira na junção, com abertura e fechamento corrigidos. As legendas em HTML e o tamanho do livro são mantidos. **NumPad 1 a 7** seleciona cada poder com sua explicação; **NumPad 0** abre a introdução. **← avança; → volta.** O teste de voz foi encerrado.
+O evento do Defender apontou `grimorio_trevas_teste/html/index.html` no ZIP v1.2.0. A comparação encontrou três arquivos idênticos, três alterados e cinco adicionados, todos previstos. Na revisão candidata v1.2.1, a entrada HTML foi restaurada byte a byte igual ao pacote antigo; legendas, lombada, NumPad e setas invertidas foram mantidos no JavaScript existente.
 
-[Ver a abertura e o fechamento corrigidos](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/html/abertura_corrigida_v1.2.0.mp4) · [Instruções, sete prévias e conferência](https://github.com/lucasbmaia96-netizen/clover2/tree/trevas-teste-redm).
+[Revisão candidata v1.2.1 para validação pelo Defender](https://github.com/lucasbmaia96-netizen/clover2/blob/trevas-teste-redm/CORRECAO_ENTRADA_TREVAS_v1.2.1_PARA_VALIDACAO.zip) · [Conferência e limites da análise](https://github.com/lucasbmaia96-netizen/clover2/blob/trevas-teste-redm/REVISAO_ENTRADA_v1.2.1.json). Não há resultado antivírus favorável confirmado; se houver bloqueio, não force o download nem desative a proteção. O pacote v1.2.0 permanece em revisão.
 
 **[Baixar grimorio_trevas_teste v1.0.0 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_TESTE_REDM_v1.0.0.zip)**
 
