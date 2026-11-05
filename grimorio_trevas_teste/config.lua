@@ -1,5 +1,7 @@
 TrevasTesteConfig = {
     Comando = 'trevasteste',
+    ComandoInvocar = 'trevasinvocar', -- Mostra a capa e abre na introdução.
+    TeclaInvocar = 'F7', -- Ponte opcional para o reconhecimento de voz externo.
     Tecla = false, -- Opcional: 'F7'. Desativada por padrão para não disputar teclas.
     Cursor = true,
     ReabrirNaCapa = true,

@@ -1,61 +1,42 @@
-## Atualização pequena: nitidez das legendas
+# Trevas — legendas HTML e navegação NumPad v1.1.0
 
-**[Baixar somente a atualização v1.0.1 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_NITIDEZ_v1.0.1.zip)**
+**[Baixar somente a atualização do recurso — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_LETRAS_HTML_NUMPAD_v1.1.0.zip)**
 
-Para quem já instalou o teste: substitua somente `grimorio_trevas_teste/html/nui.js`, execute `restart grimorio_trevas_teste` no console do servidor e abra com `/trevasteste`.
+Para quem já está com `grimorio_trevas_teste` funcionando: extraia a pasta do ZIP sobre o mesmo recurso, mantenha os arquivos existentes e execute `restart grimorio_trevas_teste` no console do servidor. O pacote não substitui `config.lua` nem repete o HTML original. [Instruções completas](LEIA_ME_ATUALIZACAO_v1.1.0.md).
 
-O ajuste reforça nitidez e contraste somente nas legendas pequenas. Mantém o tamanho das letras e do livro, a capa, as imagens originais e o folheamento. A melhoria é limitada pelos pixels disponíveis; não garante leitura integral em qualquer resolução. O ZIP original abaixo permanece disponível.
+As legendas das sete aberturas de poderes passam a ser texto HTML maior e mais encorpado, com fonte incorporada. O tamanho do livro, a capa, a moldura e o folheamento são mantidos. A introdução e o encerramento permanecem idênticos à referência; fora das regiões de legenda, a comparação de pixels com o original passou.
 
-Conferido no navegador em 1280×720 e 1920×1080; navegação, Aprender, Esc e reabertura passaram. [Detalhes da atualização](ATUALIZACAO_NITIDEZ.json).
+- `/trevasteste`: abre o teste como antes.
+- **F7** ou **`/trevasinvocar`**: mostra a capa fechada e usa a animação original para abrir na introdução.
+- **NumPad 1 a 7**: seleciona o poder e a explicação juntos, com o livro aberto.
+- **NumPad 0**: introdução. **Esc**: fecha a interface.
 
----
+![Prévia das legendas HTML no tamanho do teste em 1280×720](previas/html/voo_tamanho_jogo_1280.jpg)
 
-**[Baixar o recurso separado para teste — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_TESTE_REDM_v1.0.0.zip)**
+## Teste opcional de voz no Windows
 
-# Trevas ilustrado — recurso separado para teste
+**[Baixar o programa de voz — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/VOZ_TREVAS_WINDOWS_v1.1.0.zip)** · [Instruções de voz](voz_trevas/LEIA_ME_VOZ.md)
 
-Nome do recurso: **`grimorio_trevas_teste`**  
-Comando padrão: **`/trevasteste`**
+No computador do jogador, o programa reconhece **“magia imbuída em trevas”** e envia F7 para o RedM em primeiro plano. Isso inicia a abertura animada na introdução. Requer **Python 3.10+ x64**. Na primeira execução instala as dependências e baixa o modelo português do Vosk; depois reconhece localmente, sem gravar ou enviar o áudio. Esta pasta não é instalada no servidor.
 
-## Instalação
+A interface e o cliente foram conferidos no navegador e com funções Cfx simuladas. O reconhecimento do microfone e o envio da tecla precisam ser testados no Windows com RedM; não foram executados neste ambiente Linux. [Relatório](ATUALIZACAO_v1.1.0.json).
 
-1. Copie a pasta `grimorio_trevas_teste` para a pasta de recursos do servidor.
-2. Acrescente ao `server.cfg`:
+## Sete aberturas e teclas
 
-```cfg
-ensure grimorio_trevas_teste
-```
-
-3. Entre no servidor e use `/trevasteste`.
-
-Não substitua a pasta `grimorio_oficial`. Este teste é um recurso independente, sem dependências de framework e sem alterações no grimório já instalado.
-
-## Uso
-
-- `/trevasteste` abre ou oculta a interface de teste.
-- Clique na capa para abrir o livro. Use o mouse nas folhas ou as setas do teclado para folhear.
-- **Esc** sai da interface e libera o cursor.
-- A ação Aprender mantém a demonstração visual do HTML recebido; não concede poderes do servidor.
-
-## Configuração própria
-
-Edite `grimorio_trevas_teste/config.lua` e reinicie somente esse recurso.
-
-| Opção | Padrão | Efeito |
+| Teclado numérico | Poder | Prévia com arte e explicação |
 | --- | --- | --- |
-| `Comando` | `trevasteste` | Comando exclusivo do teste. |
-| `Tecla` | `false` | Nenhuma tecla registrada; pode configurar `F7`, por exemplo. |
-| `Cursor` | `true` | Permite clicar na capa e nas páginas. |
-| `ReabrirNaCapa` | `true` | Começa na capa ao reabrir a interface. |
-| `TamanhoDoJogo` | `true` | Usa o modo Tamanho do jogo que já existe no HTML. |
-| `MostrarControles` | `false` | `true` exibe também o cabeçalho e os botões de conferência do HTML. |
-| `LarguraVw` | `35.0` | Limite de largura em porcentagem da tela. |
-| `LimiteVh` | `54.0` | Segundo limite de largura, calculado pela altura da tela, como no HTML original. |
-| `DireitaVw` | `0.0` | Distância da borda direita. |
-| `InferiorVh` | `0.5` | Distância da borda inferior. |
+| 1 | Corte das Trevas | [Ver página](previas/html/corte.jpg) |
+| 2 | Lua Negra | [Ver página](previas/html/lua.jpg) |
+| 3 | Passo das Sombras | [Ver página](previas/html/passo.jpg) |
+| 4 | Ruptura das Trevas | [Ver página](previas/html/ruptura.jpg) |
+| 5 | Fortaleza Sombria | [Ver página](previas/html/fortaleza.jpg) |
+| 6 | Domínio das Trevas | [Ver página](previas/html/dominio.jpg) |
+| 7 | Módulo de Voo | [Ver página](previas/html/voo.jpg) |
 
-## Referência preservada
+## Instalação inicial
 
-`html/GRIMORIO_TREVAS_ILUSTRADO.html` é uma cópia byte a byte do arquivo enviado pelo usuário. Artes, máscaras, geometria e folheamento ficam no próprio arquivo original. A integração ao RedM usa um contêiner separado, fundo transparente e comunicação NUI para abrir/fechar e aplicar as opções de apresentação.
+Quem ainda não instalou o recurso pode usar o [ZIP base v1.0.0](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_TESTE_REDM_v1.0.0.zip) e depois aplicar a atualização acima. O nome do recurso continua `grimorio_trevas_teste`; o recurso `grimorio_oficial` permanece separado.
 
-As verificações usam navegador e funções Cfx simuladas. A execução no servidor RedM deve ser conferida com esta instalação de teste.
+O HTML ilustrado enviado pelo usuário continua preservado byte a byte. As novas legendas e os controles são aplicados pela integração do teste. Aprender continua sendo a demonstração visual do HTML; não concede poderes no servidor.
+
+O ZIP antigo de nitidez v1.0.1 permanece arquivado e foi substituído por esta revisão de legendas em HTML.
