@@ -1,0 +1,126 @@
+--- v1.0.0/fxmanifest.lua
++++ v1.2.0/fxmanifest.lua
+@@ -4,7 +4,7 @@
+ 
+ author 'Grimório das Trevas — teste isolado'
+ description 'HTML ilustrado fornecido pelo usuário, em um recurso independente para teste'
+-version '1.0.0'
++version '1.2.0'
+ lua54 'yes'
+ 
+ client_scripts { 'config.lua', 'client.lua' }
+@@ -13,5 +13,10 @@
+ files {
+     'html/index.html',
+     'html/nui.js',
++    'html/captions.js',
++    'html/binding.js',
++    'html/legendas_fundo.webp',
++    'html/trevas_texto.woff',
++    'html/FONTE_LICENCA.txt',
+     'html/GRIMORIO_TREVAS_ILUSTRADO.html'
+ }
+
+--- v1.0.0/html/index.html
++++ v1.2.0/html/index.html
+@@ -9,6 +9,8 @@
+ #reader{position:fixed;inset:0;width:100%;height:100%;border:0;background:transparent}
+ #reader[hidden]{display:none!important}
+ </style>
++<script src="captions.js" defer></script>
++<script src="binding.js" defer></script>
+ <script src="nui.js" defer></script>
+ </head>
+ <body><iframe id="reader" src="GRIMORIO_TREVAS_ILUSTRADO.html" title="Grimório das Trevas" hidden></iframe></body>
+
+--- v1.0.0/html/nui.js
++++ v1.2.0/html/nui.js
+@@ -3,7 +3,7 @@
+ const frame = document.querySelector('#reader');
+ const inGame = typeof GetParentResourceName === 'function';
+ const resource = inGame ? GetParentResourceName() : '';
+-let ready = false, wanted = !inGame, revision = 0, closePending = false, initStarted = false;
++let ready = false, wanted = !inGame, revision = 0, selectionRevision = 0, closePending = false, initStarted = false;
+ let options = {gameSize:true,showControls:false,resetCover:true,widthVw:35,limitVh:54,rightVw:0,bottomVh:.5};
+ const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+ const clamp = (v, fallback, min, max) => typeof v === 'number' && Number.isFinite(v) ? Math.min(max, Math.max(min, v)) : fallback;
+@@ -29,7 +29,7 @@
+  root.style.setProperty('--trevas-bottom',clamp(options.bottomVh,.5,0,90)+'vh');
+ }
+ async function show(next = options){
+- configure(next);wanted = true;const token = ++revision;
++ configure(next);wanted = true;const token = ++revision;++selectionRevision;
+  if(!ready)return;
+  if(options.resetCover){
+   while(api().getState().busy){await wait(25);if(token!==revision||!wanted)return}
+@@ -45,7 +45,7 @@
+   target?.focus({preventScroll:true});
+  });
+ }
+-function hide(){wanted=false;revision++;frame.hidden=true}
++function hide(){wanted=false;revision++;selectionRevision++;frame.hidden=true}
+ async function requestClose(){
+  if(!wanted||closePending)return;
+  closePending=true;
+@@ -54,7 +54,33 @@
+ function escape(event){
+  if(event.key==='Escape'&&wanted){event.preventDefault();event.stopImmediatePropagation();requestClose()}
+ }
++async function selectSpread(spread){
++ if(!ready||!wanted)return;
++ const token=++selectionRevision;
++ while(api().getState().busy){await wait(25);if(token!==selectionRevision||!wanted)return}
++ if(token===selectionRevision&&wanted)await api().goTo(spread);
++}
++function numpad(event){
++ if(!wanted||!ready||event.ctrlKey||event.altKey||event.metaKey)return;
++ if(event.target?.closest?.('input,textarea,select,[contenteditable="true"]'))return;
++ const match=/^Numpad([0-7])$/.exec(event.code);
++ if(!match)return;
++ event.preventDefault();event.stopImmediatePropagation();
++ if(!event.repeat)selectSpread(Number(match[1])===0?1:Number(match[1])+1);
++}
++function arrows(event){
++ if(!wanted||!ready||event.ctrlKey||event.altKey||event.metaKey)return;
++ if(event.target?.closest?.('input,textarea,select,[contenteditable="true"]'))return;
++ const step={ArrowLeft:1,ArrowRight:-1}[event.key];
++ if(step===undefined)return;
++ // Capture before the original HTML listener, after NumPad handling so that
++ // NumLock-off Numpad4/Numpad6 still select their numbered powers.
++ event.preventDefault();event.stopImmediatePropagation();
++ api().goTo(api().getState().state+step);
++}
+ document.addEventListener('keydown',escape,true);
++document.addEventListener('keydown',numpad,true);
++document.addEventListener('keydown',arrows,true);
+ window.addEventListener('message',event=>{
+  const data=event.data;
+  if(!data||typeof data!=='object')return;
+@@ -65,8 +91,7 @@
+  if(initStarted)return;initStarted=true;
+  const doc=frame.contentDocument;if(!doc)return;
+  const style=doc.createElement('style');style.id='trevas-redm-host';
+- // Host presentation only. The supplied HTML, its images, masks and animation
+- // remain unchanged on disk and inside the book.
++ // The supplied HTML and all original assets remain unchanged on disk.
+  style.textContent=`
+  html,body{background:transparent!important;color-scheme:normal!important}
+  body{height:100vh;min-height:100vh}
+@@ -75,7 +100,7 @@
+  body:not(.trevas-controls) main{height:100vh}
+  .compact #stage{right:var(--trevas-right,0vw);bottom:var(--trevas-bottom,.5vh);width:min(var(--trevas-width,35vw),var(--trevas-limit,54vh))}
+  `;
+- doc.head.append(style);doc.addEventListener('keydown',escape,true);configure();
++ doc.head.append(style);doc.addEventListener('keydown',escape,true);doc.addEventListener('keydown',numpad,true);doc.addEventListener('keydown',arrows,true);configure();
+  try{
+   const start=performance.now();
+   while(!api()?.getState().ready){
+@@ -84,6 +109,8 @@
+    if(performance.now()-start>60000)throw Error('Tempo de carregamento do HTML excedido.');
+    await wait(100);
+   }
++  await window.TrevasCaptions.install(doc);
++  window.TrevasBinding.install(doc);
+   ready=true;await post('trevasReady');if(wanted)await show();
+  }catch(error){console.error('[Trevas teste]',error);hide();await post('trevasError',{error:String(error)}).catch(()=>{})}
+ }

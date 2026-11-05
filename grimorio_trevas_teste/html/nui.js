@@ -1,3 +1,144 @@
+/* Origem: captions.js — código legível, sem minificação. */
+(() => {
+'use strict';
+// Coordinates refer to the original 1536 x 1024 artwork. Only small caption
+// areas are restored; the original illustrations, frame and HTML stay intact.
+const content={
+ corte:{description:'A lâmina conduz um corte de sombra.',steps:['Reúna a sombra.','Envolva a lâmina.','Conduza o corte.'],centers:[310,473,745],erase:[[1161,291,170,65],[1160,452,172,64],[1155,722,181,65]]},
+ lua:{description:'Uma sombra breve envolve o conjurador.',steps:['Concentre a sombra.','Trace o círculo.','Mantenha o domínio.'],centers:[313,473,660],erase:[[1144,292,184,64],[1167,451,161,65],[1152,638,185,69]]},
+ passo:{description:'Um avanço curto e veloz deixa um rastro delicado de sombra.',steps:['Concentre a energia.','Trace o caminho.','Avance com controle.'],centers:[313,469,665],erase:[[1146,293,184,68],[1169,448,164,65],[1154,641,185,68]]},
+ ruptura:{description:'Um golpe concentrado projeta as trevas além da lâmina.',steps:['Reúna a força.','Fixe o alvo.','Libere o ataque.'],centers:[313,474,743],erase:[[1163,292,160,68],[1171,451,151,66],[1155,719,182,68]]},
+ fortaleza:{description:'As sombras se unem em uma proteção firme e contínua.',steps:['Concentre a energia.','Erga a proteção.','Sustente a defesa.'],centers:[311,473,687],erase:[[1145,289,185,67],[1165,445,166,70],[1169,663,169,70]]},
+ dominio:{description:'A energia se expande ao redor do conjurador.',steps:['Perceba a energia.','Expanda o domínio.','Mantenha o controle.'],centers:[309,468,671],erase:[[1142,287,188,68],[1160,441,181,70],[1141,647,200,70]]},
+ voo:{description:'As trevas sustentam o corpo em movimento.',steps:['Concentre a energia.','Eleve o corpo.','Conduza o voo.'],centers:[313,489,723],erase:[[1129,289,194,70],[1160,464,151,68],[1165,699,167,68]]}
+};
+async function install(doc){
+ if(doc.getElementById('trevas-live-captions-style'))return;
+ const url=new URL('legendas_fundo.webp',document.baseURI).href;
+ await new Promise((resolve,reject)=>{const image=new Image();image.onload=resolve;image.onerror=()=>reject(Error('Fundo das legendas não encontrado. Copie todos os arquivos da atualização.'));image.src=url});
+ const style=doc.createElement('style');style.id='trevas-live-captions-style';
+ const fontUrl=new URL('trevas_texto.woff',document.baseURI).href;
+ style.textContent=`
+ @font-face{font-family:'Trevas Texto';src:url('${fontUrl}') format('woff');font-weight:700;font-style:normal;font-display:block}
+ .trevas-caption-layer{position:absolute;inset:0;pointer-events:none}
+ .trevas-caption-patch{position:absolute;pointer-events:none;background-repeat:no-repeat;
+  -webkit-mask-image:linear-gradient(to right,transparent,#000 2%,#000 98%,transparent),linear-gradient(to bottom,transparent,#000 8%,#000 92%,transparent);
+  mask-image:linear-gradient(to right,transparent,#000 2%,#000 98%,transparent),linear-gradient(to bottom,transparent,#000 8%,#000 92%,transparent);
+  -webkit-mask-composite:source-in;mask-composite:intersect}
+ .trevas-live-caption{position:absolute;margin:0;padding:0;transform:translateY(-50%);pointer-events:none;
+  font-family:'Trevas Texto',Georgia,serif;font-size:var(--trevas-step-font,11px);font-weight:700;
+  line-height:1.1;letter-spacing:0;color:#20101d;text-align:center;text-wrap:balance;
+  text-shadow:none;overflow-wrap:normal;word-break:normal;hyphens:none;-webkit-text-size-adjust:none}
+ .trevas-live-description{font-size:var(--trevas-description-font,10px)}
+ .trevas-live-learn{font-size:var(--trevas-learn-font,10px);line-height:1;color:#ffe4a0;letter-spacing:.02em}
+ `;
+ doc.head.append(style);
+ await doc.fonts.load('700 10px "Trevas Texto"');
+ if(!doc.fonts.check('700 10px "Trevas Texto"'))throw Error('A fonte das legendas não carregou. Copie todos os arquivos da atualização.');
+ function position(el,x,y,w,h,side){
+  el.style.left=(x-(side==='right'?768:0))/768*100+'%';
+  el.style.top=y/1024*100+'%';el.style.width=w/768*100+'%';
+  if(h!==undefined)el.style.height=h/1024*100+'%';
+ }
+ function patch(layer,box,side,source){
+  const [x,y,w,h]=box,el=doc.createElement('span');el.className='trevas-caption-patch';el.setAttribute('aria-hidden','true');position(el,x,y,w,h,side);
+  const [sx,sy]=source||[x,y];el.style.backgroundImage=`url("${url}")`;
+  el.style.backgroundSize=`${1536/w*100}% ${1024/h*100}%`;
+  el.style.backgroundPosition=`${sx/(1536-w)*100}% ${sy/(1024-h)*100}%`;
+  layer.append(el);
+ }
+ function label(layer,text,x,y,w,side,kind=''){
+  const el=doc.createElement('span');el.className='trevas-live-caption '+kind;el.textContent=text;position(el,x,y,w,undefined,side);layer.append(el);
+ }
+ function refresh(paper){
+  let layer=paper.querySelector(':scope > .trevas-caption-layer');
+  if(!layer){layer=doc.createElement('div');layer.className='trevas-caption-layer';paper.append(layer)}
+  const art=paper.dataset.art,data=content[art];
+  if(!data||!paper.style.backgroundImage||paper.style.backgroundImage==='none'){layer.hidden=true;return}
+  layer.hidden=false;
+  if(layer.dataset.art===art)return;
+  layer.dataset.art=art;layer.replaceChildren();
+  if(paper.classList.contains('left')){
+   patch(layer,[238,800,466,81],'left');
+   label(layer,data.description,200,840,530,'left','trevas-live-description');
+  }else{
+   data.erase.forEach(box=>patch(layer,box,'right',[1138,280]));
+   data.steps.forEach((text,i)=>label(layer,text,1142,data.centers[i],198,'right'));
+   patch(layer,[1001,817,136,37],'right');
+   label(layer,'APRENDER',960,838,213,'right','trevas-live-learn');
+  }
+ }
+ const papers=[...doc.querySelectorAll('.paper')];
+ for(const paper of papers){
+  const observer=new MutationObserver(()=>refresh(paper));observer.observe(paper,{attributes:true,attributeFilter:['data-art','style']});refresh(paper);
+ }
+ const stage=doc.querySelector('#stage');
+ function size(){
+  const width=stage.getBoundingClientRect().width;
+  doc.documentElement.style.setProperty('--trevas-step-font',Math.max(10,Math.min(23,width*.020))+'px');
+  doc.documentElement.style.setProperty('--trevas-description-font',Math.max(9.5,Math.min(20,width*.018))+'px');
+  doc.documentElement.style.setProperty('--trevas-learn-font',Math.max(9,Math.min(18,width*.017))+'px');
+ }
+ new ResizeObserver(size).observe(stage);size();
+}
+window.TrevasCaptions=Object.freeze({install});
+})();
+
+
+/* Origem: binding.js — código legível, sem minificação. */
+(() => {
+'use strict';
+function install(doc){
+ if(doc.getElementById('trevas-binding'))return;
+ const book=doc.querySelector('#book'),cover=doc.querySelector('#cover'),art=doc.querySelector('#cover-art');
+ // The supplied cover texture includes its spine. Its image starts at -18%
+ // and spans 118.64% of the hinged panel. Split precisely at that panel's
+ // transform origin, leaving the spine outside the rotating cover.
+ const split=18/118.64*100;
+ const binding=doc.createElement('div');binding.id='trevas-binding';binding.setAttribute('aria-hidden','true');
+ const spine=doc.createElement('img');spine.className='trevas-binding-art';spine.src=art.src;spine.alt='';spine.draggable=false;binding.append(spine);
+ const style=doc.createElement('style');style.id='trevas-binding-style';
+ style.textContent=`
+ #cover-art{clip-path:inset(0 0 0 ${split}%)}
+ #trevas-binding{position:absolute;left:50%;top:0;width:50%;height:100%;z-index:2;pointer-events:none}
+ .trevas-binding-art{position:absolute;left:-18%;top:-.7%;width:118.64%;height:105%;max-width:none;object-fit:fill;
+  pointer-events:none;user-select:none;clip-path:inset(0 ${100-split}% 0 0)}
+ `;
+ doc.head.append(style);book.insertBefore(binding,cover);
+ let fade=null;
+ function settle(){
+  if(book.classList.contains('opening')||book.classList.contains('closing-book'))return;
+  fade?.cancel();fade=null;binding.style.opacity=book.classList.contains('closed')?'1':'0';
+ }
+ // Keep the original renderer, masks and page-turn logic. Only the cover's
+ // timing changes; its spine is a stationary sibling, never a rotating child.
+ const originalAnimate=cover.animate.bind(cover);
+ cover.animate=function(keyframes,options){
+  const reduced=doc.defaultView.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const timing={...options,duration:reduced?options.duration:1250,easing:'cubic-bezier(.35,0,.25,1)'};
+  const opening=book.classList.contains('opening'),end=opening?'0':'1';
+  fade?.cancel();
+  binding.style.opacity=opening?'1':'0';
+  const points=opening?
+   [{opacity:1,offset:0},{opacity:1,offset:.12},{opacity:0,offset:.42},{opacity:0,offset:1}]:
+   [{opacity:0,offset:0},{opacity:0,offset:.58},{opacity:1,offset:.88},{opacity:1,offset:1}];
+  const spineFade=binding.animate(points,{duration:timing.duration,easing:'linear',fill:'forwards'});
+  fade=spineFade;
+  const animation=originalAnimate(keyframes,timing);
+  animation.finished.then(()=>{
+   if(fade!==spineFade)return;
+   binding.style.opacity=end;spineFade.cancel();fade=null;
+  },()=>{spineFade.cancel();if(fade===spineFade)fade=null});
+  return animation;
+ };
+ new MutationObserver(settle).observe(book,{attributes:true,attributeFilter:['class']});
+ settle();
+}
+window.TrevasBinding=Object.freeze({install});
+})();
+
+
+/* Origem: nui.js — código legível, sem minificação. */
 (() => {
 'use strict';
 const frame = document.querySelector('#reader');

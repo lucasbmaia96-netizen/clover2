@@ -4,7 +4,7 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 
 author 'Grimório das Trevas — teste isolado'
 description 'HTML ilustrado fornecido pelo usuário, em um recurso independente para teste'
-version '1.2.0'
+version '1.2.1'
 lua54 'yes'
 
 client_scripts { 'config.lua', 'client.lua' }
@@ -13,8 +13,6 @@ ui_page 'html/index.html'
 files {
     'html/index.html',
     'html/nui.js',
-    'html/captions.js',
-    'html/binding.js',
     'html/legendas_fundo.webp',
     'html/trevas_texto.woff',
     'html/FONTE_LICENCA.txt',

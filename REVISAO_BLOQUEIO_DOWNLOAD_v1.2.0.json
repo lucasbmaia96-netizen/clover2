@@ -1,5 +1,5 @@
 {
-  "status": "under review after user reported antivirus download block",
+  "status": "affected entry identified; v1.2.0 remains under review; v1.2.1 restores entry from original package and awaits Defender validation",
   "archive": "ATUALIZACAO_TREVAS_ABERTURA_NUMPAD_SETAS_v1.2.0.zip",
   "sha256": "ff751648efd338f649068bacef7b1730391e916f233b5d868b78cdf607f51d54",
   "archiveBytes": 603455,
@@ -70,6 +70,8 @@
   "reviewedUtc": "2026-11-05T00:46:56.894680+00:00",
   "windowsSeverity": "Grave",
   "windowsStatusReported": "Ativo",
-  "affectedItemPath": "awaiting expanded Protection History item from user",
-  "detectionSource": "Windows Defender Protection History screenshot supplied by user"
+  "affectedItemPath": "grimorio_trevas_teste/html/index.html",
+  "detectionSource": "Windows Defender event 1116 screenshot supplied by user",
+  "detectionType": "FastPath",
+  "reportedOrigin": "Internet / Downloads and attachments"
 }

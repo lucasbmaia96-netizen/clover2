@@ -1,0 +1,58 @@
+{
+  "version": "1.2.1",
+  "status": "candidate awaiting Defender validation",
+  "zip": "CORRECAO_ENTRADA_TREVAS_v1.2.1_PARA_VALIDACAO.zip",
+  "zipBytes": 602392,
+  "zipSha256": "03a34d50ae75f130a6dee2cb9e5bf7882cfe14b762c407566d334c88177e2328",
+  "restoredIndexSha256": "bdd9e564648d20708a5425a79208103ff424b3c8530152d3b4dec7d1503a12e8",
+  "restoredIndexMatchesV1": true,
+  "antivirusVerdict": "not available",
+  "verification": {
+    "version": "1.2.1",
+    "arrows": {
+      "ArrowLeft": "next",
+      "ArrowRight": "previous"
+    },
+    "arrowOpeningClosingAndBoundaries": "pass",
+    "numpadPowersOneToSeven": "pass",
+    "numLockOffIncludingNumpad4And6": "pass",
+    "numpadZeroIntroduction": "pass",
+    "mouseLearnEscape": "pass",
+    "voiceRemovedWithOldAndNewConfig": "pass",
+    "legacyAutoOpenDisabled": "pass",
+    "visuals": [
+      {
+        "art": "corte",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "lua",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "passo",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "ruptura",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "fortaleza",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "dominio",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "voo",
+        "pixelIdenticalToLegibleVersion": true
+      }
+    ],
+    "assetsAndOriginalHtmlByteIdentical": true,
+    "pageErrors": [],
+    "externalRequests": [],
+    "environment": "Chromium with mocked NUI callbacks and Lua with mocked Cfx natives; not a RedM server"
+  }
+}
