@@ -100,15 +100,17 @@ function install(doc){
  const style=doc.createElement('style');style.id='trevas-binding-style';
  style.textContent=`
  #cover-art{clip-path:inset(0 0 0 ${split}%)}
- #trevas-binding{position:absolute;left:50%;top:0;width:50%;height:100%;z-index:2;pointer-events:none}
+ #trevas-binding{position:absolute;left:50%;top:0;width:50%;height:100%;z-index:2;pointer-events:none;opacity:1}
+ #trevas-binding[hidden]{display:none!important}
  .trevas-binding-art{position:absolute;left:-18%;top:-.7%;width:118.64%;height:105%;max-width:none;object-fit:fill;
   pointer-events:none;user-select:none;clip-path:inset(0 ${100-split}% 0 0)}
  `;
  doc.head.append(style);book.insertBefore(binding,cover);
- let fade=null;
  function settle(){
-  if(book.classList.contains('opening')||book.classList.contains('closing-book'))return;
-  fade?.cancel();fade=null;binding.style.opacity=book.classList.contains('closed')?'1':'0';
+  const turning=book.classList.contains('opening')||book.classList.contains('closing-book');
+  // Keep the complete, opaque spine throughout the cover's movement. Only
+  // tuck it away once the cover has finished opening and the pages are flat.
+  binding.hidden=!turning&&!book.classList.contains('closed');
  }
  // Keep the original renderer, masks and page-turn logic. Only the cover's
  // timing changes; its spine is a stationary sibling, never a rotating child.
@@ -116,20 +118,8 @@ function install(doc){
  cover.animate=function(keyframes,options){
   const reduced=doc.defaultView.matchMedia('(prefers-reduced-motion:reduce)').matches;
   const timing={...options,duration:reduced?options.duration:1250,easing:'cubic-bezier(.35,0,.25,1)'};
-  const opening=book.classList.contains('opening'),end=opening?'0':'1';
-  fade?.cancel();
-  binding.style.opacity=opening?'1':'0';
-  const points=opening?
-   [{opacity:1,offset:0},{opacity:1,offset:.12},{opacity:0,offset:.42},{opacity:0,offset:1}]:
-   [{opacity:0,offset:0},{opacity:0,offset:.58},{opacity:1,offset:.88},{opacity:1,offset:1}];
-  const spineFade=binding.animate(points,{duration:timing.duration,easing:'linear',fill:'forwards'});
-  fade=spineFade;
-  const animation=originalAnimate(keyframes,timing);
-  animation.finished.then(()=>{
-   if(fade!==spineFade)return;
-   binding.style.opacity=end;spineFade.cancel();fade=null;
-  },()=>{spineFade.cancel();if(fade===spineFade)fade=null});
-  return animation;
+  binding.hidden=false;
+  return originalAnimate(keyframes,timing);
  };
  new MutationObserver(settle).observe(book,{attributes:true,attributeFilter:['class']});
  settle();
@@ -204,7 +194,7 @@ async function selectSpread(spread){
 function numpad(event){
  if(!wanted||!ready||event.ctrlKey||event.altKey||event.metaKey)return;
  if(event.target?.closest?.('input,textarea,select,[contenteditable="true"]'))return;
- const match=/^Numpad([0-7])$/.exec(event.code);
+ const match=/^Numpad([0-8])$/.exec(event.code);
  if(!match)return;
  event.preventDefault();event.stopImmediatePropagation();
  if(!event.repeat)selectSpread(Number(match[1])===0?1:Number(match[1])+1);

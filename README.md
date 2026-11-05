@@ -1,3 +1,19 @@
+# Trevas v1.2.2 — lombada sólida durante o giro e NumPad 8
+
+**[Baixar a atualização pequena — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_LOMBADA_NUMPAD8_v1.2.2.zip)** · [Instruções](LEIA_ME_ATUALIZACAO_v1.2.2.md) · [Conferência](ATUALIZACAO_v1.2.2.json)
+
+Para quem está na v1.2.1: copie sobre `grimorio_trevas_teste`, mantendo os demais arquivos e o config.lua, e execute `restart grimorio_trevas_teste` no console do servidor. Abra com `/trevasteste`.
+
+A lombada permanece **fixa e totalmente opaca até o giro da capa terminar**. Foi retirado o fade que causava o efeito de fantasma. Ela só é recolhida depois que o livro está completamente aberto; no fechamento permanece sólida atrás da parte interna da capa.
+
+**NumPad 8** abre a última página, com a espada. NumPad 1 a 7, NumPad 0, setas invertidas e as legendas em HTML são mantidos. A nova tecla também funciona com NumLock desligado e ao partir da capa fechada.
+
+[Ver abertura, fechamento e página da espada](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/html/lombada_solida_numpad8_v1.2.2.mp4) · [Ver a lombada durante o giro](previas/html/lombada_solida_durante_giro_v1.2.2.jpg)
+
+Comparação visual e testes feitos no Chromium, sem execução de servidor RedM. O pacote tem apenas dois arquivos do recurso e as instruções; mantém o HTML de entrada antigo, as artes e o tamanho do livro.
+
+---
+
 # Trevas — comparação do pacote e revisão da entrada HTML
 
 **[Comparação arquivo por arquivo](comparacao/COMPARACAO_ARQUIVO_POR_ARQUIVO.md)** · [Diferenças exatas](comparacao/ALTERACOES.diff) · [Proveniência da imagem e da fonte](comparacao/PROVENIENCIA.json)
