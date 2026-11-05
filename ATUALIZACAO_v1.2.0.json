@@ -18,8 +18,8 @@
   ],
   "preservesInstalledConfig": true,
   "zip": "ATUALIZACAO_TREVAS_ABERTURA_NUMPAD_SETAS_v1.2.0.zip",
-  "zipBytes": 603457,
-  "zipSha256": "229380191446b84426b062cdcb1c275dd137e135276576a5a35ffb832688f858",
+  "zipBytes": 603455,
+  "zipSha256": "ff751648efd338f649068bacef7b1730391e916f233b5d868b78cdf607f51d54",
   "files": [
     "grimorio_trevas_teste/client.lua",
     "grimorio_trevas_teste/fxmanifest.lua",

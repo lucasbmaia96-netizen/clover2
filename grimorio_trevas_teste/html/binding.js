@@ -32,8 +32,8 @@ function install(doc){
   fade?.cancel();
   binding.style.opacity=opening?'1':'0';
   const points=opening?
-   [{opacity:1,offset:0},{opacity:1,offset:.12},{opacity:0,offset:.55},{opacity:0,offset:1}]:
-   [{opacity:0,offset:0},{opacity:0,offset:.45},{opacity:1,offset:.88},{opacity:1,offset:1}];
+   [{opacity:1,offset:0},{opacity:1,offset:.12},{opacity:0,offset:.42},{opacity:0,offset:1}]:
+   [{opacity:0,offset:0},{opacity:0,offset:.58},{opacity:1,offset:.88},{opacity:1,offset:1}];
   const spineFade=binding.animate(points,{duration:timing.duration,easing:'linear',fill:'forwards'});
   fade=spineFade;
   const animation=originalAnimate(keyframes,timing);
