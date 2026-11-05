@@ -1,65 +1,72 @@
 {
-  "originalHtmlSha256": "7b23d2c2b56d1a33604dffd3654c8d167add027f1312d88a22c7f419dffabdd6",
-  "originalHtmlByteIdentical": true,
-  "visualComparisons": [
+  "proposal": "central persistent spine, preview only",
+  "currentGameVersionUnchanged": "1.2.2",
+  "spineAlwaysVisible": true,
+  "opacityAlwaysOne": true,
+  "noOpacityAnimation": true,
+  "samePositionAcrossIntroPowersAndSword": true,
+  "openImageChangesOnlyInsideGutter": {
+    "leftNative": 750.6333726288715,
+    "rightNative": 790.1403922409173,
+    "bbox": [
+      285,
+      41,
+      300,
+      355
+    ]
+  },
+  "stageGeometryUnchanged": true,
+  "openingSamples": [
     {
-      "page": 0,
-      "pixelIdentical": true
+      "coverProgress": 0,
+      "visible": true,
+      "opacity": 1,
+      "matrix": "matrix(1, 0, 0, 1, 0, 0)"
     },
     {
-      "page": 1,
-      "pixelIdentical": true
+      "coverProgress": 0.08,
+      "visible": true,
+      "opacity": 1,
+      "matrix": "matrix(0.457354, 0, 0, 0.929039, 6.08586, 0)"
     },
     {
-      "page": 2,
-      "pixelIdentical": true
+      "coverProgress": 0.16,
+      "visible": true,
+      "opacity": 1,
+      "matrix": "matrix(0.36131, 0, 0, 0.916479, 7.163, 0)"
     },
     {
-      "page": 3,
-      "pixelIdentical": true
+      "coverProgress": 0.24,
+      "visible": true,
+      "opacity": 1,
+      "matrix": "matrix(0.35, 0, 0, 0.915, 7.28984, 0)"
     },
     {
-      "page": 4,
-      "pixelIdentical": true
+      "coverProgress": 0.4,
+      "visible": true,
+      "opacity": 1,
+      "matrix": "matrix(0.35, 0, 0, 0.915, 7.28984, 0)"
     },
     {
-      "page": 5,
-      "pixelIdentical": true
+      "coverProgress": 0.65,
+      "visible": true,
+      "opacity": 1,
+      "matrix": "matrix(0.35, 0, 0, 0.915, 7.28984, 0)"
     },
     {
-      "page": 6,
-      "pixelIdentical": true
+      "coverProgress": 0.9,
+      "visible": true,
+      "opacity": 1,
+      "matrix": "matrix(0.35, 0, 0, 0.915, 7.28984, 0)"
     },
     {
-      "page": 7,
-      "pixelIdentical": true
-    },
-    {
-      "page": 8,
-      "pixelIdentical": true
-    },
-    {
-      "page": 9,
-      "pixelIdentical": true
+      "coverProgress": 0.999,
+      "visible": true,
+      "opacity": 1,
+      "matrix": "matrix(0.35, 0, 0, 0.915, 7.28984, 0)"
     }
   ],
-  "luaClientMocks": "pass",
-  "initiallyInvisible": true,
-  "forwardAndBackwardNavigation": true,
-  "escapeClosesNui": true,
-  "reopenStartsAtCover": true,
-  "customConfigApplied": true,
-  "learnIsOriginalVisualDemo": true,
-  "callbacks": [
-    {
-      "callback": "/trevasReady",
-      "data": {}
-    },
-    {
-      "callback": "/trevasClose",
-      "data": {}
-    }
-  ],
-  "externalRequests": [],
-  "pageErrors": []
+  "pageErrors": [],
+  "trimSeconds": 4.297468353010482,
+  "environment": "Chromium preview, not a RedM server"
 }
