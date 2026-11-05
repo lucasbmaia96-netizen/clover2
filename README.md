@@ -1,6 +1,6 @@
 # Trevas — correções no jogo, NumPad e setas invertidas v1.2.0
 
-**[Baixar somente a atualização do recurso — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_NUMPAD_SETAS_v1.2.0.zip)**
+**[Baixar somente a atualização do recurso — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_ABERTURA_NUMPAD_SETAS_v1.2.0.zip)**
 
 Copie a atualização sobre `grimorio_trevas_teste`, mantenha os demais arquivos e seu `config.lua`, execute `restart grimorio_trevas_teste` no console do servidor e abra com **`/trevasteste`**. Funciona sobre v1.0.0, v1.0.1 ou v1.1.0. [Instruções completas](LEIA_ME_ATUALIZACAO_v1.2.0.md).
 
@@ -8,9 +8,11 @@ Copie a atualização sobre `grimorio_trevas_teste`, mantenha os demais arquivos
 - **NumPad 1 a 7** seleciona cada poder junto da explicação; **NumPad 0** abre a introdução.
 - Mouse mantém o folheamento por clique; Esc fecha a interface.
 
-Mantém as legendas em HTML maiores e mais encorpadas, a fonte incorporada, o tamanho do livro e o folheamento. As sete aberturas são pixel a pixel iguais à versão legível anterior. O teste de voz foi encerrado e seus comandos e atalho foram retirados do recurso atual.
+Mantém as legendas em HTML maiores e mais encorpadas, a fonte incorporada e o tamanho do livro. A abertura e o fechamento agora separam a lombada fixa da capa que gira na junção; o movimento das páginas permanece igual. As sete aberturas são pixel a pixel iguais à versão legível anterior. O teste de voz foi encerrado e seus comandos e atalho foram retirados do recurso atual.
 
 ![Prévia das legendas no tamanho do jogo](previas/html/voo_tamanho_jogo_1280.jpg)
+
+[Ver a abertura e o fechamento corrigidos](previas/html/abertura_corrigida_v1.2.0.mp4) · [Ver a sequência de abertura](previas/html/sequencia_abertura_v1.2.0.jpg)
 
 ## Poderes e páginas
 

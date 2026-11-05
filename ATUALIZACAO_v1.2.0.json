@@ -17,15 +17,16 @@
     7
   ],
   "preservesInstalledConfig": true,
-  "zip": "ATUALIZACAO_TREVAS_NUMPAD_SETAS_v1.2.0.zip",
-  "zipBytes": 601919,
-  "zipSha256": "365c61c3589c95942d2c438589a75380601440c780513bb5ac387421e9ab4724",
+  "zip": "ATUALIZACAO_TREVAS_ABERTURA_NUMPAD_SETAS_v1.2.0.zip",
+  "zipBytes": 603457,
+  "zipSha256": "229380191446b84426b062cdcb1c275dd137e135276576a5a35ffb832688f858",
   "files": [
     "grimorio_trevas_teste/client.lua",
     "grimorio_trevas_teste/fxmanifest.lua",
     "grimorio_trevas_teste/html/index.html",
     "grimorio_trevas_teste/html/nui.js",
     "grimorio_trevas_teste/html/captions.js",
+    "grimorio_trevas_teste/html/binding.js",
     "grimorio_trevas_teste/html/legendas_fundo.webp",
     "grimorio_trevas_teste/html/trevas_texto.woff",
     "grimorio_trevas_teste/html/FONTE_LICENCA.txt"
@@ -77,5 +78,87 @@
     "pageErrors": [],
     "externalRequests": [],
     "environment": "Chromium with mocked NUI callbacks and Lua with mocked Cfx natives; not a RedM server"
+  },
+  "bindingVerification": {
+    "fixedSpineDuringOpeningAndClosing": true,
+    "spineOutsideRotatingCover": true,
+    "seamMatchesHinge": true,
+    "coverDurationMs": 1250,
+    "originalPageTurnDurationMs": 1120,
+    "reducedMotionDurationMs": 120,
+    "openingSamples": [
+      {
+        "fraction": 0,
+        "bindingBounds": {
+          "x": 1628.40625,
+          "y": 685.828125,
+          "width": 291.59375,
+          "height": 388.78125
+        },
+        "bindingTransform": "none"
+      },
+      {
+        "fraction": 0.15,
+        "bindingBounds": {
+          "x": 1628.40625,
+          "y": 685.828125,
+          "width": 291.59375,
+          "height": 388.78125
+        },
+        "bindingTransform": "none"
+      },
+      {
+        "fraction": 0.3,
+        "bindingBounds": {
+          "x": 1628.40625,
+          "y": 685.828125,
+          "width": 291.59375,
+          "height": 388.78125
+        },
+        "bindingTransform": "none"
+      },
+      {
+        "fraction": 0.45,
+        "bindingBounds": {
+          "x": 1628.40625,
+          "y": 685.828125,
+          "width": 291.59375,
+          "height": 388.78125
+        },
+        "bindingTransform": "none"
+      },
+      {
+        "fraction": 0.6,
+        "bindingBounds": {
+          "x": 1628.40625,
+          "y": 685.828125,
+          "width": 291.59375,
+          "height": 388.78125
+        },
+        "bindingTransform": "none"
+      },
+      {
+        "fraction": 0.8,
+        "bindingBounds": {
+          "x": 1628.40625,
+          "y": 685.828125,
+          "width": 291.59375,
+          "height": 388.78125
+        },
+        "bindingTransform": "none"
+      },
+      {
+        "fraction": 0.98,
+        "bindingBounds": {
+          "x": 1628.40625,
+          "y": 685.828125,
+          "width": 291.59375,
+          "height": 388.78125
+        },
+        "bindingTransform": "none"
+      }
+    ],
+    "pageErrors": [],
+    "environment": "Chromium, not a RedM server"
   }
 }

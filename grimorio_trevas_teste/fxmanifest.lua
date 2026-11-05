@@ -14,6 +14,7 @@ files {
     'html/index.html',
     'html/nui.js',
     'html/captions.js',
+    'html/binding.js',
     'html/legendas_fundo.webp',
     'html/trevas_texto.woff',
     'html/FONTE_LICENCA.txt',

@@ -110,6 +110,7 @@ async function loaded(){
    await wait(100);
   }
   await window.TrevasCaptions.install(doc);
+  window.TrevasBinding.install(doc);
   ready=true;await post('trevasReady');if(wanted)await show();
  }catch(error){console.error('[Trevas teste]',error);hide();await post('trevasError',{error:String(error)}).catch(()=>{})}
 }

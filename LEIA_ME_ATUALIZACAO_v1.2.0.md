@@ -21,7 +21,9 @@ O NumPad funciona com NumLock ligado ou desligado, incluindo as teclas 4 e 6 que
 
 ## Correções mantidas
 
-Mantém as legendas em HTML com a fonte incorporada. As sete aberturas são visualmente idênticas à versão legível v1.1.0. Tamanho do livro, recortes, capa, bordas e animação de folheamento continuam iguais.
+Mantém as legendas em HTML com a fonte incorporada. As sete aberturas de poderes são visualmente idênticas à versão legível v1.1.0. O tamanho do livro, os recortes das folhas, as artes e as bordas continuam iguais.
+
+A abertura e o fechamento da capa foram corrigidos: a lombada fica em uma peça fixa, fora da capa que gira. O recorte da capa começa exatamente no eixo da junção, com movimento suavizado. O folheamento das páginas mantém sua animação original; o modo de movimento reduzido também é respeitado.
 
 O teste de voz foi encerrado. Esta versão não registra o comando de invocação nem o atalho F7 do teste de voz. As antigas opções ComandoInvocar e TeclaInvocar, se ainda existirem no config.lua, são ignoradas. O comando e o atalho próprios do recurso que você configurou em Comando e Tecla continuam disponíveis.
 
