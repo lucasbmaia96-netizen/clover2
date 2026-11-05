@@ -4,11 +4,11 @@ A alteração anterior de tamanho e diagramação foi revertida. O recurso volta
 
 ## Teste no RedM — HTML ilustrado enviado pelo usuário
 
-**[Atualização v1.1.0: legendas HTML e NumPad — somente os arquivos alterados](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_LETRAS_HTML_NUMPAD_v1.1.0.zip)**
+**[Atualização v1.2.0: abertura corrigida, legendas HTML, NumPad e setas invertidas — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_ABERTURA_NUMPAD_SETAS_v1.2.0.zip)**
 
-Para quem já instalou o teste: copie a atualização sobre `grimorio_trevas_teste`, mantendo os demais arquivos e seu `config.lua`, e execute `restart grimorio_trevas_teste`. As pequenas legendas passam a ser texto HTML maior, com fonte incorporada; o livro mantém o tamanho e o folheamento. **F7** ou `/trevasinvocar` mostra a capa e abre na introdução. **NumPad 1 a 7** seleciona cada poder com sua explicação; **NumPad 0** volta à introdução.
+Copie a atualização sobre `grimorio_trevas_teste`, mantendo os demais arquivos e seu `config.lua`, e execute `restart grimorio_trevas_teste`. Abra com `/trevasteste`. A lombada fica separada da capa que gira na junção, com abertura e fechamento corrigidos. As legendas em HTML e o tamanho do livro são mantidos. **NumPad 1 a 7** seleciona cada poder com sua explicação; **NumPad 0** abre a introdução. **← avança; → volta.** O teste de voz foi encerrado.
 
-[Teste opcional de voz no Windows — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/VOZ_TREVAS_WINDOWS_v1.1.0.zip): reconhece “magia imbuída em trevas” e aciona F7 com o RedM em primeiro plano. Requer Python 3.10+ x64 e baixa o modelo português na primeira execução. A voz precisa ser validada no computador do jogador. [Instruções, sete prévias e conferência](https://github.com/lucasbmaia96-netizen/clover2/tree/trevas-teste-redm).
+[Ver a abertura e o fechamento corrigidos](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/html/abertura_corrigida_v1.2.0.mp4) · [Instruções, sete prévias e conferência](https://github.com/lucasbmaia96-netizen/clover2/tree/trevas-teste-redm).
 
 **[Baixar grimorio_trevas_teste v1.0.0 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_TESTE_REDM_v1.0.0.zip)**
 
