@@ -1,3 +1,15 @@
+# Prévia — lombada no centro durante a abertura
+
+**[Ver o vídeo da proposta](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/lombada_central/ABERTURA_LOMBADA_CENTRAL.mp4)** · **[Baixar a prévia em HTML, folheável](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/lombada_central/PREVIA_LOMBADA_CENTRAL_01.zip)**
+
+A lombada permanece visível. Durante a abertura, ela se acomoda na dobra central e mantém o couro e os detalhes dourados à mostra depois que o livro termina de abrir. O fechamento devolve o perfil à lateral. A prévia permite repetir a abertura e folhear com as teclas atuais.
+
+![Abertura com lombada permanecendo no centro](previas/lombada_central/ABERTURA_LOMBADA_CENTRAL.gif)
+
+Esta é uma proposta visual para revisar o movimento antes de aplicar ao recurso do servidor. [Instruções](previas/lombada_central/LEIA_ME.md) · [Livro aberto](previas/lombada_central/LIVRO_ABERTO_LOMBADA_CENTRAL.jpg) · [Conferência](previas/lombada_central/CONFERENCIA.json).
+
+---
+
 # Trevas v1.2.2 — lombada sólida durante o giro e NumPad 8
 
 **[Baixar o pacote COMPLETO atualizado v1.2.2 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_COMPLETO_v1.2.2.zip)**
