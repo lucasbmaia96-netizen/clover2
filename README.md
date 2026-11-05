@@ -4,6 +4,8 @@ A alteração anterior de tamanho e diagramação foi revertida. O recurso volta
 
 ## Teste no RedM — HTML ilustrado enviado pelo usuário
 
+**Prévia da lombada central para avaliação:** [ver animação](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/lombada_central/ABERTURA_LOMBADA_CENTRAL.mp4) · [baixar HTML folheável](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/lombada_central/PREVIA_LOMBADA_CENTRAL_01.zip). A lombada se acomoda no centro e permanece visível depois de abrir. A prévia é separada para revisar o movimento; os arquivos do recurso v1.2.2 continuam iguais.
+
 **[Baixar o Grimório das Trevas COMPLETO atualizado v1.2.2 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_COMPLETO_v1.2.2.zip)**
 
 Pacote completo do recurso `grimorio_trevas_teste`, com todos os arquivos e artes: dispensa os pacotes anteriores e os patches. Inclui lombada sólida durante o giro, NumPad 8 na página da espada, demais teclas e legendas em HTML. Extraia a pasta para os recursos, use `ensure grimorio_trevas_teste` na primeira instalação ou `restart grimorio_trevas_teste` ao atualizar, e abra com `/trevasteste`. Preserve seu config.lua se tiver configurações próprias. [Instruções](https://github.com/lucasbmaia96-netizen/clover2/blob/trevas-teste-redm/LEIA_ME_PACOTE_COMPLETO_v1.2.2.md).
