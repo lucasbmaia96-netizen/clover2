@@ -1,5 +1,10 @@
 # Trevas v1.2.2 — lombada sólida durante o giro e NumPad 8
 
+**[Baixar o pacote COMPLETO atualizado v1.2.2 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_COMPLETO_v1.2.2.zip)**
+
+Contém todos os arquivos necessários do recurso `grimorio_trevas_teste`; não precisa dos pacotes antigos nem de patches. Extraia a pasta completa para os recursos do servidor. Na primeira instalação use `ensure grimorio_trevas_teste`; para atualizar uma instalação existente, substitua os arquivos, preserve seu config.lua se personalizado e execute `restart grimorio_trevas_teste`. No jogo, abra com `/trevasteste`. [Instruções completas](LEIA_ME_PACOTE_COMPLETO_v1.2.2.md) · [Conferência do pacote](PACOTE_COMPLETO_v1.2.2.json).
+
+
 **[Baixar a atualização pequena — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_LOMBADA_NUMPAD8_v1.2.2.zip)** · [Instruções](LEIA_ME_ATUALIZACAO_v1.2.2.md) · [Conferência](ATUALIZACAO_v1.2.2.json)
 
 Para quem está na v1.2.1: copie sobre `grimorio_trevas_teste`, mantendo os demais arquivos e o config.lua, e execute `restart grimorio_trevas_teste` no console do servidor. Abra com `/trevasteste`.

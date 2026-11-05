@@ -1,0 +1,68 @@
+{
+  "version": "1.2.2",
+  "resource": "grimorio_trevas_teste",
+  "packageType": "complete resource, no previous packages needed",
+  "zip": "GRIMORIO_TREVAS_COMPLETO_v1.2.2.zip",
+  "zipBytes": 21632578,
+  "zipSha256": "b299ddec4de51ccb709a7ab53fc68cf0476922a2ecb4c7a00267fc11f5de4be1",
+  "sourcePublishedCommit": "53bf044bcabc0a7e66bc5de1906e972b711ed283",
+  "resourceFilesByteIdenticalToPublishedCommit": true,
+  "allManifestReferencesIncluded": true,
+  "files": [
+    {
+      "path": "grimorio_trevas_teste/client.lua",
+      "bytes": 2837,
+      "sha256": "84b989ec01cf9234e36a74f8645dc8a4147754e814c4b4555f93405ff58dfa47",
+      "publishedGitBlob": "f963b11227e5707c77c5e0c360c1b9c15c210963"
+    },
+    {
+      "path": "grimorio_trevas_teste/config.lua",
+      "bytes": 467,
+      "sha256": "5b3172bc8f5fdd09ec80fb3ff43ed6540d734fc0cc7b634a3ae3e0f838b864b6",
+      "publishedGitBlob": "53aa7614fdf82d1d59e7fe7fc1805d556ac285b2"
+    },
+    {
+      "path": "grimorio_trevas_teste/fxmanifest.lua",
+      "bytes": 605,
+      "sha256": "11fdb2d1fa15b907490352c5e99f0a312e8657fa0fe25b6dd82a730a6136d113",
+      "publishedGitBlob": "bb1085180f4390078cd310101b80b617c46bc4a4"
+    },
+    {
+      "path": "grimorio_trevas_teste/html/FONTE_LICENCA.txt",
+      "bytes": 4886,
+      "sha256": "003dbb4051de12e8fbd9ab698a5ff8d668e30c9159d5f56fa331f05344010488",
+      "publishedGitBlob": "93ddef95296449ff073dfaed754399593ca74386"
+    },
+    {
+      "path": "grimorio_trevas_teste/html/GRIMORIO_TREVAS_ILUSTRADO.html",
+      "bytes": 27781211,
+      "sha256": "7b23d2c2b56d1a33604dffd3654c8d167add027f1312d88a22c7f419dffabdd6",
+      "publishedGitBlob": "20f761bc6abdeea3da3a6772a423a7d1f91c8b53"
+    },
+    {
+      "path": "grimorio_trevas_teste/html/index.html",
+      "bytes": 596,
+      "sha256": "bdd9e564648d20708a5425a79208103ff424b3c8530152d3b4dec7d1503a12e8",
+      "publishedGitBlob": "8c6e8b819e7deed667a9b701b423dfceffd4d211"
+    },
+    {
+      "path": "grimorio_trevas_teste/html/legendas_fundo.webp",
+      "bytes": 392388,
+      "sha256": "f76988f9cf453cab6697f81fe1ed88f3e5d347b49bab91c5e35a3b2502548885",
+      "publishedGitBlob": "6634e452b73a88aa253c7eaa1f75fcf5247e31c8"
+    },
+    {
+      "path": "grimorio_trevas_teste/html/nui.js",
+      "bytes": 14808,
+      "sha256": "12d2741e597c47e4098c6e593d2e96143e744ca55d0c10a4c8c6f4b67ab7b502",
+      "publishedGitBlob": "25b351a41bb94f13da338b7f98d34be74c896ee1"
+    },
+    {
+      "path": "grimorio_trevas_teste/html/trevas_texto.woff",
+      "bytes": 200320,
+      "sha256": "3b3da7c98e56833fdfbda58bf990245d7d4fb775bcb87a11230dd05fe80c650d",
+      "publishedGitBlob": "f86b3f6f305580e3bd7d80ff3c59e9beb37548be"
+    }
+  ],
+  "requiresNoEarlierPatches": true
+}
