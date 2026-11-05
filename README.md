@@ -4,6 +4,10 @@ A alteração anterior de tamanho e diagramação foi revertida. O recurso volta
 
 ## Teste no RedM — HTML ilustrado enviado pelo usuário
 
+**[Grimório das Trevas COMPLETO v1.3.0 — abertura do HTML enviado](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_COMPLETO_v1.3.0.zip)**
+
+Usa byte a byte o HTML `GRIMORIO_TREVAS_ABERTURA_SEM_SOBREPOSICAO.html` enviado pelo usuário, com a antiga intervenção na lombada retirada. Abertura e fechamento foram comparados em 19 quadros idênticos à referência no navegador. Mantém NumPad 0 a 8, setas invertidas, legendas legíveis e a configuração de tamanho. Pacote completo: extraia `grimorio_trevas_teste`, preserve seu config.lua se personalizado, execute `ensure grimorio_trevas_teste` e abra com `/trevasteste`. [Prévia](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/html/abertura_html_usuario_v1.3.0.mp4) · [Conferência](https://github.com/lucasbmaia96-netizen/clover2/blob/trevas-teste-redm/PACOTE_COMPLETO_v1.3.0.json).
+
 **Prévia da lombada central para avaliação:** [ver animação](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/lombada_central/ABERTURA_LOMBADA_CENTRAL.mp4) · [baixar HTML folheável](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/lombada_central/PREVIA_LOMBADA_CENTRAL_01.zip). A lombada se acomoda no centro e permanece visível depois de abrir. A prévia é separada para revisar o movimento; os arquivos do recurso v1.2.2 continuam iguais.
 
 **[Baixar o Grimório das Trevas COMPLETO atualizado v1.2.2 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_COMPLETO_v1.2.2.zip)**
