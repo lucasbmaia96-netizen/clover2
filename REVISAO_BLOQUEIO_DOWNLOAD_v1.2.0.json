@@ -65,7 +65,11 @@
     "sourceCodeReview": "no malicious behavior identified; limited to NUI rendering, local resource callbacks and game controls"
   },
   "antivirusScan": "not performed; no antivirus engine is available in this environment",
-  "detectionName": "awaiting Windows Protection History details from user",
+  "detectionName": "Trojan:Script/Ulthar.A!ml",
   "conclusion": "cannot confirm false positive or clear this antivirus detection from static review",
-  "reviewedUtc": "2026-11-05T00:46:56.894680+00:00"
+  "reviewedUtc": "2026-11-05T00:46:56.894680+00:00",
+  "windowsSeverity": "Grave",
+  "windowsStatusReported": "Ativo",
+  "affectedItemPath": "awaiting expanded Protection History item from user",
+  "detectionSource": "Windows Defender Protection History screenshot supplied by user"
 }
