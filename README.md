@@ -4,6 +4,10 @@ A alteração anterior de tamanho e diagramação foi revertida. O recurso volta
 
 ## Teste no RedM — HTML ilustrado enviado pelo usuário
 
+**[Baixar o Grimório das Trevas COMPLETO atualizado v1.2.2 — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_COMPLETO_v1.2.2.zip)**
+
+Pacote completo do recurso `grimorio_trevas_teste`, com todos os arquivos e artes: dispensa os pacotes anteriores e os patches. Inclui lombada sólida durante o giro, NumPad 8 na página da espada, demais teclas e legendas em HTML. Extraia a pasta para os recursos, use `ensure grimorio_trevas_teste` na primeira instalação ou `restart grimorio_trevas_teste` ao atualizar, e abra com `/trevasteste`. Preserve seu config.lua se tiver configurações próprias. [Instruções](https://github.com/lucasbmaia96-netizen/clover2/blob/trevas-teste-redm/LEIA_ME_PACOTE_COMPLETO_v1.2.2.md).
+
 **[Atualização v1.2.2 — lombada sólida e NumPad 8, ZIP pequeno](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_LOMBADA_NUMPAD8_v1.2.2.zip)**
 
 Retira o fade da lombada: ela fica fixa e opaca durante todo o giro e só é recolhida após a abertura completa. NumPad 8 abre a última página da espada; NumPad 1 a 7, NumPad 0 e setas invertidas são mantidos. Para quem está na v1.2.1, copie a atualização sobre `grimorio_trevas_teste`, mantenha os demais arquivos e execute `restart grimorio_trevas_teste`. [Prévia da abertura e do fechamento](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/html/lombada_solida_numpad8_v1.2.2.mp4).
