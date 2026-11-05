@@ -1,6 +1,6 @@
 # Trevas — correções no jogo, NumPad e setas invertidas v1.2.0
 
-**[Baixar somente a atualização do recurso — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_ABERTURA_NUMPAD_SETAS_v1.2.0.zip)**
+**Download v1.2.0 em revisão após bloqueio do antivírus.** Aguarde a identificação da ameaça no Histórico de proteção do Windows antes de instalar esta atualização. A revisão do código e a integridade do ZIP não confirmam um falso positivo. [Conferência do pacote e limites da análise](REVISAO_BLOQUEIO_DOWNLOAD_v1.2.0.json).
 
 Copie a atualização sobre `grimorio_trevas_teste`, mantenha os demais arquivos e seu `config.lua`, execute `restart grimorio_trevas_teste` no console do servidor e abra com **`/trevasteste`**. Funciona sobre v1.0.0, v1.0.1 ou v1.1.0. [Instruções completas](LEIA_ME_ATUALIZACAO_v1.2.0.md).
 
