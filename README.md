@@ -1,3 +1,17 @@
+# Trevas completo v1.3.0 — abertura exata do HTML enviado
+
+**[Baixar o pacote completo atualizado — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/GRIMORIO_TREVAS_COMPLETO_v1.3.0.zip)** · [Instalação](LEIA_ME_PACOTE_COMPLETO_v1.3.0.md) · [Conferência](PACOTE_COMPLETO_v1.3.0.json)
+
+O arquivo `GRIMORIO_TREVAS_ABERTURA_SEM_SOBREPOSICAO.html` enviado pelo usuário está preservado byte a byte dentro do recurso, mantendo o nome interno anterior para compatibilidade. A antiga intervenção na lombada foi retirada. Abertura, fechamento, recortes, camadas e tempos são os do HTML recebido.
+
+**Conferência em navegador: 19 quadros de abertura e fechamento idênticos à referência**, no mesmo modo Tamanho do jogo. Os tempos nativos de 1120 ms e o modo reduzido de 120 ms também foram preservados. NumPad 0 a 8, setas invertidas e legendas legíveis continuam funcionando.
+
+[Ver abertura e fechamento](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/html/abertura_html_usuario_v1.3.0.mp4) · [Ver sequência de quadros](previas/html/sequencia_html_usuario_v1.3.0.jpg)
+
+O pacote é completo e dispensa os anteriores. Extraia `grimorio_trevas_teste` nos recursos, preserve seu config.lua se personalizado e execute `ensure grimorio_trevas_teste`. No jogo, abra com `/trevasteste`. A execução no servidor RedM deve ser conferida com esta instalação.
+
+---
+
 # Prévia — lombada no centro durante a abertura
 
 **[Ver o vídeo da proposta](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/lombada_central/ABERTURA_LOMBADA_CENTRAL.mp4)** · **[Baixar a prévia em HTML, folheável](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/lombada_central/PREVIA_LOMBADA_CENTRAL_01.zip)**
