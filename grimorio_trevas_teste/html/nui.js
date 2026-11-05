@@ -29,7 +29,7 @@ function configure(next = {}){
  root.style.setProperty('--trevas-bottom',clamp(options.bottomVh,.5,0,90)+'vh');
 }
 async function show(next = options){
- configure(next);wanted = true;const token = ++revision,selectionToken=++selectionRevision;
+ configure(next);wanted = true;const token = ++revision;++selectionRevision;
  if(!ready)return;
  if(options.resetCover){
   while(api().getState().busy){await wait(25);if(token!==revision||!wanted)return}
@@ -44,12 +44,6 @@ async function show(next = options){
   target.tabIndex=-1;
   target?.focus({preventScroll:true});
  });
- if(options.openIntro===true){
-  // Show the closed cover first, then use the original opening animation.
-  await wait(450);
-  if(token!==revision||selectionToken!==selectionRevision||!wanted)return;
-  await api().open();
- }
 }
 function hide(){wanted=false;revision++;selectionRevision++;frame.hidden=true}
 async function requestClose(){
@@ -74,8 +68,19 @@ function numpad(event){
  event.preventDefault();event.stopImmediatePropagation();
  if(!event.repeat)selectSpread(Number(match[1])===0?1:Number(match[1])+1);
 }
+function arrows(event){
+ if(!wanted||!ready||event.ctrlKey||event.altKey||event.metaKey)return;
+ if(event.target?.closest?.('input,textarea,select,[contenteditable="true"]'))return;
+ const step={ArrowLeft:1,ArrowRight:-1}[event.key];
+ if(step===undefined)return;
+ // Capture before the original HTML listener, after NumPad handling so that
+ // NumLock-off Numpad4/Numpad6 still select their numbered powers.
+ event.preventDefault();event.stopImmediatePropagation();
+ api().goTo(api().getState().state+step);
+}
 document.addEventListener('keydown',escape,true);
 document.addEventListener('keydown',numpad,true);
+document.addEventListener('keydown',arrows,true);
 window.addEventListener('message',event=>{
  const data=event.data;
  if(!data||typeof data!=='object')return;
@@ -95,7 +100,7 @@ async function loaded(){
  body:not(.trevas-controls) main{height:100vh}
  .compact #stage{right:var(--trevas-right,0vw);bottom:var(--trevas-bottom,.5vh);width:min(var(--trevas-width,35vw),var(--trevas-limit,54vh))}
  `;
- doc.head.append(style);doc.addEventListener('keydown',escape,true);doc.addEventListener('keydown',numpad,true);configure();
+ doc.head.append(style);doc.addEventListener('keydown',escape,true);doc.addEventListener('keydown',numpad,true);doc.addEventListener('keydown',arrows,true);configure();
  try{
   const start=performance.now();
   while(!api()?.getState().ready){

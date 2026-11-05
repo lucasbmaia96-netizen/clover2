@@ -1,0 +1,81 @@
+{
+  "version": "1.2.0",
+  "resource": "grimorio_trevas_teste",
+  "command": "trevasteste",
+  "voiceEnabled": false,
+  "arrows": {
+    "left": "next",
+    "right": "previous"
+  },
+  "numpadPowers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "preservesInstalledConfig": true,
+  "zip": "ATUALIZACAO_TREVAS_NUMPAD_SETAS_v1.2.0.zip",
+  "zipBytes": 601919,
+  "zipSha256": "365c61c3589c95942d2c438589a75380601440c780513bb5ac387421e9ab4724",
+  "files": [
+    "grimorio_trevas_teste/client.lua",
+    "grimorio_trevas_teste/fxmanifest.lua",
+    "grimorio_trevas_teste/html/index.html",
+    "grimorio_trevas_teste/html/nui.js",
+    "grimorio_trevas_teste/html/captions.js",
+    "grimorio_trevas_teste/html/legendas_fundo.webp",
+    "grimorio_trevas_teste/html/trevas_texto.woff",
+    "grimorio_trevas_teste/html/FONTE_LICENCA.txt"
+  ],
+  "verification": {
+    "version": "1.2.0",
+    "arrows": {
+      "ArrowLeft": "next",
+      "ArrowRight": "previous"
+    },
+    "arrowOpeningClosingAndBoundaries": "pass",
+    "numpadPowersOneToSeven": "pass",
+    "numLockOffIncludingNumpad4And6": "pass",
+    "numpadZeroIntroduction": "pass",
+    "mouseLearnEscape": "pass",
+    "voiceRemovedWithOldAndNewConfig": "pass",
+    "legacyAutoOpenDisabled": "pass",
+    "visuals": [
+      {
+        "art": "corte",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "lua",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "passo",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "ruptura",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "fortaleza",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "dominio",
+        "pixelIdenticalToLegibleVersion": true
+      },
+      {
+        "art": "voo",
+        "pixelIdenticalToLegibleVersion": true
+      }
+    ],
+    "assetsAndOriginalHtmlByteIdentical": true,
+    "pageErrors": [],
+    "externalRequests": [],
+    "environment": "Chromium with mocked NUI callbacks and Lua with mocked Cfx natives; not a RedM server"
+  }
+}

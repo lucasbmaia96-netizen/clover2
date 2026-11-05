@@ -4,7 +4,7 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 
 author 'Grimório das Trevas — teste isolado'
 description 'HTML ilustrado fornecido pelo usuário, em um recurso independente para teste'
-version '1.1.0'
+version '1.2.0'
 lua54 'yes'
 
 client_scripts { 'config.lua', 'client.lua' }
