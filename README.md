@@ -4,6 +4,10 @@ A alteração anterior de tamanho e diagramação foi revertida. O recurso volta
 
 ## Teste no RedM — HTML ilustrado enviado pelo usuário
 
+**[Atualização v1.2.2 — lombada sólida e NumPad 8, ZIP pequeno](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_LOMBADA_NUMPAD8_v1.2.2.zip)**
+
+Retira o fade da lombada: ela fica fixa e opaca durante todo o giro e só é recolhida após a abertura completa. NumPad 8 abre a última página da espada; NumPad 1 a 7, NumPad 0 e setas invertidas são mantidos. Para quem está na v1.2.1, copie a atualização sobre `grimorio_trevas_teste`, mantenha os demais arquivos e execute `restart grimorio_trevas_teste`. [Prévia da abertura e do fechamento](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/previas/html/lombada_solida_numpad8_v1.2.2.mp4).
+
 **[Comparação arquivo por arquivo dos pacotes Trevas](https://github.com/lucasbmaia96-netizen/clover2/blob/trevas-teste-redm/comparacao/COMPARACAO_ARQUIVO_POR_ARQUIVO.md)**
 
 O evento do Defender apontou `grimorio_trevas_teste/html/index.html` no ZIP v1.2.0. A comparação encontrou três arquivos idênticos, três alterados e cinco adicionados, todos previstos. Na revisão candidata v1.2.1, a entrada HTML foi restaurada byte a byte igual ao pacote antigo; legendas, lombada, NumPad e setas invertidas foram mantidos no JavaScript existente.
