@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#240c0a">
+<title>Grimório de Fogo · Prévia móvel</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#150d0d;color:#f6dfbb;font-family:Georgia,"Times New Roman",serif}body{background:radial-gradient(ellipse at 50% 25%,#6a2a19,#241014 65%,#130b0c)}.wrap{max-width:1050px;margin:0 auto;padding:13px 10px 35px}.header{text-align:center;padding:4px 0 12px}.kicker{font:600 10px system-ui,sans-serif;letter-spacing:.23em;color:#e7aa67}.header h1{margin:5px 0;font-size:clamp(19px,4vw,30px)}.header p{font:12px/1.4 system-ui,sans-serif;color:#c9aa97;margin:3px 0}.stage{position:relative;width:100%;max-width:970px;margin:0 auto;min-height:280px;display:grid;place-items:center;overflow:hidden;perspective:1400px;border-radius:10px}.stage:before{content:"";position:absolute;inset:4% 0;background:radial-gradient(ellipse at center,#bd4b2033,transparent 68%);pointer-events:none}.art{display:block;width:100%;max-height:71dvh;object-fit:contain;user-select:none;-webkit-user-drag:none;filter:drop-shadow(0 12px 19px #0009)}.stage.cover .art{width:min(72%,550px);max-height:70dvh}.stage.transition .art{filter:brightness(.78) drop-shadow(0 12px 19px #0009)}.flipper{position:absolute;top:0;bottom:0;left:50%;width:50%;z-index:4;pointer-events:none;opacity:0;transform-origin:left center;background:linear-gradient(90deg,#c9a578,#f7deb5 13%,#e8c696 90%,#9f7546);border-radius:0 13px 13px 0;box-shadow:2px 1px 8px #0005}.flipper.active{animation:flip .68s ease-in-out}@keyframes flip{0%{opacity:.95;transform:rotateY(0deg)}48%{opacity:.98}95%{opacity:.7}100%{opacity:0;transform:rotateY(-180deg)}}.spine{position:absolute;z-index:3;top:6%;bottom:6%;left:50%;width:9px;transform:translateX(-50%);pointer-events:none;background:linear-gradient(90deg,#32130e,#a56731 24%,#29150f 48%,#8d5124 73%,#2f130f);box-shadow:0 0 4px #0009;border:1px solid #d7a45e;opacity:.83}.stage.cover .spine{display:none}.navigation{display:flex;align-items:center;justify-content:space-between;gap:9px;margin:10px auto;max-width:970px}.navigation button,.jump button,.extras button{border:1px solid #bc7c4b;background:linear-gradient(#6a2b20,#3a1717);color:#ffdfad;padding:12px 14px;border-radius:9px;font:600 13px system-ui,sans-serif;cursor:pointer;touch-action:manipulation}.navigation button:disabled{opacity:.35}.status{text-align:center;flex:1;min-width:0}.status strong{display:block;font-size:clamp(12px,3vw,18px)}.status small{font:11px system-ui,sans-serif;color:#d5a887;display:block;margin-top:4px}.extras{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:13px auto}.extras button{font-size:11px;padding:9px 12px}.info{max-width:970px;margin:8px auto;padding:11px 13px;border:1px solid #664139;border-radius:9px;background:#261618;text-align:center;color:#e7b896;font:12px/1.5 system-ui,sans-serif}.info b{color:#f7d7ae}.jump{max-width:970px;margin:14px auto;display:flex;flex-wrap:wrap;gap:6px;justify-content:center}.jump button{font-size:11px;padding:8px 10px;background:#29171b}.jump button.sel{border-color:#f9c383;background:#7c3320;color:#fff}.foot{font:11px/1.5 system-ui,sans-serif;text-align:center;color:#bd9c8c;margin-top:9px}@media(min-width:800px){.wrap{padding:25px}.stage{min-height:520px}}@media(prefers-reduced-motion:reduce){.flipper.active{animation:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="header"><div class="kicker">BLACK CLOVER RP · REDM</div><h1>Grimório de Fogo</h1><p>Prévia de navegação e folheamento · funciona pelo celular</p></header>
+<div id="stage" class="stage cover" aria-label="Livro de fogo">
+<img id="art" class="art" draggable="false" alt="Capa do Grimório de Fogo">
+<div id="spine" class="spine"></div><div id="flipper" class="flipper"></div></div>
+<nav class="navigation" aria-label="Folhear">
+<button id="prev" type="button">◀ Voltar</button>
+<div class="status"><strong id="label">Capa</strong><small id="counter">Toque para abrir</small></div>
+<button id="next" type="button">Abrir ▶</button></nav>
+<div class="extras"><button id="reset">Fechar capa</button><button id="full">Tela cheia</button><button id="zoom">Ampliar</button></div>
+<div class="info"><b>Prévia técnica com as artes oficiais disponíveis no repositório.</b> As novas ilustrações aprovadas no chat ainda precisam ser incorporadas; esta versão testa capa, ordem, navegação e transição visual. A lombada permanece visível no centro do livro aberto.</div>
+<div class="jump" id="jump" aria-label="Ir à página"></div>
+<p class="foot">Toque na imagem ou deslize para a esquerda para avançar. Deslize para a direita para voltar. Use o celular na horizontal para visualizar as páginas maiores.</p>
+</main>
+<script>
+(()=>{'use strict';
+const root=document.getElementById('stage'),art=document.getElementById('art'),flipper=document.getElementById('flipper'),prev=document.getElementById('prev'),next=document.getElementById('next'),label=document.getElementById('label'),counter=document.getElementById('counter'),jump=document.getElementById('jump');
+const base="../grimorio_oficial/html/assets/fogo/";
+const pages=[
+['Capa','01_Capa.png'],
+['Introdução · O despertar da centelha','02_Abertura.png'],
+['01 · Lança Ígnea (ataque básico)','03_Faisca_Rubra.png'],
+['02 · Círculo de Chamas (defesa básica)','04_Circulo_de_Chamas.png'],
+['03 · Passo de Brasa (avanço)','07_Avanco.png'],
+['04 · Ruptura Vulcânica (ataque elite)','08_Ataque_Elite.png'],
+['05 · Fortaleza de Fogo (defesa elite)','09_Defesa_Elite.png'],
+['06 · Domínio das Chamas (mana)','10_Zona_Mana.png'],
+['07 · Módulo de Voo','11_Modulo_Voo.png'],
+['Encerramento','12_Encerramento.png']
+];
+let index=0,busy=false,expanded=false,x0=null;
+const buttons=pages.map((p,i)=>{const b=document.createElement('button');b.textContent=i===0?'Capa':i===9?'Final':String(i).padStart(2,'0');b.title=p[0];b.addEventListener('click',()=>go(i));jump.append(b);return b});
+function paint(){art.src=base+pages[index][1];art.alt=pages[index][0];root.classList.toggle('cover',index===0);label.textContent=pages[index][0];counter.textContent=index===0?'Toque para abrir':index===pages.length-1?'Última abertura':('Abertura '+index+' de '+(pages.length-1));prev.disabled=busy||index===0;next.disabled=busy||index===pages.length-1;next.textContent=index===0?'Abrir ▶':'Próxima ▶';buttons.forEach((b,i)=>b.classList.toggle('sel',i===index));}
+function go(target){if(busy||target<0||target>=pages.length||target===index)return;busy=true;prev.disabled=next.disabled=true;const preload=new Image();preload.src=base+pages[target][1];const done=()=>{index=target;paint();busy=false;prev.disabled=index===0;next.disabled=index===pages.length-1;root.classList.remove('transition');flipper.classList.remove('active')};if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||index===0||target===0){done();return}root.classList.add('transition');flipper.classList.remove('active');void flipper.offsetWidth;flipper.classList.add('active');setTimeout(done,640)}
+prev.onclick=()=>go(index-1);next.onclick=()=>go(index+1);document.getElementById('reset').onclick=()=>go(0);
+document.getElementById('full').onclick=()=>{if(document.fullscreenElement)document.exitFullscreen?.();else document.documentElement.requestFullscreen?.().catch(()=>{})};
+document.getElementById('zoom').onclick=()=>{expanded=!expanded;art.style.maxHeight=expanded?'none':'';art.style.width=expanded?'115%':'';document.getElementById('zoom').textContent=expanded?'Tamanho normal':'Ampliar'};
+root.addEventListener('click',()=>go(index+1));
+root.addEventListener('touchstart',e=>{x0=e.changedTouches[0]?.screenX??null},{passive:true});root.addEventListener('touchend',e=>{if(x0===null)return;let d=(e.changedTouches[0]?.screenX??x0)-x0;x0=null;if(Math.abs(d)>55)go(index+(d<0?1:-1))},{passive:true});
+document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')go(index-1);if(e.key==='ArrowRight')go(index+1)});
+pages.forEach(p=>{const i=new Image();i.src=base+p[1]});paint();
+})();
+</script>
+</body></html>
