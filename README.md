@@ -4,7 +4,7 @@ A alteração anterior de tamanho e diagramação foi revertida. O recurso volta
 
 ## Teste no RedM — HTML ilustrado enviado pelo usuário
 
-**[Atualização v1.2.0: abertura corrigida, legendas HTML, NumPad e setas invertidas — ZIP](https://github.com/lucasbmaia96-netizen/clover2/raw/refs/heads/trevas-teste-redm/ATUALIZACAO_TREVAS_ABERTURA_NUMPAD_SETAS_v1.2.0.zip)**
+**Atualização v1.2.0 em revisão após bloqueio do antivírus.** Aguarde a identificação da detecção antes de instalar o pacote. [Conferência do conteúdo e limites da análise](https://github.com/lucasbmaia96-netizen/clover2/blob/trevas-teste-redm/REVISAO_BLOQUEIO_DOWNLOAD_v1.2.0.json).
 
 Copie a atualização sobre `grimorio_trevas_teste`, mantendo os demais arquivos e seu `config.lua`, e execute `restart grimorio_trevas_teste`. Abra com `/trevasteste`. A lombada fica separada da capa que gira na junção, com abertura e fechamento corrigidos. As legendas em HTML e o tamanho do livro são mantidos. **NumPad 1 a 7** seleciona cada poder com sua explicação; **NumPad 0** abre a introdução. **← avança; → volta.** O teste de voz foi encerrado.
 
